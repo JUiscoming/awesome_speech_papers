@@ -46,8 +46,8 @@ Label되지 않은 방대한 data를 self-supervised (or semi-supervised) 방법
 이렇게 사전 학습(pre-training)된 네트워크는 음성 인식 등 다른 task를 위해 task-specific 하게 미세 조정 (fine-tuning)하여 
 scratch 부터 학습한 네트워크보다 더욱 높은 성능을 낼 수 있게 도와준다. 
 사전 학습 방법은 AutoEncoder 부터 BERT 까지 다양한 방법으로 기존에 존재했으나 음성에 맞는 방식으로 연구된 논문들이 최근에 제시되어 왔으며, 높은 성능을 자랑한다.
-<\code>
-<\pre>
+</code>
+</pre>
 
 |year|conference|research organization|title|link|code|
 |--|--|--|------|--|--|
