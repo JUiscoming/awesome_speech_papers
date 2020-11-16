@@ -64,8 +64,11 @@ tmp
 # End-to-End Spoken Language Understanding (음성 언어 이해)
 <pre>
 <code>
-End-to-End Spoken Language Understanding (SLU)란 음성을 입력으로 받아 direct로 감정(emotion)/의도(intent,slot) 등을 결과로 출력하거나 
-Question-Answering (QA) 등의 문제를 푸는 task이다. 
+기존의 Spoken Language Understanding (SLU) 는 음성을 입력받아 ASR module이 텍스트를 출력하고, 
+이를 입력으로 받은 Natural Language Understanding (NLU) module이 감정(emotion)/의도(intent,slot) 등을 결과로 출력했다.
+
+End-to-End Spoken Language Understanding (SLU)란 음성을 입력으로 받아 direct로 결과를 출력함으로써
+음성인식 네트워크가 가지고 있는 에러율에 구애받지 않고 fully diffrentiable 하게 학습하는 것이 목적이다.
 </code>
 </pre>
 
