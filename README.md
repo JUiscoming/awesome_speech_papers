@@ -13,6 +13,7 @@ awesome_speech_papers
 
 # Self-Supervised(or Semi-Supervised) Learning for Speech 
 |year|conference|research organization|title|link|
+|--|--|--|------|--|
 |2015|ICASSP|Google|wav2vec 2.0: A Framework for Self-Supervised Learning of Speech Representations|[arxiv link](https://arxiv.org/pdf/1508.01211)|
 |2015|ICASSP|Deepmind|Learning robust and multilingual speech representations|[arxiv link](https://arxiv.org/pdf/1508.01211)|
 |2015|ICASSP|Deepmind|Self-Supervised Representations Improve End-to-End Speech Translation|[arxiv link](https://arxiv.org/pdf/1508.01211)|
