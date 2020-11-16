@@ -5,7 +5,7 @@
 
 ***
 
-# End-to-End Speech Recognition (음성 인식) 
+# End-to-End Speech Recognition 
 
 - CTC based ASR model
 
@@ -38,7 +38,7 @@
  
 ***
  
-# End-to-End Speech Synthesis (음성 합성)
+# End-to-End Speech Synthesis 
 
 <br>
 
@@ -61,7 +61,7 @@ tmp
 
 ***
 
-# End-to-End Spoken Language Understanding (음성 언어 이해)
+# End-to-End Spoken Language Understanding 
 <pre>
 <code>
 기존의 Spoken Language Understanding (SLU) 는 음성을 입력받아 ASR module이 텍스트를 출력하고, 
