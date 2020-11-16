@@ -29,6 +29,8 @@
 |2019|||Listen, Attend, Spell and Adapt: Speaker Adapted Sequence-to-Sequence ASR||||
 
 
+- RNN-T based ASR model
+
 
 <br>
  
