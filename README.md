@@ -68,7 +68,7 @@ tmp
 이를 입력으로 받은 Natural Language Understanding (NLU) module이 감정(emotion)/의도(intent,slot) 등을 결과로 출력했다.
 
 End-to-End Spoken Language Understanding (SLU)란 음성을 입력으로 받아 direct로 결과를 출력함으로써
-음성인식 네트워크가 가지고 있는 에러율에 구애받지 않고 fully diffrentiable 하게 학습하는 것이 목적이다.
+음성인식 네트워크가 가지고 있는 에러율에 구애받지 않고 fully differentiable 하게 학습하는 것이 목적이다.
 </code>
 </pre>
 
