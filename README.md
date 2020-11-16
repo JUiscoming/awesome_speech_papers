@@ -26,7 +26,7 @@
 
 ***
 
-# End-to-End Speech Recognition 
+# 1. End-to-End Speech Recognition 
 
 - CTC based ASR model
   - If you're new to CTC-based ASR model, you'd better see this blog before reading papers : [post for Distill blog](https://distill.pub/2017/ctc/)
