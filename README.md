@@ -41,7 +41,16 @@
 
 - RNN-T based ASR model
 
+|year|conference|research organization|title|model|link|code|
+|--|--|--|------|---|--|--|
+|2018||Google|Exploring Architectures, Data and Units For Streaming End-to-End Speech Recognition with RNN-Transducer||||
+|2019||Google|Improving RNN Transducer Modeling for End-to-End Speech Recognition||||
+
+
+<br>
+
 - Streaming ASR
+
 |year|conference|research organization|title|model|link|code|
 |--|--|--|------|---|--|--|
 |2019||Google|Two-Pass End-to-End Speech Recognition||||
