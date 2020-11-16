@@ -29,7 +29,7 @@
 <br>
 
 # End-to-End Spoken Language Understanding (음성 언어 이해)
-
+End-to-End Spoken Language Understanding (SLU)란 음성을 입력으로 받아 direct로 감정(emotion)/의도(intent,slot)를 결과로 출력하거나 Question-Answering (QA) 등의 문제를 푸는 task이다. 
 <br>
 
 # Self-Supervised(or Semi-Supervised) Learning for Speech 
