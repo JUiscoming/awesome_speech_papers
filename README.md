@@ -39,10 +39,19 @@
 |2020||Google|Conformer: Convolution-augmented Transformer for Speech Recognition||[paper](https://arxiv.org/pdf/2005.08100)||
 |2020||Google|ContextNet: Improving Convolutional Neural Networks for Automatic Speech Recognition with Global Context||[paper](https://arxiv.org/pdf/2005.03191)||
 
+- Hybrid Model
+
+|year|conference|research organization|title|model|link|code|
+|--|--|--|------|---|--|--|
+|2012|||aaa||||
+
+<br>
+
 - RNN-T based ASR model
 
 |year|conference|research organization|title|model|link|code|
 |--|--|--|------|---|--|--|
+|2012|||Sequence Transduction with Recurrent Neural Networks||||
 |2018||Google|Exploring Architectures, Data and Units For Streaming End-to-End Speech Recognition with RNN-Transducer||||
 |2019||Google|Improving RNN Transducer Modeling for End-to-End Speech Recognition||||
 
