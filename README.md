@@ -4,22 +4,22 @@
 
 
 ## Index
-- End-to-End Speech Recognition papers
+- 1.End-to-End Speech Recognition papers
   - CTC-based ASR papers
   - Attention-based ASR papers
   - Hybrid ASR papers
   - RNN-T based ASR papers
   - Streaming ASR papers
-- End-to-End Speech Synthesis papers
-- End-to-End Non-Autoregressive Sequence Generation papers
+- 2.End-to-End Speech Synthesis papers
+- 3.End-to-End Non-Autoregressive Sequence Generation papers
   - ASR
   - NMT
   - TTS
-- End-to-End Spoken Language Understanding 
+- 4.End-to-End Spoken Language Understanding 
   - Intent Classification papers
   - Spoken Question Answering papers
   - Speech Emotion Recognition papers
-- Self-Supervised(or Semi-Supervised) Learning for Speech 
+- 5.Self-Supervised(or Semi-Supervised) Learning for Speech 
 
 
 <br>
