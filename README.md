@@ -37,7 +37,7 @@
 |2018|||**Speech-Transformer: A No-Recurrence Sequence-to-Sequence Model for Speech Recognition**||||
 |2019|||Listen, Attend, Spell and Adapt: Speaker Adapted Sequence-to-Sequence ASR||||
 |2020||Google|Conformer: Convolution-augmented Transformer for Speech Recognition||[paper](https://arxiv.org/pdf/2005.08100)||
-
+|2020||Google|ContextNet: Improving Convolutional Neural Networks for Automatic Speech Recognition with Global Context||[paper](https://arxiv.org/pdf/2005.03191)||
 
 - RNN-T based ASR model
 
