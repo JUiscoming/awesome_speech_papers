@@ -181,9 +181,9 @@ Label되지 않은 방대한 data를 self-supervised (or semi-supervised) 방법
 |2020|-|Facebook AI Research (FAIR)|Unsupervised Cross-lingual Representation Learning for Speech Recognition|[paper](https://arxiv.org/pdf/2006.13979)||
 |2019|-|Deepmind|Learning robust and multilingual speech representations|[paper](https://arxiv.org/pdf/2001.11128)||
 |-|-||SpeechBERT: An Audio-and-text Jointly Learned Language Model for End-to-end Spoken Question Answering|[paper](https://arxiv.org/pdf/1910.11559)||
-|-|-|Deepmind|Self-Supervised Representations Improve End-to-End Speech Translation|[paper](https://arxiv.org/pdf/1508.01211)||
-|-|-|Deepmind|Unsupervised Pretraining Transfers Well Across Languages|||
-|-|-|Deepmind|Learning Problem-agnostic Speech Representations from Multiple Self-supervised Tasks|||
-|-|-|Deepmind|Learning robust and multilingual speech representations|||
-|-|-|Deepmind|Problem-Agnostic Speech Embeddings for Multi-Speaker Text-to-Speech with SampleRNN|||
+|-|-||Self-Supervised Representations Improve End-to-End Speech Translation|[paper](https://arxiv.org/pdf/1508.01211)||
+|-|-||Unsupervised Pretraining Transfers Well Across Languages|||
+|-|-||Learning Problem-agnostic Speech Representations from Multiple Self-supervised Tasks|||
+|-|-||Learning robust and multilingual speech representations|||
+|-|-||Problem-Agnostic Speech Embeddings for Multi-Speaker Text-to-Speech with SampleRNN|||
 |2020|-|MIT CSAIL|SEMI-SUPERVISED SPEECH-LANGUAGE JOINT PRE- TRAINING FOR SPOKEN LANGUAGE UNDERSTANDING|[paper](https://arxiv.org/pdf/2010.02295)||
