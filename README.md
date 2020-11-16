@@ -1,5 +1,4 @@
-# awesome_speech_papers
-awesome_speech_papers
+# About this repository
 
 
 # End-to-End Speech Recognition (음성 인식) 
