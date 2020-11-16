@@ -35,9 +35,9 @@
 # Self-Supervised(or Semi-Supervised) Learning for Speech 
 |year|conference|research organization|title|link|code|
 |--|--|--|------|--|--|
-|2019|-|Facebook AI Research (FAIR)|wav2vec: Unsupervised Pre-training for Speech Recognition|[link](https://arxiv.org/pdf/1904.05862)|[link(official)](https://github.com/pytorch/fairseq/tree/master/examples/wav2vec)|
-|2019|ICLR|Facebook AI Research (FAIR)|vq-wav2vec: Self-Supervised Learning of Discrete Speech Representations|[link](https://arxiv.org/pdf/1910.05453)|[link](https://github.com/pytorch/fairseq/tree/master/examples/wav2vec)|
-|2020|-|Facebook AI Research (FAIR)|wav2vec 2.0: A Framework for Self-Supervised Learning of Speech Representations|[link](https://arxiv.org/pdf/2006.11477)|[link](https://github.com/pytorch/fairseq/tree/master/examples/wav2vec)|
+|2019|-|Facebook AI Research (FAIR)|wav2vec: Unsupervised Pre-training for Speech Recognition|[link](https://arxiv.org/pdf/1904.05862)|[link(official code)](https://github.com/pytorch/fairseq/tree/master/examples/wav2vec)|
+|2019|ICLR|Facebook AI Research (FAIR)|vq-wav2vec: Self-Supervised Learning of Discrete Speech Representations|[link](https://arxiv.org/pdf/1910.05453)|[link(official code)](https://github.com/pytorch/fairseq/tree/master/examples/wav2vec)|
+|2020|-|Facebook AI Research (FAIR)|wav2vec 2.0: A Framework for Self-Supervised Learning of Speech Representations|[link](https://arxiv.org/pdf/2006.11477)|[link(official code)](https://github.com/pytorch/fairseq/tree/master/examples/wav2vec)|
 |2019|-|Deepmind|Learning robust and multilingual speech representations|[link](https://arxiv.org/pdf/2001.11128)||
 |-|-|Deepmind|Self-Supervised Representations Improve End-to-End Speech Translation|[link](https://arxiv.org/pdf/1508.01211)||
 |-|-|Deepmind|Unsupervised Pretraining Transfers Well Across Languages|||
