@@ -1,6 +1,6 @@
 # About This Repository
 이 페이지는 음성 관련 task (음성 인식,음성 합성 등)를 공부 및 연구하고 싶은 사람들을 위해 만들어졌습니다. 
-
+<span style="color:red">Connectionist Temporal Classification: Labelling Unsegmented Sequence Data with Recurrent Neural Networks</span>
 <br>
 
 ***
@@ -8,7 +8,6 @@
 # End-to-End Speech Recognition 
 
 - CTC based ASR model
-<span style="color:red">Connectionist Temporal Classification: Labelling Unsegmented Sequence Data with Recurrent Neural Networks</span>
 |year|conference|research organization|title|model|link|code|
 |--|--|--|------|---|--|--|
 |2006|ICML|Toronto University|Connectionist Temporal Classification: Labelling Unsegmented Sequence Data with Recurrent Neural Networks|CTC|[paper](https://www.cs.toronto.edu/~graves/icml_2006.pdf)||
