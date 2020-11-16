@@ -39,7 +39,15 @@ End-to-End Spoken Language Understanding (SLU)란 음성을 입력으로 받아 
 <br>
 
 # Self-Supervised(or Semi-Supervised) Learning for Speech 
-Self-Supervised(or Semi-Supervised) Learning 이란 Yann Lecun이 강조했을 만큼 현재 2020년 현재 딥러닝에서 가장 핫 한 주제중 하나이며, Label되지 않은 방대한 data를 self-supervised (or semi-supervised) 방법으로 학습하여 입력으로부터 더 좋은 Representation을 찾는 방법이다. 이렇게 사전 학습(pre-training)된 네트워크는 음성 인식 등 다른 task를 위해 task-specific 하게 미세 조정 (fine-tuning)하여 scratch 부터 학습한 네트워크보다 더욱 높은 성능을 낼 수 있게 도와준다. 사전 학습 방법은 AutoEncoder 부터 BERT 까지 다양한 방법으로 기존에 존재했으나 음성에 맞는 방식으로 연구된 논문들이 최근에 제시되어 왔으며, 높은 성능을 자랑한다.
+<pre>
+<code>
+Self-Supervised(or Semi-Supervised) Learning 이란 Yann Lecun이 강조했을 만큼 현재 2020년 현재 딥러닝에서 가장 핫 한 주제중 하나이며, 
+Label되지 않은 방대한 data를 self-supervised (or semi-supervised) 방법으로 학습하여 입력으로부터 더 좋은 Representation을 찾는 방법이다. 
+이렇게 사전 학습(pre-training)된 네트워크는 음성 인식 등 다른 task를 위해 task-specific 하게 미세 조정 (fine-tuning)하여 
+scratch 부터 학습한 네트워크보다 더욱 높은 성능을 낼 수 있게 도와준다. 
+사전 학습 방법은 AutoEncoder 부터 BERT 까지 다양한 방법으로 기존에 존재했으나 음성에 맞는 방식으로 연구된 논문들이 최근에 제시되어 왔으며, 높은 성능을 자랑한다.
+<\code>
+<\pre>
 
 |year|conference|research organization|title|link|code|
 |--|--|--|------|--|--|
