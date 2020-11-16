@@ -1,13 +1,6 @@
 # About This Repository
 이 페이지는 음성 관련 task (음성 인식,음성 합성 등)를 공부 및 연구하고 싶은 사람들을 위해 만들어졌습니다. 
 
-
-<span style="color:red">Connectionist Temporal Classification: Labelling Unsegmented Sequence Data with Recurrent Neural Networks</span>
-
-
-<span style="color:red">내용</span>
-
-
 <br>
 
 ***
@@ -18,7 +11,7 @@
 
 |year|conference|research organization|title|model|link|code|
 |--|--|--|------|---|--|--|
-|2006|ICML|Toronto University|Connectionist Temporal Classification: Labelling Unsegmented Sequence Data with Recurrent Neural Networks|CTC|[paper](https://www.cs.toronto.edu/~graves/icml_2006.pdf)||
+|2006|ICML|Toronto University|*Connectionist Temporal Classification: Labelling Unsegmented Sequence Data with Recurrent Neural Networks*|CTC|[paper](https://www.cs.toronto.edu/~graves/icml_2006.pdf)||
 |2014|||Deep speech: Scaling up end-to-end speech recognition||||
 |2016|ICML||Deep Speech 2 : End-to-End Speech Recognition in English and Mandarin|CTC-based CNN model|||
 |2019|Interspeech|Nvidia|Jasper: An End-to-End Convolutional Neural Acoustic Model|CTC-based CNN model|||
