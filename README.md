@@ -33,8 +33,8 @@
 |2015|NIPS||Attention-Based Models for Speech Recognition|Seq2Seq|||
 |2015|ICASSP|Google|**Listen, Attend and Spell**|Seq2Seq|[paper](https://arxiv.org/pdf/1508.01211)|[code(pytorch)](https://github.com/clovaai/ClovaCall)|
 |2016|||End-to-End Attention-based Large Vocabulary Speech Recognition||||
-|2017|||**Monotonic Chunkwise Attention**||||
-|2018|||**Speech-Transformer: A No-Recurrence Sequence-to-Sequence Model for Speech Recognition**||||
+|2017|ICLR||**Monotonic Chunkwise Attention**||||
+|2018|ICASSP||**Speech-Transformer: A No-Recurrence Sequence-to-Sequence Model for Speech Recognition**||||
 |2019|||Listen, Attend, Spell and Adapt: Speaker Adapted Sequence-to-Sequence ASR||||
 |2020||Google|Conformer: Convolution-augmented Transformer for Speech Recognition||[paper](https://arxiv.org/pdf/2005.08100)||
 |2020||Google|ContextNet: Improving Convolutional Neural Networks for Automatic Speech Recognition with Global Context||[paper](https://arxiv.org/pdf/2005.03191)||
