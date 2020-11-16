@@ -33,7 +33,7 @@ End-to-End Spoken Language Understanding (SLU)란 음성을 입력으로 받아 
 
 |year|conference|research organization|title|model|link|code|
 |--|--|--|------|---|--|--|
-|2019|Interspeech|MILA,CIFAR|Speech Model Pre-training for End-to-End Spoken Language Understanding|CTC|[paper](https://arxiv.org/pdf/1904.03670)|[code(official)](https://github.com/lorenlugosch/end-to-end-SLU)|
+|2019|Interspeech|MILA,CIFAR|Speech Model Pre-training for End-to-End Spoken Language Understanding||[paper](https://arxiv.org/pdf/1904.03670)|[code(official)](https://github.com/lorenlugosch/end-to-end-SLU)|
 
 
 <br>
