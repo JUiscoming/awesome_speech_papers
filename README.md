@@ -45,7 +45,7 @@
 |year|conference|research organization|title|model|link|code|
 |--|--|--|------|---|--|--|
 |2016||Deepmind|WaveNet: A Generative Model for Raw Audio||[paper](https://arxiv.org/pdf/1609.03499)||
-|2017|ICLR|-|SampleRNN: An Unconditional End-to-End Neural Audio Generation Model|||[code(official)](https://github.com/soroushmehr/sampleRNN_ICLR2017)|
+|2017|ICLR|-|SampleRNN: An Unconditional End-to-End Neural Audio Generation Model||[paper](https://arxiv.org/pdf/1612.07837)|[code(official)](https://github.com/soroushmehr/sampleRNN_ICLR2017)|
 |2017|ICLR|Montreal Univ, CIFAR|Char2Wav: End-to-End Speech Synthesis||[paper](https://openreview.net/pdf?id=B1VWyySKx)||
 |2017|PMLR|Baidu Research|Deep Voice: Real-time Neural Text-to-Speech||[paper](http://proceedings.mlr.press/v70/arik17a/arik17a.pdf)||
 |2017|NIPS|Baidu Research|Deep Voice 2: Multi-Speaker Neural Text-to-Speech||[paper](https://arxiv.org/pdf/1705.08947)||
