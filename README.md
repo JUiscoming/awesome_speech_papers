@@ -3,6 +3,8 @@
 
 <br>
 
+***
+
 # End-to-End Speech Recognition (음성 인식) 
 
 - CTC based ASR model
@@ -34,9 +36,13 @@
 
 <br>
  
+***
+ 
 # End-to-End Speech Synthesis (음성 합성)
 
 <br>
+
+***
 
 # End-to-End Non-Autoregressive Speech Recognition 
 
@@ -51,6 +57,9 @@ tmp
 |2020|Interspeech|-|Mask CTC: Non-Autoregressive End-to-End ASR with CTC and Mask Predict|CTC-based|||
 |2020|Interspeech|-|Spike-Triggered Non-Autoregressive Transformer for End-to-End Speech Recognition|CTC-based|||
 
+<br>
+
+***
 
 # End-to-End Spoken Language Understanding (음성 언어 이해)
 <pre>
@@ -66,6 +75,8 @@ Question-Answering (QA) 등의 문제를 푸는 task이다.
 
 
 <br>
+
+***
 
 # Self-Supervised(or Semi-Supervised) Learning for Speech 
 <pre>
