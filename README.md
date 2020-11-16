@@ -6,12 +6,12 @@
 # End-to-End Speech Recognition (음성 인식) 
 |year|conference|research organization|title|model|link|code|
 |--|--|--|------|---|--|--|
-|2006|ICML|Toronto University|Connectionist Temporal Classification: Labelling Unsegmented Sequence Data with Recurrent Neural Networks|CTC|[link](https://www.cs.toronto.edu/~graves/icml_2006.pdf)||
+|2006|ICML|Toronto University|Connectionist Temporal Classification: Labelling Unsegmented Sequence Data with Recurrent Neural Networks|CTC|[paper](https://www.cs.toronto.edu/~graves/icml_2006.pdf)||
 |2008|||Supervised Sequence Labelling with Recurrent Neural Networks||||
 |2014|ICML||Towards End-to-End Speech Recognition with Recurrent Neural Networks||||
 |2014|||Deep speech: Scaling up end-to-end speech recognition||||
 |2015|NIPS||Attention-Based Models for Speech Recognition|Seq2Seq|||
-|2015|ICASSP|Google|Listen, Attend and Spell|Seq2Seq|[link](https://arxiv.org/pdf/1508.01211)|[link](https://github.com/clovaai/ClovaCall)|
+|2015|ICASSP|Google|Listen, Attend and Spell|Seq2Seq|[paper](https://arxiv.org/pdf/1508.01211)|[code](https://github.com/clovaai/ClovaCall)|
 |2016|ICML||Deep Speech 2 : End-to-End Speech Recognition in English and Mandarin|CTC-based CNN model|||
 |2016|||End-to-End Attention-based Large Vocabulary Speech Recognition||||
 |2017|||Monotonic Chunkwise Attention||||
@@ -35,13 +35,13 @@
 # Self-Supervised(or Semi-Supervised) Learning for Speech 
 |year|conference|research organization|title|link|code|
 |--|--|--|------|--|--|
-|2019|-|Facebook AI Research (FAIR)|wav2vec: Unsupervised Pre-training for Speech Recognition|[link](https://arxiv.org/pdf/1904.05862)|[link(official code)](https://github.com/pytorch/fairseq/tree/master/examples/wav2vec)|
-|2019|ICLR|Facebook AI Research (FAIR)|vq-wav2vec: Self-Supervised Learning of Discrete Speech Representations|[link](https://arxiv.org/pdf/1910.05453)|[link(official code)](https://github.com/pytorch/fairseq/tree/master/examples/wav2vec)|
-|2020|-|Facebook AI Research (FAIR)|wav2vec 2.0: A Framework for Self-Supervised Learning of Speech Representations|[link](https://arxiv.org/pdf/2006.11477)|[link(official code)](https://github.com/pytorch/fairseq/tree/master/examples/wav2vec)|
-|2019|-|Deepmind|Learning robust and multilingual speech representations|[link](https://arxiv.org/pdf/2001.11128)||
-|-|-|Deepmind|Self-Supervised Representations Improve End-to-End Speech Translation|[link](https://arxiv.org/pdf/1508.01211)||
+|2019|-|Facebook AI Research (FAIR)|wav2vec: Unsupervised Pre-training for Speech Recognition|[paper](https://arxiv.org/pdf/1904.05862)|[code(official code)](https://github.com/pytorch/fairseq/tree/master/examples/wav2vec)|
+|2019|ICLR|Facebook AI Research (FAIR)|vq-wav2vec: Self-Supervised Learning of Discrete Speech Representations|[paper](https://arxiv.org/pdf/1910.05453)|[code(official code)](https://github.com/pytorch/fairseq/tree/master/examples/wav2vec)|
+|2020|-|Facebook AI Research (FAIR)|wav2vec 2.0: A Framework for Self-Supervised Learning of Speech Representations|[paper](https://arxiv.org/pdf/2006.11477)|[code(official code)](https://github.com/pytorch/fairseq/tree/master/examples/wav2vec)|
+|2019|-|Deepmind|Learning robust and multilingual speech representations|[paper](https://arxiv.org/pdf/2001.11128)||
+|-|-|Deepmind|Self-Supervised Representations Improve End-to-End Speech Translation|[paper](https://arxiv.org/pdf/1508.01211)||
 |-|-|Deepmind|Unsupervised Pretraining Transfers Well Across Languages|||
 |-|-|Deepmind|Learning Problem-agnostic Speech Representations from Multiple Self-supervised Tasks|||
 |-|-|Deepmind|Learning robust and multilingual speech representations|||
 |-|-|Deepmind|Problem-Agnostic Speech Embeddings for Multi-Speaker Text-to-Speech with SampleRNN|||
-|2020|-|MIT CSAIL|SEMI-SUPERVISED SPEECH-LANGUAGE JOINT PRE- TRAINING FOR SPOKEN LANGUAGE UNDERSTANDING|[link](https://arxiv.org/pdf/2010.02295)||
+|2020|-|MIT CSAIL|SEMI-SUPERVISED SPEECH-LANGUAGE JOINT PRE- TRAINING FOR SPOKEN LANGUAGE UNDERSTANDING|[paper](https://arxiv.org/pdf/2010.02295)||
