@@ -13,7 +13,7 @@
 |--|--|--|------|---|--|--|
 |2006|ICML|Toronto University|**Connectionist Temporal Classification: Labelling Unsegmented Sequence Data with Recurrent Neural Networks**|CTC|[paper](https://www.cs.toronto.edu/~graves/icml_2006.pdf)||
 |2014|||Deep speech: Scaling up end-to-end speech recognition||||
-|2016|ICML||**Deep Speech 2 : End-to-End Speech Recognition in English and Mandarin|CTC-based CNN model**|||
+|2016|ICML||**Deep Speech 2 : End-to-End Speech Recognition in English and Mandarin**|CTC-based CNN model|||
 |2019|Interspeech|Nvidia|Jasper: An End-to-End Convolutional Neural Acoustic Model|CTC-based CNN model|||
 
 
@@ -119,7 +119,7 @@ Label되지 않은 방대한 data를 self-supervised (or semi-supervised) 방법
 
 |year|conference|research organization|title|link|code|
 |--|--|--|------|--|--|
-|2019|-|Facebook AI Research (FAIR)|wav2vec: Unsupervised Pre-training for Speech Recognition|[paper](https://arxiv.org/pdf/1904.05862)|[code(official code)](https://github.com/pytorch/fairseq/tree/master/examples/wav2vec)|
+|2019|-|Facebook AI Research (FAIR)|**wav2vec: Unsupervised Pre-training for Speech Recognition**|[paper](https://arxiv.org/pdf/1904.05862)|[code(official code)](https://github.com/pytorch/fairseq/tree/master/examples/wav2vec)|
 |2019|ICLR|Facebook AI Research (FAIR)|vq-wav2vec: Self-Supervised Learning of Discrete Speech Representations|[paper](https://arxiv.org/pdf/1910.05453)|[code(official code)](https://github.com/pytorch/fairseq/tree/master/examples/wav2vec)|
 |2020|-|Facebook AI Research (FAIR)|wav2vec 2.0: A Framework for Self-Supervised Learning of Speech Representations|[paper](https://arxiv.org/pdf/2006.11477)|[code(official code)](https://github.com/pytorch/fairseq/tree/master/examples/wav2vec)|
 |2019|-|Deepmind|Learning robust and multilingual speech representations|[paper](https://arxiv.org/pdf/2001.11128)||
