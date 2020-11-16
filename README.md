@@ -6,6 +6,7 @@ awesome_speech_papers
 |year|conference|research organization|title|model|link|
 |--|--|--|------|---|--|
 |2006|ICML|Toronto University|Connectionist Temporal Classification: Labelling Unsegmented Sequence Data with Recurrent Neural Networks|CTC|[link](https://www.cs.toronto.edu/~graves/icml_2006.pdf)|
+|2008|||Supervised sequence labelling with recurrent neural networks|||
 |2015|ICASSP|Google|Listen, Attend and Spell|Seq2Seq|[arxiv link](https://arxiv.org/pdf/1508.01211)|
  
 <br>
