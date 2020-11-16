@@ -90,7 +90,7 @@
  
 ***
  
-# End-to-End Speech Synthesis 
+# 2. End-to-End Speech Synthesis 
 
 <br>
 
@@ -110,7 +110,7 @@
 
 ***
 
-# End-to-End Non-Autoregressive Sequence Generation Model
+# 3. End-to-End Non-Autoregressive Sequence Generation Model
 
 <pre>
 <code>
@@ -149,7 +149,7 @@ Non-Autoregressive 모델은 논문이 별로 없기 때문에 기계번역(NMT)
 
 ***
 
-# End-to-End Spoken Language Understanding 
+# 4. End-to-End Spoken Language Understanding 
 <pre>
 <code>
 기존의 Spoken Language Understanding (SLU) 는 음성을 입력받아 ASR module이 텍스트를 출력하고, 
@@ -178,7 +178,7 @@ End-to-End Spoken Language Understanding (SLU)란 음성을 입력으로 받아 
 
 ***
 
-# Self-Supervised(or Semi-Supervised) Learning for Speech 
+# 5. Self-Supervised(or Semi-Supervised) Learning for Speech 
 <pre>
 <code>
 Self-Supervised(or Semi-Supervised) Learning 이란 Yann Lecun이 강조했을 만큼 현재 2020년 현재 딥러닝에서 가장 핫 한 주제중 하나이며, 
