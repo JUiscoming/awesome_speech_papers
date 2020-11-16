@@ -4,7 +4,9 @@
 <br>
 
 # End-to-End Speech Recognition (음성 인식) 
+
 - CTC based ASR model
+
 |year|conference|research organization|title|model|link|code|
 |--|--|--|------|---|--|--|
 |2006|ICML|Toronto University|Connectionist Temporal Classification: Labelling Unsegmented Sequence Data with Recurrent Neural Networks|CTC|[paper](https://www.cs.toronto.edu/~graves/icml_2006.pdf)||
@@ -12,7 +14,9 @@
 |2016|ICML||Deep Speech 2 : End-to-End Speech Recognition in English and Mandarin|CTC-based CNN model|||
 |2019|Interspeech|Nvidia|Jasper: An End-to-End Convolutional Neural Acoustic Model|CTC-based CNN model|||
 
+
 - Attention based ASR model
+
 |year|conference|research organization|title|model|link|code|
 |--|--|--|------|---|--|--|
 |2008|||Supervised Sequence Labelling with Recurrent Neural Networks||||
