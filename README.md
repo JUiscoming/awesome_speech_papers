@@ -63,18 +63,40 @@
 
 ***
 
-# End-to-End Non-Autoregressive Speech Recognition 
+# End-to-End Non-Autoregressive Sequence Generation Model
 
 <pre>
 <code>
-tmp
+Non-Autoregressive 모델은 논문이 별로 없기 때문에 기계번역(NMT)/음성인식(STT)/음성합성(STT) 모두 포함하려고 함.
 </code>
 </pre>
+
+- ASR, TTS
 
 |year|conference|research organization|title|model|link|code|
 |--|--|--|------|---|--|--|
 |2020|Interspeech|-|Mask CTC: Non-Autoregressive End-to-End ASR with CTC and Mask Predict|CTC-based|||
 |2020|Interspeech|-|Spike-Triggered Non-Autoregressive Transformer for End-to-End Speech Recognition|CTC-based|||
+|2020||-|A Study of Non-autoregressive Model for Sequence Generation||||
+
+- NMT
+
+|year|conference|research organization|title|model|link|code|
+|--|--|--|------|---|--|--|
+|2018|ICLR|The University of Hong Kong|NON-AUTOREGRESSIVE NEURAL MACHINE TRANSLATION||||
+|2020||Google|Non-Autoregressive Machine Translation with Latent Alignments||||
+|2020||CMU|FlowSeq: Non-Autoregressive Conditional Sequence Generation with Generative Flow||||
+|2020||CMU,Berkeley,Peking University|Fast Structured Decoding for Sequence Models||||
+|2019|ACL|-|Non-autoregressive Transformer by Position Learning||||
+|2020||-|ENGINE: Energy-Based Inference Networks for Non-Autoregressive Machine Translation||||
+|2019||University of Tokyo,FAIR,MILA,NYU|Latent-Variable Non-Autoregressive Neural Machine Translation with Deterministic Inference Using a Delta Posterior||||
+
+
+- Speech Synthesis, TTS
+
+|year|conference|research organization|title|model|link|code|
+|--|--|--|------|---|--|--|
+|2020||Baidu Research|Non-Autoregressive Neural Text-to-Speech||||
 
 <br>
 
