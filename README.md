@@ -40,8 +40,8 @@
 |2020|-|Facebook AI Research (FAIR)|wav2vec 2.0: A Framework for Self-Supervised Learning of Speech Representations|[link](https://arxiv.org/pdf/2006.11477)|
 |2019|-|Deepmind|Learning robust and multilingual speech representations|[link](https://arxiv.org/pdf/2001.11128)|
 |-|-|Deepmind|Self-Supervised Representations Improve End-to-End Speech Translation|[link](https://arxiv.org/pdf/1508.01211)|
-|-|-|Deepmind|Unsupervised Pretraining Transfers Well Across Languages|[link](https://arxiv.org/pdf/1508.01211)|
-|-|-|Deepmind|Learning Problem-agnostic Speech Representations from Multiple Self-supervised Tasks|[link](https://arxiv.org/pdf/1508.01211)|
-|-|-|Deepmind|Learning robust and multilingual speech representations|[link](https://arxiv.org/pdf/1508.01211)|
-|-|-|Deepmind|Problem-Agnostic Speech Embeddings for Multi-Speaker Text-to-Speech with SampleRNN|[link](https://arxiv.org/pdf/1508.01211)|
+|-|-|Deepmind|Unsupervised Pretraining Transfers Well Across Languages||
+|-|-|Deepmind|Learning Problem-agnostic Speech Representations from Multiple Self-supervised Tasks||
+|-|-|Deepmind|Learning robust and multilingual speech representations||
+|-|-|Deepmind|Problem-Agnostic Speech Embeddings for Multi-Speaker Text-to-Speech with SampleRNN||
 |2020|-|MIT CSAIL|SEMI-SUPERVISED SPEECH-LANGUAGE JOINT PRE- TRAINING FOR SPOKEN LANGUAGE UNDERSTANDING|[link](https://arxiv.org/pdf/2010.02295)|
