@@ -8,7 +8,7 @@
 # End-to-End Speech Recognition 
 
 - CTC based ASR model
-  - If you're new to CTC-based ASR model, you'd better see this blog before reading papers : [Distill blog](https://distill.pub/2017/ctc/)
+  - If you're new to CTC-based ASR model, you'd better see this blog before reading papers : [post for Distill blog](https://distill.pub/2017/ctc/)
 
 
 |year|conference|research organization|title|model|link|code|
@@ -21,10 +21,10 @@
 
 - Attention based ASR model
   - If you're new to seq2seq with attention network, you'd better check following things
-    - [Post : Seq2Seq with Attention Network 1](https://lilianweng.github.io/lil-log/2018/06/24/attention-attention.html)
-    - [Post : Seq2Seq with Attention Network 2](https://distill.pub/2016/augmented-rnns/)
-    - [Post : Seq2Seq with Attention Network 3](https://guillaumegenthial.github.io/sequence-to-sequence.html)
-    - [Post : Transformer](http://jalammar.github.io/illustrated-transformer/)
+    - [post for Seq2Seq with Attention Network 1](https://lilianweng.github.io/lil-log/2018/06/24/attention-attention.html)
+    - [post for Seq2Seq with Attention Network 2](https://distill.pub/2016/augmented-rnns/)
+    - [post for Seq2Seq with Attention Network 3](https://guillaumegenthial.github.io/sequence-to-sequence.html)
+    - [post for Transformer](http://jalammar.github.io/illustrated-transformer/)
 
 |year|conference|research organization|title|model|link|code|
 |--|--|--|------|---|--|--|
