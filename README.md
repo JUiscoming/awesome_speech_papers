@@ -97,7 +97,7 @@ Non-Autoregressive 모델은 논문이 별로 없기 때문에 기계번역(NMT)
 </code>
 </pre>
 
-- ASR, TTS
+- Non-Autoregressive(NA) ASR, TTS
 
 |year|conference|research organization|title|model|link|code|
 |--|--|--|------|---|--|--|
@@ -105,7 +105,7 @@ Non-Autoregressive 모델은 논문이 별로 없기 때문에 기계번역(NMT)
 |2020|Interspeech|-|Spike-Triggered Non-Autoregressive Transformer for End-to-End Speech Recognition|CTC-based|||
 |2020||-|A Study of Non-autoregressive Model for Sequence Generation||||
 
-- NMT
+- Non-Autoregressive(NA) NMT
 
 |year|conference|research organization|title|model|link|code|
 |--|--|--|------|---|--|--|
@@ -118,7 +118,7 @@ Non-Autoregressive 모델은 논문이 별로 없기 때문에 기계번역(NMT)
 |2019||University of Tokyo,FAIR,MILA,NYU|Latent-Variable Non-Autoregressive Neural Machine Translation with Deterministic Inference Using a Delta Posterior||||
 
 
-- Speech Synthesis, TTS
+- Non-Autoregressive(NA) Speech Synthesis, TTS
 
 |year|conference|research organization|title|model|link|code|
 |--|--|--|------|---|--|--|
