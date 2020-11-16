@@ -9,6 +9,7 @@
 # End-to-End Speech Recognition 
 
 - CTC based ASR model
+
 |year|conference|research organization|title|model|link|code|
 |--|--|--|------|---|--|--|
 |2006|ICML|Toronto University|Connectionist Temporal Classification: Labelling Unsegmented Sequence Data with Recurrent Neural Networks|CTC|[paper](https://www.cs.toronto.edu/~graves/icml_2006.pdf)||
