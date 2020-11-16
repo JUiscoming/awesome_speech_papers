@@ -1,6 +1,24 @@
 # About This Repository
 이 페이지는 음성 관련 task (음성 인식,음성 합성 등)를 공부 및 연구하고 싶은 사람들을 위해 만들어짐. <br>
-최대한 페이퍼를 많이 포함하기 보다는 중요하고(citation이 충분히 높고, 신뢰할 만한 기관, 컨퍼런스에 publish된 페이퍼 위주) 최신자 페이퍼들만 포함하려고 함.
+최대한 페이퍼를 많이 포함하기 보다는 중요하고(citation이 충분히 높고, 신뢰할 만한 기관, 컨퍼런스에 publish된 페이퍼 위주) 최신자 페이퍼들만 포함하려고 함.<br>
+
+- End-to-End Speech Recognition papers
+  - CTC-based ASR papers
+  - Attention-based ASR papers
+  - Hybrid ASR papers
+  - RNN-T based ASR papers
+  - Streaming ASR papers
+- End-to-End Speech Synthesis papers
+- End-to-End Non-Autoregressive Sequence Generation papers
+  - ASR
+  - NMT
+  - TTS
+- End-to-End Spoken Language Understanding 
+  - Intent Classification papers
+  - Spoken Question Answering papers
+  - Speech Emotion Recognition papers
+- Self-Supervised(or Semi-Supervised) Learning for Speech 
+
 
 <br>
 
