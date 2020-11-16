@@ -4,6 +4,10 @@
 
 <span style="color:red">Connectionist Temporal Classification: Labelling Unsegmented Sequence Data with Recurrent Neural Networks</span>
 
+
+<span style="color:red">내용</span>
+
+
 <br>
 
 ***
