@@ -1,5 +1,7 @@
-# About this repository
+# About This Repository
+이 페이지는 음성 관련 task (음성 인식,음성 합성 등)를 공부 및 연구하고 싶은 사람들을 위해 만들어졌습니다. 
 
+<br>
 
 # End-to-End Speech Recognition (음성 인식) 
 |year|conference|research organization|title|model|link|
