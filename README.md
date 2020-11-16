@@ -8,7 +8,7 @@
 # End-to-End Speech Recognition 
 
 - CTC based ASR model
-  - If you're not familiar to End-to-End CTC-based ASR, you'd better see this blog before reading papers : [Distill blog](https://distill.pub/2017/ctc/)
+  - If you're new to CTC-based ASR model, you'd better see this blog before reading papers : [Distill blog](https://distill.pub/2017/ctc/)
 
 
 |year|conference|research organization|title|model|link|code|
