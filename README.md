@@ -98,7 +98,15 @@ Non-Autoregressive 모델은 논문이 별로 없기 때문에 기계번역(NMT)
 </pre>
 
 - Non-Autoregressive(NA) ASR, TTS
+  - CTC-based
 
+|year|conference|research organization|title|model|link|code|
+|--|--|--|------|---|--|--|
+|2020|Interspeech|-|Mask CTC: Non-Autoregressive End-to-End ASR with CTC and Mask Predict|CTC-based|||
+|2020|Interspeech|-|Spike-Triggered Non-Autoregressive Transformer for End-to-End Speech Recognition|CTC-based|||
+
+  - Attention-based
+  
 |year|conference|research organization|title|model|link|code|
 |--|--|--|------|---|--|--|
 |2020|Interspeech|-|Mask CTC: Non-Autoregressive End-to-End ASR with CTC and Mask Predict|CTC-based|||
