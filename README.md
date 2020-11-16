@@ -175,10 +175,10 @@ Label되지 않은 방대한 data를 self-supervised (or semi-supervised) 방법
 |year|conference|research organization|title|link|code|
 |--|--|--|------|--|--|
 |2019|-|Facebook AI Research (FAIR)|**wav2vec: Unsupervised Pre-training for Speech Recognition**|[paper](https://arxiv.org/pdf/1904.05862)|[code(official code)](https://github.com/pytorch/fairseq/tree/master/examples/wav2vec)|
-|2019|-|Facebook AI Research (FAIR)|Unsupervised Cross-lingual Representation Learning at Scale|||
-|2019|ICLR|Facebook AI Research (FAIR)|vq-wav2vec: Self-Supervised Learning of Discrete Speech Representations|[paper](https://arxiv.org/pdf/1910.05453)|[code(official code)](https://github.com/pytorch/fairseq/tree/master/examples/wav2vec)|
-|2020|-|Facebook AI Research (FAIR)|**wav2vec 2.0: A Framework for Self-Supervised Learning of Speech Representations**|[paper](https://arxiv.org/pdf/2006.11477)|[code(official code)](https://github.com/pytorch/fairseq/tree/master/examples/wav2vec)|
-|2020|-|Facebook AI Research (FAIR)|Unsupervised Cross-lingual Representation Learning for Speech Recognition|[paper](https://arxiv.org/pdf/2006.13979)||
+|2019|-|FAIR|Unsupervised Cross-lingual Representation Learning at Scale|||
+|2019|ICLR|FAIR|vq-wav2vec: Self-Supervised Learning of Discrete Speech Representations|[paper](https://arxiv.org/pdf/1910.05453)|[code(official code)](https://github.com/pytorch/fairseq/tree/master/examples/wav2vec)|
+|2020|-|FAIR|**wav2vec 2.0: A Framework for Self-Supervised Learning of Speech Representations**|[paper](https://arxiv.org/pdf/2006.11477)|[code(official code)](https://github.com/pytorch/fairseq/tree/master/examples/wav2vec)|
+|2020|-|FAIR|Unsupervised Cross-lingual Representation Learning for Speech Recognition|[paper](https://arxiv.org/pdf/2006.13979)||
 |2019|-|Deepmind|Learning robust and multilingual speech representations|[paper](https://arxiv.org/pdf/2001.11128)||
 |-|-||SpeechBERT: An Audio-and-text Jointly Learned Language Model for End-to-end Spoken Question Answering|[paper](https://arxiv.org/pdf/1910.11559)||
 |-|-||Self-Supervised Representations Improve End-to-End Speech Translation|[paper](https://arxiv.org/pdf/1508.01211)||
