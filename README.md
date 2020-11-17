@@ -160,14 +160,15 @@ End-to-End Spoken Language Understanding (SLU)란 음성을 입력으로 받아 
 </code>
 </pre>
 
-* Dataset
+* Dataset ( including all speech slu dataset IC/SF/SQA ... )
 
 |task|dataset name|year|conference|title|paper link|dataset link|
 |--|---|--|--|------|----|----|
 |-|SLURP|2020|EMNLP|SLURP: A Spoken Language Understanding Resource Package|[paper](https://www.aclweb.org/anthology/2020.emnlp-main.588.pdf)|[dataset](https://github.com/pswietojanski/slurp)|
-|-|Fluent Speech Command(FSC)|2019|Interspeech|Speech Model Pre-training for End-to-End Spoken Language Understanding|[paper](https://arxiv.org/pdf/1904.03670)|[dataset](https://github.com/lorenlugosch/end-to-end-SLU)|
+|Intent Classification (IC)|Fluent Speech Command(FSC)|2019|Interspeech|Speech Model Pre-training for End-to-End Spoken Language Understanding|[paper](https://arxiv.org/pdf/1904.03670)|[dataset](https://github.com/lorenlugosch/end-to-end-SLU)|
+|Spoken Question Answering (SQA)|Spoken SQuAD(SSQD)|2018|Interspeech|Spoken SQuAD: A Study of Mitigating the Impact of Speech Recognition Errors on Listening Comprehension|dataset|[paper](https://arxiv.org/abs/1804.00320)|[dataset](https://github.com/chiahsuan156/Spoken-SQuAD)|
 
-* Intent Classificatin
+* Intent Classification
 
 |year|conference|research organization|title|model|link|code|
 |--|--|--|------|---|--|--|
