@@ -73,7 +73,7 @@
 |year|conference|research organization|title|model|link|code|
 |--|--|--|------|---|--|--|
 |2012|||Sequence Transduction with Recurrent Neural Networks||||
-|2018|ICASSP|Google|Streaming E2E Speech Recognition For Mobile Devices||[paper](https://arxiv.org/pdf/1811.06621)||
+|2018|ICASSP|Google|**Streaming E2E Speech Recognition For Mobile Devices**||[paper](https://arxiv.org/pdf/1811.06621)||
 |2018||Google|Exploring Architectures, Data and Units For Streaming End-to-End Speech Recognition with RNN-Transducer||||
 |2019||Google|Improving RNN Transducer Modeling for End-to-End Speech Recognition||||
 
@@ -84,7 +84,7 @@
 
 |year|conference|research organization|title|model|link|code|
 |--|--|--|------|---|--|--|
-|2019||Google|Two-Pass End-to-End Speech Recognition||||
+|2019||Google|**Two-Pass End-to-End Speech Recognition**||||
 
 <br>
  
