@@ -69,7 +69,7 @@
 |2020||Google|Conformer: Convolution-augmented Transformer for Speech Recognition||[paper](https://arxiv.org/pdf/2005.08100)||
 |2020||Google|ContextNet: Improving Convolutional Neural Networks for Automatic Speech Recognition with Global Context||[paper](https://arxiv.org/pdf/2005.03191)||
 
-- **Hybrid Model**
+## **Hybrid Model**
 
 |year|conference|research organization|title|model|link|code|
 |--|--|--|------|---|--|--|
@@ -77,7 +77,7 @@
 
 <br>
 
-- **RNN-T based ASR model**
+## **RNN-T based ASR model**
 
 <p align="center"><img src="https://user-images.githubusercontent.com/48202736/99594611-c2384400-2a36-11eb-99bc-c4a9fd426e55.png"></p>
 <p align="center">< Streaming E2E Speech Recognition For Mobile Devices ></p> <br>
