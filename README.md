@@ -51,7 +51,7 @@
     
 <p align="center"><img src="https://user-images.githubusercontent.com/48202736/99594615-c3697100-2a36-11eb-9d79-fe819d8958d2.png"  width="500"></p>
 <p align="center"><img src="https://user-images.githubusercontent.com/48202736/99594613-c2d0da80-2a36-11eb-948f-9790dc9365f6.png"  width="500"></p>
-<p align="center">Deep Speech 2 : End-to-End Speech Recognition in English and Mandarin</p> <br>
+<p align="center">Listen, Attend and Spell</p> <br>
 
 |year|conference|research organization|title|model|link|code|
 |--|--|--|------|---|--|--|
@@ -75,6 +75,9 @@
 <br>
 
 - RNN-T based ASR model
+
+<p align="center"><img src="https://user-images.githubusercontent.com/48202736/99594611-c2384400-2a36-11eb-99bc-c4a9fd426e55.png"  width="500"></p>
+<p align="center">Streaming E2E Speech Recognition For Mobile Devices</p> <br>
 
 |year|conference|research organization|title|model|link|code|
 |--|--|--|------|---|--|--|
@@ -212,6 +215,9 @@ Label되지 않은 방대한 data를 self-supervised (or semi-supervised) 방법
 이렇게 학습된 네트워크는 scratch 부터 학습한 네트워크보다 더욱 높은 성능을 자랑한다 .
 </code>
 </pre>
+
+<p align="center"><img src="https://user-images.githubusercontent.com/48202736/99594604-bfd5ea00-2a36-11eb-9c10-4e7385221408.png"  width="500"></p>
+<p align="center">wav2vec 2.0: A Framework for Self-Supervised Learning of Speech Representations</p> <br>
 
 |year|conference|research organization|title|link|code|
 |--|--|--|------|--|--|
