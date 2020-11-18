@@ -33,6 +33,7 @@
 
 <p align="center"><img src="https://user-images.githubusercontent.com/48202736/99594617-c4020780-2a36-11eb-99af-8f9a200584e1.png"  width="500" title="asd"></p>
 <p align="center"><asd></p>
+  
 |year|conference|research organization|title|model|link|code|
 |--|--|--|------|---|--|--|
 |2006|ICML|Toronto University|**Connectionist Temporal Classification: Labelling Unsegmented Sequence Data with Recurrent Neural Networks**|CTC|[paper](https://www.cs.toronto.edu/~graves/icml_2006.pdf)||
