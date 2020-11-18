@@ -172,6 +172,13 @@ End-to-End Spoken Language Understanding (SLU)란 음성을 입력으로 받아 
 </code>
 </pre>
 
+<p align="center"><img src="https://user-images.githubusercontent.com/48202736/99597193-f7df2c00-2a3a-11eb-8c93-3e2b9a6698eb.png"></p>
+<p align="center">( Conventional Pipeline for Spoken Language Understanding ( ASR -> NLU ) )</p> <br>
+<p align="center"><img src="https://user-images.githubusercontent.com/48202736/99597198-f9105900-2a3a-11eb-9e04-c1646ed3188f.png"></p>
+<p align="center">( End-to-End Spoken Language Understanding Network )</p> <br>
+<p align="center">< Towards End-to-end Spoken Language Understanding ></p> <br>
+
+
 * Dataset ( including all speech slu dataset IC/SF/SQA ... )
   - Intent Classification (IC)
   - Spoken Question Answering (SQA)
@@ -193,6 +200,7 @@ End-to-End Spoken Language Understanding (SLU)란 음성을 입력으로 받아 
 
 |year|conference|research organization|title|model|link|code|
 |--|--|--|------|---|--|--|
+|2018|ICASSP|Facebook, MILA|Towards End-to-end Spoken Language Understanding||[paper](https://arxiv.org/pdf/1802.08395)||
 |2019|Interspeech|MILA,CIFAR|Speech Model Pre-training for End-to-End Spoken Language Understanding||[paper](https://arxiv.org/pdf/1904.03670)|[code(official)](https://github.com/lorenlugosch/end-to-end-SLU)|
 
 * Spoken Question Answering (SQA)
