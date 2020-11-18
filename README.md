@@ -101,7 +101,7 @@
  
 # 2. End-to-End Speech Synthesis 
 
-<p align="center"><img src="https://user-images.githubusercontent.com/48202736/99596501-bb5f0080-2a39-11eb-8e70-0411e2b4926d.png"  width="600"></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/48202736/99596501-bb5f0080-2a39-11eb-8e70-0411e2b4926d.png"></p>
 <p align="center">< Tacotron: Towards End-to-End Speech Synthesis ></p> <br>
 
 <br>
@@ -219,7 +219,7 @@ Label되지 않은 방대한 data를 self-supervised (or semi-supervised) 방법
 </code>
 </pre>
 
-<p align="center"><img src="https://user-images.githubusercontent.com/48202736/99594604-bfd5ea00-2a36-11eb-9c10-4e7385221408.png"  width="600"></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/48202736/99594604-bfd5ea00-2a36-11eb-9c10-4e7385221408.png"></p>
 <p align="center">< wav2vec 2.0: A Framework for Self-Supervised Learning of Speech Representations ></p> <br>
 
 |year|conference|research organization|title|link|code|
