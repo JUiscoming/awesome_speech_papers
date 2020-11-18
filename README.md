@@ -100,6 +100,8 @@
 <br>
  
 ***
+
+<br>
  
 # 2. End-to-End Speech Synthesis 
 
@@ -123,6 +125,8 @@
 
 
 ***
+
+<br>
 
 # 3. End-to-End Non-Autoregressive Sequence Generation Model
 
@@ -171,6 +175,8 @@ Non-Autoregressive 모델은 논문이 별로 없기 때문에 기계번역(NMT)
 <br>
 
 ***
+
+<br>
 
 # 4. End-to-End Spoken Language Understanding 
 <pre>
@@ -225,6 +231,8 @@ End-to-End Spoken Language Understanding (SLU)란 음성을 입력으로 받아 
 <br>
 
 ***
+
+<br>
 
 # 5. Self-Supervised(or Semi-Supervised) Learning for Speech 
 <pre>
