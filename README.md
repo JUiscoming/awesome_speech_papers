@@ -31,11 +31,7 @@
 - CTC based ASR model
   - If you're new to CTC-based ASR model, you'd better see this blog before reading papers : [post for Distill blog](https://distill.pub/2017/ctc/)
 
-%![DeepSpeech2](https://user-images.githubusercontent.com/48202736/99594617-c4020780-2a36-11eb-99af-8f9a200584e1.png "DeepSpeech")
-
-<img src="https://user-images.githubusercontent.com/48202736/99594617-c4020780-2a36-11eb-99af-8f9a200584e1.png"  width="700" title="asd">
-
-출처: https://cutemoomin.tistory.com/112 [무민은귀여워]
+<p align="center"><img src="https://user-images.githubusercontent.com/48202736/99594617-c4020780-2a36-11eb-99af-8f9a200584e1.png"  width="700" title="asd"></p>
 
 |year|conference|research organization|title|model|link|code|
 |--|--|--|------|---|--|--|
