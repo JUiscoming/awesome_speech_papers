@@ -49,8 +49,8 @@
     - [post for Seq2Seq with Attention Network 3](https://guillaumegenthial.github.io/sequence-to-sequence.html)
     - [post for Transformer](http://jalammar.github.io/illustrated-transformer/)
     
-<p align="center"><img src="https://user-images.githubusercontent.com/48202736/99594615-c3697100-2a36-11eb-9d79-fe819d8958d2.png"  width="600"></p>
-<p align="center"><img src="https://user-images.githubusercontent.com/48202736/99594613-c2d0da80-2a36-11eb-948f-9790dc9365f6.png"  width="600"></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/48202736/99594615-c3697100-2a36-11eb-9d79-fe819d8958d2.png"></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/48202736/99594613-c2d0da80-2a36-11eb-948f-9790dc9365f6.png"></p>
 <p align="center">< Listen, Attend and Spell ></p> <br>
 
 |year|conference|research organization|title|model|link|code|
@@ -76,7 +76,7 @@
 
 - RNN-T based ASR model
 
-<p align="center"><img src="https://user-images.githubusercontent.com/48202736/99594611-c2384400-2a36-11eb-99bc-c4a9fd426e55.png"  width="600"></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/48202736/99594611-c2384400-2a36-11eb-99bc-c4a9fd426e55.png"></p>
 <p align="center">< Streaming E2E Speech Recognition For Mobile Devices ></p> <br>
 
 |year|conference|research organization|title|model|link|code|
