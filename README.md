@@ -130,15 +130,12 @@ Non-Autoregressive 모델은 논문이 별로 없기 때문에 기계번역(NMT)
 </code>
 </pre>
 
-- Non-Autoregressive(NA) ASR, TTS
-
-|year|conference|research organization|title|model|link|code|
-|--|--|--|------|---|--|--|
-|2020|Interspeech|-|Mask CTC: Non-Autoregressive End-to-End ASR with CTC and Mask Predict|CTC-based|||
-|2020|Interspeech|-|Spike-Triggered Non-Autoregressive Transformer for End-to-End Speech Recognition|CTC-based|||
-|2020||-|A Study of Non-autoregressive Model for Sequence Generation||||
-
 - Non-Autoregressive(NA) NMT
+
+<p align="center"><img src="https://user-images.githubusercontent.com/48202736/99598419-d717d600-2a3c-11eb-812b-f45c8bb815d5.png"></p>
+<p align="center">< NON-AUTOREGRESSIVE NEURAL MACHINE TRANSLATION ></p> <br>
+<p align="center"><img src="https://user-images.githubusercontent.com/48202736/99598089-5b1d8e00-2a3c-11eb-8196-a629bcda9338.png"></p>
+<p align="center">< Latent-Variable Non-Autoregressive Neural Machine Translation with Deterministic Inference Using a Delta Posterior ></p> <br>
 
 |year|conference|research organization|title|model|link|code|
 |--|--|--|------|---|--|--|
@@ -150,6 +147,18 @@ Non-Autoregressive 모델은 논문이 별로 없기 때문에 기계번역(NMT)
 |2020||-|ENGINE: Energy-Based Inference Networks for Non-Autoregressive Machine Translation||||
 |2019||University of Tokyo,FAIR,MILA,NYU|Latent-Variable Non-Autoregressive Neural Machine Translation with Deterministic Inference Using a Delta Posterior||||
 
+- Non-Autoregressive(NA) ASR, TTS
+
+<p align="center"><img src="https://user-images.githubusercontent.com/48202736/99598098-5d7fe800-2a3c-11eb-8bc0-d668d8ed34f5.png"></p>
+<p align="center">< Mask CTC: Non-Autoregressive End-to-End ASR with CTC and Mask Predict ></p> <br>
+<p align="center"><img src="https://user-images.githubusercontent.com/48202736/99598101-5eb11500-2a3c-11eb-9ff9-1ea99aa0c6fd.png"></p>
+<p align="center">< Spike-Triggered Non-Autoregressive Transformer for End-to-End Speech Recognition ></p> <br>
+
+|year|conference|research organization|title|model|link|code|
+|--|--|--|------|---|--|--|
+|2020|Interspeech|-|Mask CTC: Non-Autoregressive End-to-End ASR with CTC and Mask Predict|CTC-based|||
+|2020|Interspeech|-|Spike-Triggered Non-Autoregressive Transformer for End-to-End Speech Recognition|CTC-based|||
+|2020||-|A Study of Non-autoregressive Model for Sequence Generation||||
 
 - Non-Autoregressive(NA) Speech Synthesis, TTS
 
