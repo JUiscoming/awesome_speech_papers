@@ -30,7 +30,7 @@
 
 # 1. End-to-End Speech Recognition 
 
-## **CTC based ASR model**
+## **1.1 CTC based ASR model**
 - If you're new to CTC-based ASR model, you'd better see this blog before reading papers : [post for Distill blog](https://distill.pub/2017/ctc/)
 
 <p align="center"><img src="https://user-images.githubusercontent.com/48202736/99594617-c4020780-2a36-11eb-99af-8f9a200584e1.png"></p>
@@ -45,7 +45,7 @@
 
 <br>
 
-## **Attention based ASR model**
+## **1.2 Attention based ASR model**
 - If you're new to seq2seq with attention network, you'd better check following things
   - [post for Seq2Seq with Attention Network 1](https://lilianweng.github.io/lil-log/2018/06/24/attention-attention.html)
   - [post for Seq2Seq with Attention Network 2](https://distill.pub/2016/augmented-rnns/)
@@ -69,7 +69,7 @@
 |2020||Google|Conformer: Convolution-augmented Transformer for Speech Recognition||[paper](https://arxiv.org/pdf/2005.08100)||
 |2020||Google|ContextNet: Improving Convolutional Neural Networks for Automatic Speech Recognition with Global Context||[paper](https://arxiv.org/pdf/2005.03191)||
 
-## **Hybrid Model**
+## **1.3 Hybrid Model**
 
 |year|conference|research organization|title|model|link|code|
 |--|--|--|------|---|--|--|
@@ -77,7 +77,7 @@
 
 <br>
 
-## **RNN-T based ASR model**
+## **1.4 RNN-T based ASR model**
 
 <p align="center"><img src="https://user-images.githubusercontent.com/48202736/99594611-c2384400-2a36-11eb-99bc-c4a9fd426e55.png"></p>
 <p align="center">< Streaming E2E Speech Recognition For Mobile Devices ></p> <br>
@@ -92,7 +92,7 @@
 
 <br>
 
-## **Streaming ASR**
+## **1.5 Streaming ASR**
 
 |year|conference|research organization|title|model|link|code|
 |--|--|--|------|---|--|--|
@@ -137,7 +137,7 @@ Non-Autoregressive 모델은 논문이 별로 없기 때문에 기계번역(NMT)
 </code>
 </pre>
 
-## **Non-Autoregressive(NA) NMT**
+## **3.1 Non-Autoregressive(NA) NMT**
 
 <p align="center"><img src="https://user-images.githubusercontent.com/48202736/99598419-d717d600-2a3c-11eb-812b-f45c8bb815d5.png"></p>
 <p align="center">< NON-AUTOREGRESSIVE NEURAL MACHINE TRANSLATION ></p> <br>
@@ -156,7 +156,7 @@ Non-Autoregressive 모델은 논문이 별로 없기 때문에 기계번역(NMT)
 
 <br>
 
-## **Non-Autoregressive(NA) ASR (TTS)**
+## **3.2 Non-Autoregressive(NA) ASR (TTS)**
 
 <p align="center"><img src="https://user-images.githubusercontent.com/48202736/99598098-5d7fe800-2a3c-11eb-8bc0-d668d8ed34f5.png"></p>
 <p align="center">< Mask CTC: Non-Autoregressive End-to-End ASR with CTC and Mask Predict ></p> <br>
@@ -171,7 +171,7 @@ Non-Autoregressive 모델은 논문이 별로 없기 때문에 기계번역(NMT)
 
 <br>
 
-## **Non-Autoregressive(NA) Speech Synthesis (TTS)**
+## **3.3 Non-Autoregressive(NA) Speech Synthesis (TTS)**
 
 |year|conference|research organization|title|model|link|code|
 |--|--|--|------|---|--|--|
@@ -201,7 +201,7 @@ End-to-End Spoken Language Understanding (SLU)란 음성을 입력으로 받아 
 <p align="center">< Towards End-to-end Spoken Language Understanding ></p> <br>
 
 
-## **Dataset ( including all speech slu dataset IC/SF/SQA ... )**
+## **4.1 Dataset ( including all speech slu dataset IC/SF/SQA ... )**
   - Intent Classification (IC)
   - Spoken Question Answering (SQA)
   - Emotion Recognition (ER)
@@ -220,7 +220,7 @@ End-to-End Spoken Language Understanding (SLU)란 음성을 입력으로 받아 
 
 <br>
 
-## **Intent Classification (IC)**
+## **4.2 Intent Classification (IC)**
 
 |year|conference|research organization|title|model|link|code|
 |--|--|--|------|---|--|--|
@@ -229,7 +229,7 @@ End-to-End Spoken Language Understanding (SLU)란 음성을 입력으로 받아 
 
 <br>
 
-## **Spoken Question Answering (SQA)**
+## **4.3 Spoken Question Answering (SQA)**
 
 |year|conference|research organization|title|model|link|code|
 |--|--|--|------|---|--|--|
@@ -237,7 +237,7 @@ End-to-End Spoken Language Understanding (SLU)란 음성을 입력으로 받아 
 
 <br>
 
-## **Emotion Recognition (ER)**
+## **4.4 Emotion Recognition (ER)**
 
 <br>
 
