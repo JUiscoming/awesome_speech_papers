@@ -30,8 +30,8 @@
 
 # 1. End-to-End Speech Recognition 
 
-- **CTC based ASR model**
-  - If you're new to CTC-based ASR model, you'd better see this blog before reading papers : [post for Distill blog](https://distill.pub/2017/ctc/)
+## CTC based ASR model
+- If you're new to CTC-based ASR model, you'd better see this blog before reading papers : [post for Distill blog](https://distill.pub/2017/ctc/)
 
 <p align="center"><img src="https://user-images.githubusercontent.com/48202736/99594617-c4020780-2a36-11eb-99af-8f9a200584e1.png"></p>
 <p align="center">< Deep Speech 2 : End-to-End Speech Recognition in English and Mandarin ></p> <br>
@@ -45,12 +45,12 @@
 
 <br>
 
-- **Attention based ASR model**
-  - If you're new to seq2seq with attention network, you'd better check following things
-    - [post for Seq2Seq with Attention Network 1](https://lilianweng.github.io/lil-log/2018/06/24/attention-attention.html)
-    - [post for Seq2Seq with Attention Network 2](https://distill.pub/2016/augmented-rnns/)
-    - [post for Seq2Seq with Attention Network 3](https://guillaumegenthial.github.io/sequence-to-sequence.html)
-    - [post for Transformer](http://jalammar.github.io/illustrated-transformer/)
+## Attention based ASR model
+- If you're new to seq2seq with attention network, you'd better check following things
+  - [post for Seq2Seq with Attention Network 1](https://lilianweng.github.io/lil-log/2018/06/24/attention-attention.html)
+  - [post for Seq2Seq with Attention Network 2](https://distill.pub/2016/augmented-rnns/)
+  - [post for Seq2Seq with Attention Network 3](https://guillaumegenthial.github.io/sequence-to-sequence.html)
+  - [post for Transformer](http://jalammar.github.io/illustrated-transformer/)
     
 <p align="center"><img src="https://user-images.githubusercontent.com/48202736/99594615-c3697100-2a36-11eb-9d79-fe819d8958d2.png"></p>
 <p align="center"><img src="https://user-images.githubusercontent.com/48202736/99594613-c2d0da80-2a36-11eb-948f-9790dc9365f6.png"></p>
