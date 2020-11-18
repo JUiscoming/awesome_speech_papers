@@ -30,7 +30,7 @@
 
 # 1. End-to-End Speech Recognition 
 
-## CTC based ASR model
+## **CTC based ASR model**
 - If you're new to CTC-based ASR model, you'd better see this blog before reading papers : [post for Distill blog](https://distill.pub/2017/ctc/)
 
 <p align="center"><img src="https://user-images.githubusercontent.com/48202736/99594617-c4020780-2a36-11eb-99af-8f9a200584e1.png"></p>
@@ -45,7 +45,7 @@
 
 <br>
 
-## Attention based ASR model
+## **Attention based ASR model**
 - If you're new to seq2seq with attention network, you'd better check following things
   - [post for Seq2Seq with Attention Network 1](https://lilianweng.github.io/lil-log/2018/06/24/attention-attention.html)
   - [post for Seq2Seq with Attention Network 2](https://distill.pub/2016/augmented-rnns/)
@@ -92,7 +92,7 @@
 
 <br>
 
-- **Streaming ASR**
+## **Streaming ASR**
 
 |year|conference|research organization|title|model|link|code|
 |--|--|--|------|---|--|--|
@@ -137,7 +137,7 @@ Non-Autoregressive 모델은 논문이 별로 없기 때문에 기계번역(NMT)
 </code>
 </pre>
 
-- **Non-Autoregressive(NA) NMT**
+## **Non-Autoregressive(NA) NMT**
 
 <p align="center"><img src="https://user-images.githubusercontent.com/48202736/99598419-d717d600-2a3c-11eb-812b-f45c8bb815d5.png"></p>
 <p align="center">< NON-AUTOREGRESSIVE NEURAL MACHINE TRANSLATION ></p> <br>
@@ -156,7 +156,7 @@ Non-Autoregressive 모델은 논문이 별로 없기 때문에 기계번역(NMT)
 
 <br>
 
-- **Non-Autoregressive(NA) ASR (TTS)**
+## **Non-Autoregressive(NA) ASR (TTS)**
 
 <p align="center"><img src="https://user-images.githubusercontent.com/48202736/99598098-5d7fe800-2a3c-11eb-8bc0-d668d8ed34f5.png"></p>
 <p align="center">< Mask CTC: Non-Autoregressive End-to-End ASR with CTC and Mask Predict ></p> <br>
@@ -171,7 +171,7 @@ Non-Autoregressive 모델은 논문이 별로 없기 때문에 기계번역(NMT)
 
 <br>
 
-- **Non-Autoregressive(NA) Speech Synthesis (TTS)**
+## **Non-Autoregressive(NA) Speech Synthesis (TTS)**
 
 |year|conference|research organization|title|model|link|code|
 |--|--|--|------|---|--|--|
@@ -201,7 +201,7 @@ End-to-End Spoken Language Understanding (SLU)란 음성을 입력으로 받아 
 <p align="center">< Towards End-to-end Spoken Language Understanding ></p> <br>
 
 
-* **Dataset ( including all speech slu dataset IC/SF/SQA ... )**
+## **Dataset ( including all speech slu dataset IC/SF/SQA ... )**
   - Intent Classification (IC)
   - Spoken Question Answering (SQA)
   - Emotion Recognition (ER)
@@ -220,7 +220,7 @@ End-to-End Spoken Language Understanding (SLU)란 음성을 입력으로 받아 
 
 <br>
 
-* **Intent Classification (IC)**
+## **Intent Classification (IC)**
 
 |year|conference|research organization|title|model|link|code|
 |--|--|--|------|---|--|--|
@@ -229,7 +229,7 @@ End-to-End Spoken Language Understanding (SLU)란 음성을 입력으로 받아 
 
 <br>
 
-* **Spoken Question Answering (SQA)**
+## **Spoken Question Answering (SQA)**
 
 |year|conference|research organization|title|model|link|code|
 |--|--|--|------|---|--|--|
@@ -237,7 +237,7 @@ End-to-End Spoken Language Understanding (SLU)란 음성을 입력으로 받아 
 
 <br>
 
-* **Emotion Recognition (ER)**
+## **Emotion Recognition (ER)**
 
 <br>
 
