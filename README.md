@@ -33,7 +33,7 @@
 
 ![DeepSpeech2](https://user-images.githubusercontent.com/48202736/99594617-c4020780-2a36-11eb-99af-8f9a200584e1.png)
 
-<p align="center"><img src="https://user-images.githubusercontent.com/48202736/99594617-c4020780-2a36-11eb-99af-8f9a200584e1.png" height="500px" width="500px"></p>
+![DeepSpeech2]<p align="center"><img src="https://user-images.githubusercontent.com/48202736/99594617-c4020780-2a36-11eb-99af-8f9a200584e1.png" width="500px"></p>
 
 |year|conference|research organization|title|model|link|code|
 |--|--|--|------|---|--|--|
