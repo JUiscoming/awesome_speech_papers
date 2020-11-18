@@ -32,7 +32,7 @@
   - If you're new to CTC-based ASR model, you'd better see this blog before reading papers : [post for Distill blog](https://distill.pub/2017/ctc/)
 
 <p align="center"><img src="https://user-images.githubusercontent.com/48202736/99594617-c4020780-2a36-11eb-99af-8f9a200584e1.png"  width="500"></p>
-<p align="center">Deep Speech 2 : End-to-End Speech Recognition in English and Mandarin</p> <br>
+<p align="center">< Deep Speech 2 : End-to-End Speech Recognition in English and Mandarin ></p> <br>
   
 |year|conference|research organization|title|model|link|code|
 |--|--|--|------|---|--|--|
@@ -51,7 +51,7 @@
     
 <p align="center"><img src="https://user-images.githubusercontent.com/48202736/99594615-c3697100-2a36-11eb-9d79-fe819d8958d2.png"  width="500"></p>
 <p align="center"><img src="https://user-images.githubusercontent.com/48202736/99594613-c2d0da80-2a36-11eb-948f-9790dc9365f6.png"  width="500"></p>
-<p align="center">Listen, Attend and Spell</p> <br>
+<p align="center">< Listen, Attend and Spell ></p> <br>
 
 |year|conference|research organization|title|model|link|code|
 |--|--|--|------|---|--|--|
@@ -77,7 +77,7 @@
 - RNN-T based ASR model
 
 <p align="center"><img src="https://user-images.githubusercontent.com/48202736/99594611-c2384400-2a36-11eb-99bc-c4a9fd426e55.png"  width="500"></p>
-<p align="center">Streaming E2E Speech Recognition For Mobile Devices</p> <br>
+<p align="center">< Streaming E2E Speech Recognition For Mobile Devices ></p> <br>
 
 |year|conference|research organization|title|model|link|code|
 |--|--|--|------|---|--|--|
@@ -217,7 +217,7 @@ Label되지 않은 방대한 data를 self-supervised (or semi-supervised) 방법
 </pre>
 
 <p align="center"><img src="https://user-images.githubusercontent.com/48202736/99594604-bfd5ea00-2a36-11eb-9c10-4e7385221408.png"  width="500"></p>
-<p align="center">wav2vec 2.0: A Framework for Self-Supervised Learning of Speech Representations</p> <br>
+<p align="center">< wav2vec 2.0: A Framework for Self-Supervised Learning of Speech Representations ></p> <br>
 
 |year|conference|research organization|title|link|code|
 |--|--|--|------|--|--|
