@@ -43,6 +43,7 @@
 |2016|ICML||**Deep Speech 2 : End-to-End Speech Recognition in English and Mandarin**|CTC-based CNN model|[paper](https://arxiv.org/pdf/1512.02595)|[code(pytorch)](https://github.com/SeanNaren/deepspeech.pytorch)|
 |2019|Interspeech|Nvidia|Jasper: An End-to-End Convolutional Neural Acoustic Model||||
 
+<br>
 
 - **Attention based ASR model**
   - If you're new to seq2seq with attention network, you'd better check following things
@@ -153,6 +154,8 @@ Non-Autoregressive 모델은 논문이 별로 없기 때문에 기계번역(NMT)
 |2020||-|ENGINE: Energy-Based Inference Networks for Non-Autoregressive Machine Translation||||
 |2019||University of Tokyo,FAIR,MILA,NYU|Latent-Variable Non-Autoregressive Neural Machine Translation with Deterministic Inference Using a Delta Posterior||||
 
+<br>
+
 - **Non-Autoregressive(NA) ASR (TTS)**
 
 <p align="center"><img src="https://user-images.githubusercontent.com/48202736/99598098-5d7fe800-2a3c-11eb-8bc0-d668d8ed34f5.png"></p>
@@ -165,6 +168,8 @@ Non-Autoregressive 모델은 논문이 별로 없기 때문에 기계번역(NMT)
 |2020|Interspeech|-|Mask CTC: Non-Autoregressive End-to-End ASR with CTC and Mask Predict|CTC-based|||
 |2020|Interspeech|-|Spike-Triggered Non-Autoregressive Transformer for End-to-End Speech Recognition|CTC-based|||
 |2020||-|A Study of Non-autoregressive Model for Sequence Generation||||
+
+<br>
 
 - **Non-Autoregressive(NA) Speech Synthesis (TTS)**
 
@@ -213,6 +218,8 @@ End-to-End Spoken Language Understanding (SLU)란 음성을 입력으로 받아 
 |ER|IEMOCAP|2017|-|IEMOCAP: Interactive emotional dyadic motion capture database|[paper](https://ecs.utdallas.edu/research/researchlabs/msp-lab/publications/Busso_2008_5.pdf)|[dataset](https://sail.usc.edu/iemocap/)|
 |ER|CMU-MOSEI|2018|-|Multimodal Language Analysis in the Wild: CMU-MOSEI Dataset and Interpretable Dynamic Fusion Graph|[paper](https://www.aclweb.org/anthology/P18-1208.pdf)|[dataset](https://github.com/A2Zadeh/CMU-MultimodalSDK)|
 
+<br>
+
 * **Intent Classification (IC)**
 
 |year|conference|research organization|title|model|link|code|
@@ -220,11 +227,15 @@ End-to-End Spoken Language Understanding (SLU)란 음성을 입력으로 받아 
 |2018|ICASSP|Facebook, MILA|Towards End-to-end Spoken Language Understanding||[paper](https://arxiv.org/pdf/1802.08395)||
 |2019|Interspeech|MILA,CIFAR|Speech Model Pre-training for End-to-End Spoken Language Understanding||[paper](https://arxiv.org/pdf/1904.03670)|[code(official)](https://github.com/lorenlugosch/end-to-end-SLU)|
 
+<br>
+
 * **Spoken Question Answering (SQA)**
 
 |year|conference|research organization|title|model|link|code|
 |--|--|--|------|---|--|--|
 |2018|Interspeech||Spoken SQuAD: A Study of Mitigating the Impact of Speech Recognition Errors on Listening Comprehension|dataset|[paper](https://arxiv.org/abs/1804.00320)|[github](https://github.com/chiahsuan156/Spoken-SQuAD)|
+
+<br>
 
 * **Emotion Recognition (ER)**
 
