@@ -101,6 +101,9 @@
  
 # 2. End-to-End Speech Synthesis 
 
+<p align="center"><img src="https://user-images.githubusercontent.com/48202736/99596501-bb5f0080-2a39-11eb-8e70-0411e2b4926d.png"  width="500"></p>
+<p align="center">< Tacotron: Towards End-to-End Speech Synthesis ></p> <br>
+
 <br>
 
 |year|conference|research organization|title|model|link|code|
