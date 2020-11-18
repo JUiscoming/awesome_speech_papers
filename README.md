@@ -48,6 +48,10 @@
     - [post for Seq2Seq with Attention Network 2](https://distill.pub/2016/augmented-rnns/)
     - [post for Seq2Seq with Attention Network 3](https://guillaumegenthial.github.io/sequence-to-sequence.html)
     - [post for Transformer](http://jalammar.github.io/illustrated-transformer/)
+    
+<p align="center"><img src="https://user-images.githubusercontent.com/48202736/99594615-c3697100-2a36-11eb-9d79-fe819d8958d2.png"  width="500"></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/48202736/99594613-c2d0da80-2a36-11eb-948f-9790dc9365f6.png"  width="500"></p>
+<p align="center">Deep Speech 2 : End-to-End Speech Recognition in English and Mandarin</p> <br>
 
 |year|conference|research organization|title|model|link|code|
 |--|--|--|------|---|--|--|
