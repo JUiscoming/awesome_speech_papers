@@ -22,6 +22,14 @@
 - 5.Self-Supervised(or Semi-Supervised) Learning for Speech 
 
 
+- TBC
+  - Voice Conversion
+  - Speaker Identification
+  - MIR ?
+  - Rescoring
+  - Speech Translation
+
+
 <br>
 
 ***
