@@ -96,7 +96,7 @@
 
 |year|conference|research organization|title|model|link|code|
 |--|--|--|------|---|--|--|
-|2019||Google|**Two-Pass End-to-End Speech Recognition**||||
+|2019||Google|**Two-Pass End-to-End Speech Recognition**|LAS+RNN-T|[paper](https://arxiv.org/pdf/1908.10992)||
 
 <br>
  
