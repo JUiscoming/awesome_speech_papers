@@ -97,7 +97,11 @@
 |2018|ICASSP|Google|**Streaming E2E Speech Recognition For Mobile Devices**||[paper](https://arxiv.org/pdf/1811.06621)||
 |2018||Google|Exploring Architectures, Data and Units For Streaming End-to-End Speech Recognition with RNN-Transducer||||
 |2019||Google|Improving RNN Transducer Modeling for End-to-End Speech Recognition||||
-
+|2019||-|Self-Attention Transducers for End-to-End Speech Recognition||||
+|2020|ICASSP|-|Transformer Transducer: A Streamable Speech Recognition Model With Transformer Encoders And RNN-T Loss||||
+|2020|ICASSP|-| A Streaming On-Device End-to-End Model Surpassing Server-Side Conventional Model Quality and Latency||||
+|2021|ICASSP|-| FastEmit: Low-latency Streaming ASR with Sequence-level Emission Regularization||||
+|2021|ICASSP|-|Improved Neural Language Model Fusion for Streaming Recurrent Neural Network Transducer||||
 
 <br>
 
