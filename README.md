@@ -128,7 +128,7 @@ This is from [link](https://github.com/SeunghyunSEO/speech-recognition-papers)
 </pre>
 
 |year|conference|research organization|title|model|task|link|code|
-|--|--|--|------|---|--|--|
+|--|--|--|------|---|--|--|--|
 |2019|||Automatic Speech Recognition Errors Detection and Correction|||||
 |2019|||A Spelling Correction Model For E2E Speech Recognition|||||
 |2019|||An Empirical Study Of Efficient ASR Rescoring With Transformers|||||
