@@ -51,7 +51,7 @@
 |2014|||Deep speech: Scaling up end-to-end speech recognition||||
 |2016|ICML||**Deep Speech 2 : End-to-End Speech Recognition in English and Mandarin**|CTC-based CNN model|[paper](https://arxiv.org/pdf/1512.02595)|[code(pytorch)](https://github.com/SeanNaren/deepspeech.pytorch)|
 |2019|Interspeech|Nvidia|Jasper: An End-to-End Convolutional Neural Acoustic Model||||
-|2019||Nvidia|Quartznet: Deep automatic speech recognition with 1d time-channel separable convolutions||||
+|2019||Nvidia|**Quartznet: Deep automatic speech recognition with 1d time-channel separable convolutions**||||
 
 <br>
 
