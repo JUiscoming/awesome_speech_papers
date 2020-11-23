@@ -39,7 +39,7 @@
 # 1. End-to-End Speech Recognition 
 
 ## **1.1 CTC based ASR model**
-- If you're new to CTC-based ASR model, you'd better see this blog before reading papers : [post for Distill blog](https://distill.pub/2017/ctc/)
+- If you're new to CTC-based ASR model, you'd better see this blog before reading papers : [post for CTC from Distill blog](https://distill.pub/2017/ctc/)
 
 <p align="center"><img src="https://user-images.githubusercontent.com/48202736/99594617-c4020780-2a36-11eb-99af-8f9a200584e1.png"></p>
 <p align="center">< Deep Speech 2 : End-to-End Speech Recognition in English and Mandarin ></p> <br>
