@@ -102,6 +102,9 @@
 
 ## **1.5 Streaming ASR**
 
+<p align="center"><img src="https://user-images.githubusercontent.com/48202736/99951915-299d1d80-2dc2-11eb-916c-51ea46602ca6.png"></p>
+<p align="center">< Two-Pass End-to-End Speech Recognition ></p> <br>
+
 |year|conference|research organization|title|model|link|code|
 |--|--|--|------|---|--|--|
 |2019||Google|**Two-Pass End-to-End Speech Recognition**|LAS+RNN-T|[paper](https://arxiv.org/pdf/1908.10992)||
