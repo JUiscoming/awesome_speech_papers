@@ -51,6 +51,7 @@
 |2014|||Deep speech: Scaling up end-to-end speech recognition||||
 |2016|ICML||**Deep Speech 2 : End-to-End Speech Recognition in English and Mandarin**|CTC-based CNN model|[paper](https://arxiv.org/pdf/1512.02595)|[code(pytorch)](https://github.com/SeanNaren/deepspeech.pytorch)|
 |2019|Interspeech|Nvidia|Jasper: An End-to-End Convolutional Neural Acoustic Model||||
+|2019||Nvidia|Quartznet: Deep automatic speech recognition with 1d time-channel separable convolutions||||
 
 <br>
 
@@ -75,14 +76,15 @@
 |2017|ICLR||**Monotonic Chunkwise Attention**||||
 |2018|ICASSP||**Speech-Transformer: A No-Recurrence Sequence-to-Sequence Model for Speech Recognition**||||
 |2019|||Listen, Attend, Spell and Adapt: Speaker Adapted Sequence-to-Sequence ASR||||
+|2019|||**A Comparative Study on Transformer vs RNN in Speech Applications**||[paper](https://arxiv.org/pdf/1909.06317)||
+|2019|||**End-to-end ASR: from Supervised to Semi-Supervised Learning with Modern Architectures**||[paper](https://arxiv.org/pdf/1911.08460)||
 |2020||Google|Conformer: Convolution-augmented Transformer for Speech Recognition||[paper](https://arxiv.org/pdf/2005.08100)||
-|2020||Google|ContextNet: Improving Convolutional Neural Networks for Automatic Speech Recognition with Global Context||[paper](https://arxiv.org/pdf/2005.03191)||
 
 ## **1.3 Hybrid Model**
 
 |year|conference|research organization|title|model|link|code|
 |--|--|--|------|---|--|--|
-|2012|||aaa||||
+|2019|||Transformer-based Acoustic Modeling for Hybrid Speech Recognition||[paper](https://arxiv.org/pdf/1910.09799)||
 
 <br>
 
@@ -98,10 +100,11 @@
 |2018||Google|Exploring Architectures, Data and Units For Streaming End-to-End Speech Recognition with RNN-Transducer||||
 |2019||Google|Improving RNN Transducer Modeling for End-to-End Speech Recognition||||
 |2019||-|Self-Attention Transducers for End-to-End Speech Recognition||||
-|2020|ICASSP|-|Transformer Transducer: A Streamable Speech Recognition Model With Transformer Encoders And RNN-T Loss||||
-|2020|ICASSP|-| A Streaming On-Device End-to-End Model Surpassing Server-Side Conventional Model Quality and Latency||||
-|2021|ICASSP|-| FastEmit: Low-latency Streaming ASR with Sequence-level Emission Regularization||||
+|2020|ICASSP|-|**Transformer Transducer: A Streamable Speech Recognition Model With Transformer Encoders And RNN-T Loss**||||
+|2020|ICASSP|-|A Streaming On-Device End-to-End Model Surpassing Server-Side Conventional Model Quality and Latency||||
+|2021|ICASSP|-|FastEmit: Low-latency Streaming ASR with Sequence-level Emission Regularization||||
 |2021|ICASSP|-|Improved Neural Language Model Fusion for Streaming Recurrent Neural Network Transducer||||
+|2020||Google|ContextNet: Improving Convolutional Neural Networks for Automatic Speech Recognition with Global Context||[paper](https://arxiv.org/pdf/2005.03191)||
 
 <br>
 
