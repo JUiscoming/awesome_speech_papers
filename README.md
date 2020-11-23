@@ -118,6 +118,26 @@
 |2019||Google|**Two-Pass End-to-End Speech Recognition**|LAS+RNN-T|[paper](https://arxiv.org/pdf/1908.10992)||
 
 <br>
+
+## **1.5 ASR Rescoring / Spelling Correction (2-pass decoding)**
+
+<pre>
+<code>
+This is from [link](https://github.com/SeunghyunSEO/speech-recognition-papers)
+</code>
+</pre>
+
+|year|conference|research organization|title|model|task|link|code|
+|--|--|--|------|---|--|--|
+|2019|||Automatic Speech Recognition Errors Detection and Correction|||||
+|2019|||A Spelling Correction Model For E2E Speech Recognition|||||
+|2019|||An Empirical Study Of Efficient ASR Rescoring With Transformers|||||
+|2019|||Automatic Spelling Correction with Transformer for CTC-based End-to-End Speech Recognition|||||
+|2019|||Correction of Automatic Speech Recognition with Transformer Sequence-To-Sequence Model|||||
+|2019|||Effective Sentence Scoring Method Using BERT for Speech Recognition||asr|||
+|2019|||Spelling Error Correction with Soft-Masked BERT||nlp|||
+|2019|||Parallel Rescoring with Transformer for Streaming On-Device Speech Recognition||asr|||
+
  
 ***
 
