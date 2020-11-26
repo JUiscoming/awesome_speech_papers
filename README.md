@@ -2,7 +2,7 @@
 
 <pre>
 <code>
-This repository is for those who want to study or research End-to-End Speech tasks ( Speech Recognition, Speecn Synthesis so on).
+This repository is for those who want to study or research Speech tasks ( Speech Recognition, Speecn Synthesis so on).
 </code>
 </pre>
 
