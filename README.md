@@ -220,7 +220,7 @@ Non-Autoregressive 모델은 논문이 별로 없기 때문에 기계번역(NMT)
 
 <br>
 
-## **3.2 Non-Autoregressive(NA) ASR (TTS)**
+## **3.2 Non-Autoregressive(NA) ASR (STT)**
 
 <p align="center"><img src="https://user-images.githubusercontent.com/48202736/99598098-5d7fe800-2a3c-11eb-8bc0-d668d8ed34f5.png"></p>
 <p align="center">< Mask CTC: Non-Autoregressive End-to-End ASR with CTC and Mask Predict ></p> <br>
