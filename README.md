@@ -1,21 +1,16 @@
 # About This Repository
 
-<pre>
-<code>
+```
 This repository is for those who want to study or research Speech tasks ( Speech Recognition, Speecn Synthesis so on).
-</code>
-</pre>
+```
 
-<pre>
-<code>
+```
 이 페이지는 음성 관련 task (음성 인식, 음성 합성  등)를 공부 및 연구하고 싶은 newbie들을 위해 만들어짐. 
 최대한 페이퍼를 많이 포함하기 보다는 중요하고(citation이 충분히 높고, 신뢰할 만한 기관에서 수행했으며, 
 top 컨퍼런스/에 publish된 페이퍼 위주) 최신자 페이퍼들만 포함하려고 함.(주관적일 수 있음) 
 
 갑자기 잡동사니가 되었습니다.
-
-</code>
-</pre>
+```
 
 ### temporal (training schemes or undefined)
 - don't decay the learning rate, increase the batch size, [paper](https://openreview.net/pdf?id=B1Yy1BxCZ)
@@ -142,11 +137,9 @@ top 컨퍼런스/에 publish된 페이퍼 위주) 최신자 페이퍼들만 포�
 
 ## **1.5 ASR Rescoring / Spelling Correction (2-pass decoding)**
 
-<pre>
-<code>
+```
 temporal
-</code>
-</pre>
+```
 
 - This is from [link](https://github.com/SeunghyunSEO/speech-recognition-papers)
 
@@ -205,12 +198,9 @@ temporal
 
 # 3. End-to-End Non-Autoregressive Sequence Generation Model
 
-<pre>
-<code>
+```
 Non-Autoregressive 모델은 논문이 별로 없기 때문에 기계번역(NMT)/음성인식(STT)/음성합성(STT) 모두 포함하려고 함.
-</code>
-</pre>
-
+```
 ## **3.1 Non-Autoregressive(NA) NMT**
 
 <p align="center"><img src="https://user-images.githubusercontent.com/48202736/99598419-d717d600-2a3c-11eb-812b-f45c8bb815d5.png"></p>
@@ -258,15 +248,13 @@ Non-Autoregressive 모델은 논문이 별로 없기 때문에 기계번역(NMT)
 <br>
 
 # 4. End-to-End Spoken Language Understanding 
-<pre>
-<code>
+```
 기존의 Spoken Language Understanding (SLU) 는 음성을 입력받아 ASR module이 텍스트를 출력하고, 
 이를 입력으로 받은 Natural Language Understanding (NLU) module이 감정(emotion)/의도(intent,slot) 등을 결과로 출력했다.
 
 End-to-End Spoken Language Understanding (SLU)란 음성을 입력으로 받아 direct로 결과를 출력함으로써
 음성인식 네트워크가 가지고 있는 에러율에 구애받지 않고 fully differentiable 하게 학습하는 것이 목적이다.
-</code>
-</pre>
+```
 
 <p align="center"><img src="https://user-images.githubusercontent.com/48202736/99597193-f7df2c00-2a3a-11eb-8c93-3e2b9a6698eb.png"></p>
 <p align="center">( Conventional Pipeline for Spoken Language Understanding ( ASR -> NLU ) )</p> <br>
@@ -322,16 +310,14 @@ End-to-End Spoken Language Understanding (SLU)란 음성을 입력으로 받아 
 <br>
 
 # 5. Self-Supervised(or Semi-Supervised) Learning for Speech 
-<pre>
-<code>
+```
 Self-Supervised(or Semi-Supervised) Learning 이란 Yann Lecun이 강조했을 만큼 현재 2020년 현재 딥러닝에서 가장 핫 한 주제중 하나이며, 
 Label되지 않은 방대한 data를 self-supervised (or semi-supervised) 방법으로 학습하여 입력으로부터 더 좋은 Representation을 찾는 방법이다. 
 이렇게 사전 학습(pre-training)된 네트워크는 음성 인식 등 다른 task를 위해 task-specific 하게 미세 조정 (fine-tuning)하여 사용한다.
 
 사전 학습 방법은 AutoEncoder 부터 BERT 까지 다양한 방법으로 기존에 존재했으나 음성에 맞는 방식으로 연구된 논문들이 최근에 제시되어 왔으며, 
 이렇게 학습된 네트워크는 scratch 부터 학습한 네트워크보다 더욱 높은 성능을 자랑한다 .
-</code>
-</pre>
+```
 
 <p align="center"><img src="https://user-images.githubusercontent.com/48202736/99594604-bfd5ea00-2a36-11eb-9c10-4e7385221408.png"></p>
 <p align="center">< wav2vec 2.0: A Framework for Self-Supervised Learning of Speech Representations ></p> <br>
