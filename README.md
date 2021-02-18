@@ -104,6 +104,7 @@ I did not try to survey as many papers as possible but the most crucial papers (
 
 |year|conference|research organization|title|model|link|code|
 |--|--|--|------|---|--|--|
+|2017|||Hybrid CTC/Attention Architecture for End-to-End Speech Recognition|||
 |2019|||Transformer-based Acoustic Modeling for Hybrid Speech Recognition||[paper](https://arxiv.org/pdf/1910.09799)||
 
 <br>
@@ -139,9 +140,13 @@ RNN-T 이외에도, 어텐션 기반 seq2seq모델만으로 하려는 시도가 
 <p align="center"><img src="./network_images/two-stage.png"></p>
 <p align="center">Fig. Two-Pass End-to-End Speech Recognition</p> <br>
 
+<p align="center"><img src="./network_images/joint_streaming.png"></p>
+<p align="center">Fig. Streaming automatic speech recognition with the transformer model</p> <br>
+
 |year|conference|research organization|title|model|link|code|
 |--|--|--|------|---|--|--|
 |2019||Google|**Two-Pass End-to-End Speech Recognition**|LAS+RNN-T|[paper](https://arxiv.org/pdf/1908.10992)||
+|2020||MERL|Streaming automatic speech recognition with the transformer model|[paper](https://arxiv.org/pdf/2001.02674)||
 
 <br>
 
