@@ -1,7 +1,7 @@
 # About This Repository
 
 ***
-This repository is for those who want to study Speech tasks such as Speech Recognition, Speecn Synthesis, Spoken Language Understanding and so on). <br>
+This repository is for those who want to study Speech tasks such as Speech Recognition, Speecn Synthesis, Spoken Language Understanding and so on. <br>
 I did not try to survey as many papers as possible but the most crucial papers (especially recently published papers) by my standards.
 ***
 
