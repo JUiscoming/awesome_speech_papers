@@ -20,16 +20,21 @@ I did not try to survey as many papers as possible but the most crucial papers (
   - Hybrid ASR papers
   - RNN-T based ASR papers
   - Streaming ASR papers
+  
 - 2.End-to-End Speech Synthesis papers
+
 - 3.End-to-End Non-Autoregressive Sequence Generation papers
   - ASR
   - NMT
   - TTS
+
 - 4.End-to-End Spoken Language Understanding 
   - Intent Classification papers
   - Spoken Question Answering papers
   - Speech Emotion Recognition papers
+
 - 5.Front-End Learning for Speech 
+
 - 6.Self-Supervised(or Semi-Supervised) Learning for Speech 
 
 - 7.Training Schemes for Speech recognition
