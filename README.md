@@ -41,7 +41,7 @@ I did not try to survey as many papers as possible but the most crucial papers (
 
 - 6.Self-Supervised(or Semi-Supervised) Learning for Speech 
 
-- 7.Training Schemes for Speech recognition
+- 7.Some Trivial Schemes for Speech Tasks
 
 
 - TBC
@@ -360,7 +360,7 @@ Label되지 않은 방대한 data를 self-supervised (or semi-supervised) 방법
 
 
 
-# 7. Training Schemes for Speech Tasks 
+# 7. Some Trivial Schemes for Speech Tasks 
 
 |year|conference|research organization|title|link|code|
 |--|--|--|------|--|--|
