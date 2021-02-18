@@ -18,12 +18,6 @@ I did not try to survey as many papers as possible but the most crucial papers (
 - State-of-the-Art Speech Recognition Using Multi-Stream Self-Attention With Dilated 1D Convolutions [paper](https://arxiv.org/pdf/1910.00716)
 
 
----
-< Index >
-{: class="table-of-content"}
-* TOC
-{:toc}
----
 
 ## Index
 - 1.End-to-End Speech Recognition papers
