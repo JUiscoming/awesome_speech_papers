@@ -132,6 +132,12 @@ I did not try to survey as many papers as possible but the most crucial papers (
 
 ## **1.5 Streaming ASR**
 
+```
+사실 1.4의 RNN-T가 곧 Straeming ASR을 위해 디자인 되었는데 그게 그거 아니냐 라고 할 수도 있지만,
+RNN-T 이외에도, 어텐션 기반 seq2seq모델만으로 하려는 시도가 있었고, seq2seq 와 RNN-T를 합친 모델 등도 있었기 때문에
+따로 빼서 서브섹션을 하나 더 만들었습니다.
+```
+
 <p align="center"><img src="https://user-images.githubusercontent.com/48202736/99951915-299d1d80-2dc2-11eb-916c-51ea46602ca6.png"></p>
 <p align="center">< Two-Pass End-to-End Speech Recognition ></p> <br>
 
