@@ -362,10 +362,6 @@ Label되지 않은 방대한 data를 self-supervised (or semi-supervised) 방법
 
 # 7. Training Schemes for Speech Tasks 
 
-```
-
-```
-
 |year|conference|research organization|title|link|code|
 |--|--|--|------|--|--|
 |--|--|--|Don't decay the learning rate, Increase the batch size|[paper](https://openreview.net/pdf?id=B1Yy1BxCZ)|--|
