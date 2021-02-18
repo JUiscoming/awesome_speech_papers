@@ -331,8 +331,15 @@ End-to-End Spoken Language Understanding (SLU)란 음성을 입력으로 받아 
 
 # 5. Learnable Front-End for Speech
 
-<p align="center"><img src="./network_images/wav2vec2.0.png"></p>
-<p align="center">Fig. wav2vec 2.0: A Framework for Self-Supervised Learning of Speech Representations</p> <br>
+<p align="center"><img src="./network_images/stft_overall1.png"></p>
+<p align="center">Fig. Conventional Front-End feature, Spectrogram using Short-Time-Fourier-Transform(STFT)</p> <br>
+
+
+<p align="center"><img src="./network_images/sincnet2.png"></p>
+<p align="center">Fig. Interpretable Convolutional Filters with SincNet, 2018</p> <br>
+
+<p align="center"><img src="./network_images/leaf1.png"></p>
+<p align="center">Fig. LEAF: A Learnable Frontend for Audio Classification, 2021</p> <br>
 
 |year|conference|research organization|title|link|code|
 |--|--|--|------|--|--|
@@ -349,7 +356,7 @@ Label되지 않은 방대한 data를 self-supervised (or semi-supervised) 방법
 이렇게 학습된 네트워크는 scratch 부터 학습한 네트워크보다 더욱 높은 성능을 자랑한다 .
 ```
 <p align="center"><img src="./network_images/wav2vec2.0.png"></p>
-<p align="center">Fig. wav2vec 2.0: A Framework for Self-Supervised Learning of Speech Representations</p> <br>
+<p align="center">Fig. wav2vec 2.0: A Framework for Self-Supervised Learning of Speech Representations, 2020</p> <br>
 
 |year|conference|research organization|title|link|code|
 |--|--|--|------|--|--|
