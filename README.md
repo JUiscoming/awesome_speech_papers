@@ -60,7 +60,7 @@ I did not try to survey as many papers as possible but the most crucial papers (
   - additional : **For Korean : [link1](https://m.blog.naver.com/PostView.nhn?blogId=sogangori&logNo=221183469708&proxyReferer=https:%2F%2Fwww.google.com%2F), [link2](https://ratsgo.github.io/speechbook/docs/neuralam/ctc)**
 
 
-<p align="center"><img src="./network_images/DeepSpeech2.png", width="50%"></p>
+<p align="center"><img src="./network_images/DeepSpeech2.png", width="60%"></p>
 <p align="center">Fig. Deep Speech 2 : End-to-End Speech Recognition in English and Mandarin</p> <br>
   
 |year|conference|research organization|title|model|link|code|
@@ -82,8 +82,8 @@ I did not try to survey as many papers as possible but the most crucial papers (
   - [post for Seq2Seq with Attention Network 3](https://guillaumegenthial.github.io/sequence-to-sequence.html)
   - [post for Transformer from Jay Alammar](http://jalammar.github.io/illustrated-transformer/)
     
-<p align="center"><img src="./network_images/LAS1.png"></p>
-<p align="center"><img src="./network_images/LAS2.png"></p>
+<p align="center"><img src="./network_images/LAS1.png", width="60%"></p>
+<p align="center"><img src="./network_images/LAS2.png", width="60%"></p>
 <p align="center">Fig. Listen, Attend and Spell</p> <br>
 
 |year|conference|research organization|title|model|link|code|
@@ -111,7 +111,7 @@ I did not try to survey as many papers as possible but the most crucial papers (
 
 ## **1.4 RNN-T based ASR model**
 
-<p align="center"><img src="./network_images/RNNT.png"></p>
+<p align="center"><img src="./network_images/RNNT.png", width="60%"></p>
 <p align="center">Fig. Streaming E2E Speech Recognition For Mobile Devices</p> <br>
 
 |year|conference|research organization|title|model|link|code|
@@ -137,10 +137,10 @@ RNN-T 이외에도, 어텐션 기반 seq2seq모델만으로 하려는 시도가 
 따로 빼서 서브섹션을 하나 더 만들었습니다.
 ```
 
-<p align="center"><img src="./network_images/two-stage.png"></p>
+<p align="center"><img src="./network_images/two-stage.png", width="60%"></p>
 <p align="center">Fig. Two-Pass End-to-End Speech Recognition</p> <br>
 
-<p align="center"><img src="./network_images/joint_streaming.png"></p>
+<p align="center"><img src="./network_images/joint_streaming.png", width="60%"></p>
 <p align="center">Fig. Streaming automatic speech recognition with the transformer model</p> <br>
 
 |year|conference|research organization|title|model|link|code|
