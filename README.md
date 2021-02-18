@@ -66,7 +66,7 @@ I did not try to survey as many papers as possible but the most crucial papers (
 
 
 
-<p align="center">![DeepSpeech2](./network_images/DeepSpeech2.png)</p>
+<p align="center">![DeepSpeech2]("./network_images/DeepSpeech2.png")</p>
 <p align="center">< Deep Speech 2 : End-to-End Speech Recognition in English and Mandarin ></p> <br>
   
 |year|conference|research organization|title|model|link|code|
