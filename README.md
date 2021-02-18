@@ -137,7 +137,7 @@ RNN-T 이외에도, 어텐션 기반 seq2seq모델만으로 하려는 시도가 
 따로 빼서 서브섹션을 하나 더 만들었습니다.
 ```
 
-<p align="center"><img src="./network_images/two-stage.png", width="60%"></p>
+<p align="center"><img src="./network_images/two-stage.png"></p>
 <p align="center">Fig. Two-Pass End-to-End Speech Recognition</p> <br>
 
 <p align="center"><img src="./network_images/joint_streaming.png", width="60%"></p>
@@ -176,7 +176,7 @@ temporal
  
 # 2. End-to-End Speech Synthesis 
 
-<p align="center"><img src="./network_images/tacotron.png"></p>
+<p align="center"><img src="./network_images/tacotron.png", width="60%"></p>
 <p align="center">Fig. Tacotron: Towards End-to-End Speech Synthesis</p> <br>
 
 <br>
@@ -221,7 +221,7 @@ Non-Autoregressive 모델은 논문이 별로 없기 때문에 기계번역(NMT)
 <p align="center"><img src="./network_images/nat.png"></p>
 <p align="center">Fig. NON-AUTOREGRESSIVE NEURAL MACHINE TRANSLATION</p> <br>
   
-<p align="center"><img src="./network_images/nat_nmt.png"></p>
+<p align="center"><img src="./network_images/nat_nmt.png", width="60%"></p>
 <p align="center">Fig. Latent-Variable Non-Autoregressive Neural Machine Translation with Deterministic Inference Using a Delta Posterior</p> <br>
 
 |year|conference|research organization|title|model|link|code|
@@ -276,7 +276,7 @@ End-to-End Spoken Language Understanding (SLU)란 음성을 입력으로 받아 
 <p align="center"><img src="./network_images/slu1.png"></p>
 <p align="center">( Conventional Pipeline for Spoken Language Understanding ( ASR -> NLU ) )</p> <br>
 
-<p align="center"><img src="./network_images/slu2.png"></p>
+<p align="center"><img src="./network_images/slu2.png", width="60%"></p>
 <p align="center">( End-to-End Spoken Language Understanding Network )</p> <br>
 
 <p align="center">Fig. Towards End-to-end Spoken Language Understanding</p> <br>
@@ -331,11 +331,11 @@ End-to-End Spoken Language Understanding (SLU)란 음성을 입력으로 받아 
 
 # 5. Learnable Front-End for Speech
 
-<p align="center"><img src="./network_images/stft_overall1.png"></p>
+<p align="center"><img src="./network_images/stft_overall1.png", width="50%"></p>
 <p align="center">Fig. Conventional Front-End feature, Spectrogram using Short-Time-Fourier-Transform(STFT)</p> <br>
 
 
-<p align="center"><img src="./network_images/sincnet2.png"></p>
+<p align="center"><img src="./network_images/sincnet2.png", width="50%"></p>
 <p align="center">Fig. Interpretable Convolutional Filters with SincNet, 2018</p> <br>
 
 <p align="center"><img src="./network_images/leaf1.png"></p>
