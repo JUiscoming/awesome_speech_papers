@@ -365,6 +365,7 @@ Label되지 않은 방대한 data를 self-supervised (or semi-supervised) 방법
 |2019|ICLR|FAIR|vq-wav2vec: Self-Supervised Learning of Discrete Speech Representations|[paper](https://arxiv.org/pdf/1910.05453)|[code(official)](https://github.com/pytorch/fairseq/tree/master/examples/wav2vec)|
 |2020|-|FAIR|**wav2vec 2.0: A Framework for Self-Supervised Learning of Speech Representations**|[paper](https://arxiv.org/pdf/2006.11477)|[code(official)](https://github.com/pytorch/fairseq/tree/master/examples/wav2vec)|
 |2020|-|FAIR|Unsupervised Cross-lingual Representation Learning for Speech Recognition|[paper](https://arxiv.org/pdf/2006.13979)||
+|2018|-|Deepmind|Representation Learning with Contrastive Predictive Coding|[paper](https://arxiv.org/pdf/1807.03748)|[code(pytorch)](https://github.com/jefflai108/Contrastive-Predictive-Coding-PyTorch)|
 |2019|-|Deepmind|Learning robust and multilingual speech representations|[paper](https://arxiv.org/pdf/2001.11128)||
 |-|-||SpeechBERT: An Audio-and-text Jointly Learned Language Model for End-to-end Spoken Question Answering|[paper](https://arxiv.org/pdf/1910.11559)||
 |-|-||Self-Supervised Representations Improve End-to-End Speech Translation|[paper](https://arxiv.org/pdf/1508.01211)||
