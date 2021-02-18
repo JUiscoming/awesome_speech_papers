@@ -1,15 +1,13 @@
 # About This Repository
 
 ```
-This repository is for those who want to study or research Speech tasks ( Speech Recognition, Speecn Synthesis so on).
+This repository is for those who want to study Speech tasks such as Speech Recognition, Speecn Synthesis, Spoken Language Understanding and so on).
+I did not try to survey as many papers as possible but the most crucial papers (especially recently published papers) by my standards.
 ```
 
 ```
-이 페이지는 음성 관련 task (음성 인식, 음성 합성  등)를 공부 및 연구하고 싶은 newbie들을 위해 만들어짐. 
-최대한 페이퍼를 많이 포함하기 보다는 중요하고(citation이 충분히 높고, 신뢰할 만한 기관에서 수행했으며, 
-top 컨퍼런스/에 publish된 페이퍼 위주) 최신자 페이퍼들만 포함하려고 함.(주관적일 수 있음) 
-
-갑자기 잡동사니가 되었습니다.
+이 페이지는 음성 관련 task (음성 인식, 음성 합성  등)를 공부 및 연구하고 싶은 newbie들을 위해 만들어졌습니다. 
+최대한 페이퍼를 많이 포함하기 보다는 중요하고(citation이 충분히 높고, 신뢰할 만한 기관에서 수행했으며, top 컨퍼런스에 publish된 페이퍼 위주) 최신자 페이퍼들만 포함하려고 합니다. (주관적일 수 있음) 
 ```
 
 ### temporal (training schemes or undefined)
