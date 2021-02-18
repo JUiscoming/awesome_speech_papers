@@ -6,7 +6,7 @@ I did not try to survey as many papers as possible but the most crucial papers (
 ***
 
 ***
-*For Koreans)*
+*For Koreans)* <br>
 이 페이지는 음성 관련 task (음성 인식, 음성 합성  등)를 공부 및 연구하고 싶은 newbie들을 위해 만들어졌습니다. <br>
 최대한 페이퍼를 많이 포함하기 보다는 중요하고(citation이 충분히 높고, 신뢰할 만한 기관에서 수행했으며, top 컨퍼런스에 publish된 페이퍼 위주) 최신자 페이퍼들만 포함하려고 합니다. (주관적일 수 있음) 
 ***
