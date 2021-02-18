@@ -29,9 +29,10 @@ I did not try to survey as many papers as possible but the most crucial papers (
   - Intent Classification papers
   - Spoken Question Answering papers
   - Speech Emotion Recognition papers
-- 5.Self-Supervised(or Semi-Supervised) Learning for Speech 
+- 5.Front-End Learning for Speech 
+- 6.Self-Supervised(or Semi-Supervised) Learning for Speech 
 
-- 6.Training Schemes for Speech recognition
+- 7.Training Schemes for Speech recognition
 
 
 - TBC
@@ -63,6 +64,7 @@ I did not try to survey as many papers as possible but the most crucial papers (
 |2014|ICML||Towards End-To-End Speech Recognition with Recurrent Neural Network|LSTM-based CTC model|[paper](http://proceedings.mlr.press/v32/graves14.pdf)||
 |2014|||Deep speech: Scaling up end-to-end speech recognition||||
 |2016|ICML||**Deep Speech 2 : End-to-End Speech Recognition in English and Mandarin**|CNN-based CTC model|[paper](https://arxiv.org/pdf/1512.02595)|[code(pytorch)](https://github.com/SeanNaren/deepspeech.pytorch)|
+|2016||FAIR|**Wav2Letter: an End-to-End ConvNet-based Speech Recognition System**|CNN-based CTC model|[paper](https://arxiv.org/pdf/1609.03193)||
 |2019|Interspeech|Nvidia|Jasper: An End-to-End Convolutional Neural Acoustic Model||||
 |2019||Nvidia|**Quartznet: Deep automatic speech recognition with 1d time-channel separable convolutions**||||
 
@@ -306,7 +308,11 @@ End-to-End Spoken Language Understanding (SLU)란 음성을 입력으로 받아 
 
 <br>
 
+
 # 5. Self-Supervised(or Semi-Supervised) Learning for Speech 
+
+
+# 6. Self-Supervised(or Semi-Supervised) Learning for Speech 
 ```
 Self-Supervised(or Semi-Supervised) Learning 이란 Yann Lecun이 강조했을 만큼 현재 2020년 현재 딥러닝에서 가장 핫 한 주제중 하나이며, 
 Label되지 않은 방대한 data를 self-supervised (or semi-supervised) 방법으로 학습하여 입력으로부터 더 좋은 Representation을 찾는 방법이다. 
@@ -337,7 +343,7 @@ Label되지 않은 방대한 data를 self-supervised (or semi-supervised) 방법
 
 
 
-# 6. Training Schemes for Speech Tasks 
+# 7. Training Schemes for Speech Tasks 
 
 |year|conference|research organization|title|link|code|
 |--|--|--|Don't decay the learning rate, Increase the batch size|[paper](https://openreview.net/pdf?id=B1Yy1BxCZ)|--|
