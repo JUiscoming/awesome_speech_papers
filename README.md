@@ -64,8 +64,9 @@ I did not try to survey as many papers as possible but the most crucial papers (
 - If you're new to CTC-based ASR model, you'd better see this blog before reading papers : [post for CTC from Distill blog](https://distill.pub/2017/ctc/)
   - additional : **For Korean : [link1](https://m.blog.naver.com/PostView.nhn?blogId=sogangori&logNo=221183469708&proxyReferer=https:%2F%2Fwww.google.com%2F), [link2](https://ratsgo.github.io/speechbook/docs/neuralam/ctc)**
 
-<p align="center"><img src="https://user-images.githubusercontent.com/48202736/99594617-c4020780-2a36-11eb-99af-8f9a200584e1.png"></p>
-<p align="center">< Deep Speech 2 : End-to-End Speech Recognition in English and Mandarin ></p> <br>
+
+<p align="center"><img src="./network_images/DeepSpeech2.png"></p>
+<p align="center">Fig. Deep Speech 2 : End-to-End Speech Recognition in English and Mandarin</p> <br>
   
 |year|conference|research organization|title|model|link|code|
 |--|--|--|------|---|--|--|
@@ -86,9 +87,9 @@ I did not try to survey as many papers as possible but the most crucial papers (
   - [post for Seq2Seq with Attention Network 3](https://guillaumegenthial.github.io/sequence-to-sequence.html)
   - [post for Transformer from Jay Alammar](http://jalammar.github.io/illustrated-transformer/)
     
-<p align="center"><img src="https://user-images.githubusercontent.com/48202736/99594615-c3697100-2a36-11eb-9d79-fe819d8958d2.png"></p>
-<p align="center"><img src="https://user-images.githubusercontent.com/48202736/99594613-c2d0da80-2a36-11eb-948f-9790dc9365f6.png"></p>
-<p align="center">< Listen, Attend and Spell ></p> <br>
+<p align="center"><img src="./network_images/LAS1.png"></p>
+<p align="center"><img src="./network_images/LAS2.png"></p>
+<p align="center">Fig. Listen, Attend and Spell</p> <br>
 
 |year|conference|research organization|title|model|link|code|
 |--|--|--|------|---|--|--|
@@ -114,8 +115,8 @@ I did not try to survey as many papers as possible but the most crucial papers (
 
 ## **1.4 RNN-T based ASR model**
 
-<p align="center"><img src="https://user-images.githubusercontent.com/48202736/99594611-c2384400-2a36-11eb-99bc-c4a9fd426e55.png"></p>
-<p align="center">< Streaming E2E Speech Recognition For Mobile Devices ></p> <br>
+<p align="center"><img src="./network_images/RNNT.png"></p>
+<p align="center">Fig. Streaming E2E Speech Recognition For Mobile Devices</p> <br>
 
 |year|conference|research organization|title|model|link|code|
 |--|--|--|------|---|--|--|
@@ -140,8 +141,8 @@ RNN-T 이외에도, 어텐션 기반 seq2seq모델만으로 하려는 시도가 
 따로 빼서 서브섹션을 하나 더 만들었습니다.
 ```
 
-<p align="center"><img src="https://user-images.githubusercontent.com/48202736/99951915-299d1d80-2dc2-11eb-916c-51ea46602ca6.png"></p>
-<p align="center">< Two-Pass End-to-End Speech Recognition ></p> <br>
+<p align="center"><img src="./network_images/two-stage.png"></p>
+<p align="center">Fig. Two-Pass End-to-End Speech Recognition</p> <br>
 
 |year|conference|research organization|title|model|link|code|
 |--|--|--|------|---|--|--|
@@ -175,8 +176,8 @@ temporal
  
 # 2. End-to-End Speech Synthesis 
 
-<p align="center"><img src="https://user-images.githubusercontent.com/48202736/99596501-bb5f0080-2a39-11eb-8e70-0411e2b4926d.png"></p>
-<p align="center">< Tacotron: Towards End-to-End Speech Synthesis ></p> <br>
+<p align="center"><img src="./network_images/tacotron.png"></p>
+<p align="center">Fig. Tacotron: Towards End-to-End Speech Synthesis</p> <br>
 
 <br>
 
@@ -217,10 +218,11 @@ Non-Autoregressive 모델은 논문이 별로 없기 때문에 기계번역(NMT)
 ```
 ## **3.1 Non-Autoregressive(NA) NMT**
 
-<p align="center"><img src="https://user-images.githubusercontent.com/48202736/99598419-d717d600-2a3c-11eb-812b-f45c8bb815d5.png"></p>
-<p align="center">< NON-AUTOREGRESSIVE NEURAL MACHINE TRANSLATION ></p> <br>
-<p align="center"><img src="https://user-images.githubusercontent.com/48202736/99598089-5b1d8e00-2a3c-11eb-8196-a629bcda9338.png"></p>
-<p align="center">< Latent-Variable Non-Autoregressive Neural Machine Translation with Deterministic Inference Using a Delta Posterior ></p> <br>
+<p align="center"><img src="./network_images/nat.png"></p>
+<p align="center">Fig. NON-AUTOREGRESSIVE NEURAL MACHINE TRANSLATION</p> <br>
+  
+<p align="center"><img src="./network_images/nat_nmt.png"></p>
+<p align="center">Fig. Latent-Variable Non-Autoregressive Neural Machine Translation with Deterministic Inference Using a Delta Posterior</p> <br>
 
 |year|conference|research organization|title|model|link|code|
 |--|--|--|------|---|--|--|
@@ -236,10 +238,11 @@ Non-Autoregressive 모델은 논문이 별로 없기 때문에 기계번역(NMT)
 
 ## **3.2 Non-Autoregressive(NA) ASR (STT)**
 
-<p align="center"><img src="https://user-images.githubusercontent.com/48202736/99598098-5d7fe800-2a3c-11eb-8bc0-d668d8ed34f5.png"></p>
-<p align="center">< Mask CTC: Non-Autoregressive End-to-End ASR with CTC and Mask Predict ></p> <br>
-<p align="center"><img src="https://user-images.githubusercontent.com/48202736/99598101-5eb11500-2a3c-11eb-9ff9-1ea99aa0c6fd.png"></p>
-<p align="center">< Spike-Triggered Non-Autoregressive Transformer for End-to-End Speech Recognition ></p> <br>
+<p align="center"><img src="./network_images/maskctc.png"></p>
+<p align="center">Fig. Mask CTC: Non-Autoregressive End-to-End ASR with CTC and Mask Predict</p> <br>
+  
+<p align="center"><img src="./network_images/spike_triggered.png"></p>
+<p align="center">Fig. Spike-Triggered Non-Autoregressive Transformer for End-to-End Speech Recognition</p> <br>
 
 |year|conference|research organization|title|model|link|code|
 |--|--|--|------|---|--|--|
@@ -270,11 +273,13 @@ End-to-End Spoken Language Understanding (SLU)란 음성을 입력으로 받아 
 음성인식 네트워크가 가지고 있는 에러율에 구애받지 않고 fully differentiable 하게 학습하는 것이 목적이다.
 ```
 
-<p align="center"><img src="https://user-images.githubusercontent.com/48202736/99597193-f7df2c00-2a3a-11eb-8c93-3e2b9a6698eb.png"></p>
+<p align="center"><img src="./network_images/slu1.png"></p>
 <p align="center">( Conventional Pipeline for Spoken Language Understanding ( ASR -> NLU ) )</p> <br>
-<p align="center"><img src="https://user-images.githubusercontent.com/48202736/99597198-f9105900-2a3a-11eb-9e04-c1646ed3188f.png"></p>
+
+<p align="center"><img src="./network_images/slu2.png"></p>
 <p align="center">( End-to-End Spoken Language Understanding Network )</p> <br>
-<p align="center">< Towards End-to-end Spoken Language Understanding ></p> <br>
+
+<p align="center">Fig. Towards End-to-end Spoken Language Understanding</p> <br>
 
 
 ## **4.1 Dataset ( including all speech slu dataset IC/SF/SQA ... )**
@@ -326,6 +331,13 @@ End-to-End Spoken Language Understanding (SLU)란 음성을 입력으로 받아 
 
 # 5. Learnable Front-End for Speech
 
+<p align="center"><img src="./network_images/wav2vec2.0.png"></p>
+<p align="center">Fig. wav2vec 2.0: A Framework for Self-Supervised Learning of Speech Representations</p> <br>
+
+|year|conference|research organization|title|link|code|
+|--|--|--|------|--|--|
+
+
 
 # 6. Self-Supervised(or Semi-Supervised) Learning for Speech 
 ```
@@ -336,9 +348,8 @@ Label되지 않은 방대한 data를 self-supervised (or semi-supervised) 방법
 사전 학습 방법은 AutoEncoder 부터 BERT 까지 다양한 방법으로 기존에 존재했으나 음성에 맞는 방식으로 연구된 논문들이 최근에 제시되어 왔으며, 
 이렇게 학습된 네트워크는 scratch 부터 학습한 네트워크보다 더욱 높은 성능을 자랑한다 .
 ```
-
-<p align="center"><img src="https://user-images.githubusercontent.com/48202736/99594604-bfd5ea00-2a36-11eb-9c10-4e7385221408.png"></p>
-<p align="center">< wav2vec 2.0: A Framework for Self-Supervised Learning of Speech Representations ></p> <br>
+<p align="center"><img src="./network_images/wav2vec2.0.png"></p>
+<p align="center">Fig. wav2vec 2.0: A Framework for Self-Supervised Learning of Speech Representations</p> <br>
 
 |year|conference|research organization|title|link|code|
 |--|--|--|------|--|--|
