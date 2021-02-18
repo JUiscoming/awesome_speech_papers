@@ -64,9 +64,9 @@ I did not try to survey as many papers as possible but the most crucial papers (
 - If you're new to CTC-based ASR model, you'd better see this blog before reading papers : [post for CTC from Distill blog](https://distill.pub/2017/ctc/)
   - additional : **For Korean : [link1](https://m.blog.naver.com/PostView.nhn?blogId=sogangori&logNo=221183469708&proxyReferer=https:%2F%2Fwww.google.com%2F), [link2](https://ratsgo.github.io/speechbook/docs/neuralam/ctc)**
 
-<p align="center">
-![DeepSpeech2](./network_images/DeepSpeech2.png)
-</p>
+
+![DeepSpeech2](./network_images/DeepSpeech2.png){:.aligncenter}
+
 
 <p align="center">< Deep Speech 2 : End-to-End Speech Recognition in English and Mandarin ></p> <br>
   
