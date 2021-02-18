@@ -65,8 +65,7 @@ I did not try to survey as many papers as possible but the most crucial papers (
   - additional : **For Korean : [link1](https://m.blog.naver.com/PostView.nhn?blogId=sogangori&logNo=221183469708&proxyReferer=https:%2F%2Fwww.google.com%2F), [link2](https://ratsgo.github.io/speechbook/docs/neuralam/ctc)**
 
 ![DeepSpeech2](./network_images/DeepSpeech2.png)
-
-<p align="center"> ![DeepSpeech2]("./network_images/DeepSpeech2.png") </p>
+{: style="width: 70%;" class="center"}
 <p align="center">< Deep Speech 2 : End-to-End Speech Recognition in English and Mandarin ></p> <br>
   
 |year|conference|research organization|title|model|link|code|
