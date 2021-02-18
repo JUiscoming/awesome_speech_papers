@@ -9,10 +9,6 @@ I did not try to survey as many papers as possible but the most crucial papers (
 최대한 페이퍼를 많이 포함하기 보다는 중요하고(citation이 충분히 높고, 신뢰할 만한 기관에서 수행했으며, top 컨퍼런스에 publish된 페이퍼 위주) 최신자 페이퍼들만 포함하려고 합니다. (주관적일 수 있음) 
 
 ### temporal (training schemes or undefined)
-- don't decay the learning rate, increase the batch size, [paper](https://openreview.net/pdf?id=B1Yy1BxCZ)
-- when does label smoothing help? [paper](https://arxiv.org/abs/1906.02629)
-- Bag of Tricks for Efficient Text Classification [paper](https://arxiv.org/abs/1607.01759)
-- SpecAugment: A Simple Data Augmentation Method for Automatic Speech Recognition [paper](https://arxiv.org/pdf/1904.08779)
 - State-of-the-Art Speech Recognition Using Multi-Stream Self-Attention With Dilated 1D Convolutions [paper](https://arxiv.org/pdf/1910.00716)
 
 
@@ -34,6 +30,8 @@ I did not try to survey as many papers as possible but the most crucial papers (
   - Spoken Question Answering papers
   - Speech Emotion Recognition papers
 - 5.Self-Supervised(or Semi-Supervised) Learning for Speech 
+
+- 6.Training Schemes for Speech recognition
 
 
 - TBC
@@ -336,3 +334,13 @@ Label되지 않은 방대한 data를 self-supervised (or semi-supervised) 방법
 |-|-||Learning robust and multilingual speech representations|||
 |-|-||Problem-Agnostic Speech Embeddings for Multi-Speaker Text-to-Speech with SampleRNN|||
 |2020|-|MIT CSAIL|SEMI-SUPERVISED SPEECH-LANGUAGE JOINT PRE- TRAINING FOR SPOKEN LANGUAGE UNDERSTANDING|[paper](https://arxiv.org/pdf/2010.02295)||
+
+
+
+# 6. Training Schemes for Speech Tasks 
+
+|year|conference|research organization|title|link|code|
+|--|--|--|Don't decay the learning rate, Increase the batch size|[paper](https://openreview.net/pdf?id=B1Yy1BxCZ)|--|
+|2018|--|--|when does label smoothing help?|[paper](https://arxiv.org/abs/1906.02629)|--|
+|--|--|--|Bag of Tricks for Efficient Text Classification|[paper](https://arxiv.org/abs/1607.01759)|--|
+|2019|--|Google|SpecAugment: A Simple Data Augmentation Method for Automatic Speech Recognition|[paper](https://arxiv.org/pdf/1904.08779)|--|
