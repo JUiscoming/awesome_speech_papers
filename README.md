@@ -18,28 +18,28 @@ I did not try to survey as many papers as possible but the most crucial papers (
 
 
 # Index
-- 1.End-to-End Speech Recognition papers
+- 1.End-to-End Speech Recognition
   - CTC-based ASR papers
   - Attention-based ASR papers
   - Hybrid ASR papers
   - RNN-T based ASR papers
   - Streaming ASR papers
   
-- 2.End-to-End Speech Synthesis papers
+- 2.End-to-End Speech Synthesis
 
-- 3.End-to-End Non-Autoregressive Sequence Generation papers
+- 3.End-to-End Non-Autoregressive Sequence Generation 
   - ASR
   - NMT
   - TTS
 
 - 4.End-to-End Spoken Language Understanding 
-  - Intent Classification papers
-  - Spoken Question Answering papers
-  - Speech Emotion Recognition papers
+  - Intent Classification 
+  - Spoken Question Answering 
+  - Speech Emotion Recognition
 
-- 5.Front-End Learning for Speech 
+- 5.Learnable Front-End for Speech 
 
-- 6.Self-Supervised(or Semi-Supervised) Learning for Speech 
+- 6.Self-Supervised(or Semi-Supervised) Learning for Speech
 
 - 7.Some Trivial Schemes for Speech Tasks
 
@@ -326,7 +326,7 @@ End-to-End Spoken Language Understanding (SLU)란 음성을 입력으로 받아 
 <br>
 
 
-# 5. Self-Supervised(or Semi-Supervised) Learning for Speech 
+# 5. Learnable Front-End for Speech
 
 
 # 6. Self-Supervised(or Semi-Supervised) Learning for Speech 
