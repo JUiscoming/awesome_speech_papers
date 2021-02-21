@@ -102,6 +102,9 @@ I did not try to survey as many papers as possible but the most crucial papers (
 
 ## **1.3 Hybrid Model**
 
+<p align="center"><img src="./network_images/hybrid.png", width="60%"></p>
+<p align="center">Fig. Joint CTC-Attention based End-to-End Speech Recognition using Multi-task Learning</p> <br>
+
 |year|conference|research organization|title|model|link|code|
 |--|--|--|------|---|--|--|
 |2017|||Hybrid CTC/Attention Architecture for End-to-End Speech Recognition|||
