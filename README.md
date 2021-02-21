@@ -390,6 +390,9 @@ Label되지 않은 방대한 data를 self-supervised (or semi-supervised) 방법
 
 # 7. Some Trivial Schemes for Speech Tasks 
 
+<p align="center"><img src="./network_images/Specaugment.png"></p>
+<p align="center">Fig. SpecAugment: A Simple Data Augmentation Method for Automatic Speech Recognition, 2019</p> <br>
+
 |year|conference|research organization|title|link|code|
 |--|--|--|------|--|--|
 |2017|ACL|Facebook AI Research (FAIR)|Bag of Tricks for Efficient Text Classification|[paper](https://arxiv.org/abs/1607.01759)|[code(official)](https://github.com/facebookresearch/fastText)|
