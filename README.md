@@ -152,7 +152,7 @@ RNN-T 이외에도, 어텐션 기반 seq2seq모델만으로 하려는 시도가 
 |--|--|--|------|---|--|--|
 |2019||Google|**Two-Pass End-to-End Speech Recognition**|LAS+RNN-T|[paper](https://arxiv.org/pdf/1908.10992)||
 |2020||MERL|Streaming automatic speech recognition with the transformer model|[paper](https://arxiv.org/pdf/2001.02674)||
-|2021||Google|Dual-mode ASR: Unify and Improve Streaming ASR with Full-context Modeling|[paper](https://arxiv.org/pdf/2010.06030)||
+|2021|ICLR|Google|Dual-mode ASR: Unify and Improve Streaming ASR with Full-context Modeling|[paper](https://arxiv.org/pdf/2010.06030)||
 
 <br>
 
