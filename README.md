@@ -55,6 +55,8 @@ I did not try to survey as many papers as possible but the most crucial papers (
 
 # 1. End-to-End Speech Recognition 
 
+I recommend you to read graves' thesis : [Supervised Sequence Labelling with Recurrent Neural Networks, 2008](https://www.cs.toronto.edu/~graves/preprint.pdf)
+
 ## **1.1 CTC based ASR model**
 - If you're new to CTC-based ASR model, you'd better see this blog before reading papers : [post for CTC from Distill blog](https://distill.pub/2017/ctc/)
   - additional : **For Korean : [link1](https://m.blog.naver.com/PostView.nhn?blogId=sogangori&logNo=221183469708&proxyReferer=https:%2F%2Fwww.google.com%2F), [link2](https://ratsgo.github.io/speechbook/docs/neuralam/ctc)**
@@ -88,7 +90,6 @@ I did not try to survey as many papers as possible but the most crucial papers (
 
 |year|conference|research organization|title|model|link|code|
 |--|--|--|------|---|--|--|
-|2008|||Supervised Sequence Labelling with Recurrent Neural Networks||||
 |2014|ICML||Towards End-to-End Speech Recognition with Recurrent Neural Networks||||
 |2015|NIPS||Attention-Based Models for Speech Recognition|Seq2Seq|||
 |2015|ICASSP|Google|**Listen, Attend and Spell**|Seq2Seq|[paper](https://arxiv.org/pdf/1508.01211)|[code(pytorch)](https://github.com/clovaai/ClovaCall)|
