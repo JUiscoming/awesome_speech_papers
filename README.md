@@ -246,7 +246,7 @@ Non-Autoregressive 모델은 논문이 별로 없기 때문에 기계번역(NMT)
 <p align="center"><img src="./network_images/maskctc.png"></p>
 <p align="center">Fig. Mask CTC: Non-Autoregressive End-to-End ASR with CTC and Mask Predict</p> <br>
   
-<p align="center"><img src="./network_images/spike_triggered.png"></p>
+<p align="center"><img src="./network_images/spike_triggered.png", width="60%"></p>
 <p align="center">Fig. Spike-Triggered Non-Autoregressive Transformer for End-to-End Speech Recognition</p> <br>
 
 |year|conference|research organization|title|model|link|code|
