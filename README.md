@@ -392,9 +392,9 @@ Label되지 않은 방대한 data를 self-supervised (or semi-supervised) 방법
 
 |year|conference|research organization|title|link|code|
 |--|--|--|------|--|--|
-|2016|--|Facebook AI Research (FAIR)|Bag of Tricks for Efficient Text Classification|[paper](https://arxiv.org/abs/1607.01759)|--|
-|2017|--|Google Brain|Don't decay the learning rate, Increase the batch size|[paper](https://openreview.net/pdf?id=B1Yy1BxCZ)|--|
-|2018|--|Google Brain, Toronto Univ|when does label smoothing help?|[paper](https://arxiv.org/pdf/1906.02629)|--|
-|2019|--|Google|SpecAugment: A Simple Data Augmentation Method for Automatic Speech Recognition|[paper](https://arxiv.org/pdf/1904.08779)|--|
+|2017|ACL|Facebook AI Research (FAIR)|Bag of Tricks for Efficient Text Classification|[paper](https://arxiv.org/abs/1607.01759)|[code(official)](https://github.com/facebookresearch/fastText)|
+|2018|ICLR|Google Brain|Don't decay the learning rate, Increase the batch size|[paper](https://openreview.net/pdf?id=B1Yy1BxCZ)|--|
+|2019|NIPS|Google Brain, Toronto Univ|when does label smoothing help?|[paper](https://arxiv.org/pdf/1906.02629)|--|
+|2019|Interspeech|Google Brain|SpecAugment: A Simple Data Augmentation Method for Automatic Speech Recognition|[paper](https://arxiv.org/pdf/1904.08779)|--|
 
 
