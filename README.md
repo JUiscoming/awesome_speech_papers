@@ -65,7 +65,7 @@ I did not try to survey as many papers as possible but the most crucial papers (
   
 |year|conference|research organization|title|model|link|code|
 |--|--|--|------|---|--|--|
-|2006|ICML|Toronto University|**Connectionist Temporal Classification: Labelling Unsegmented Sequence Data with Recurrent Neural Networks**|CTC|[paper](https://www.cs.toronto.edu/~graves/icml_2006.pdf)||
+|2006|ICML|Toronto University|**Connectionist Temporal Classification: Labelling Unsegmented Sequence Data with Recurrent Neural Networks**|CTC|[paper](https://www.cs.toronto.edu/~graves/icml_2006.pdf)|[code(pytorch),warp-ctc](https://github.com/SeanNaren/warp-ctc),[code(pytorch)](https://github.com/Alexander-H-Liu/End-to-end-ASR-Pytorch)|
 |2014|ICML|Deepmind|Towards End-To-End Speech Recognition with Recurrent Neural Network|LSTM-based CTC model|[paper](http://proceedings.mlr.press/v32/graves14.pdf)||
 |2014||Baidu|Deep speech: Scaling up end-to-end speech recognition||[paper](https://arxiv.org/pdf/1412.5567)|[code(tensorflow)](https://github.com/mozilla/DeepSpeech),[code(pytorch)](https://github.com/MyrtleSoftware/deepspeech)|
 |2016|ICML|Baidu|**Deep Speech 2 : End-to-End Speech Recognition in English and Mandarin**|CNN-based CTC model|[paper](https://arxiv.org/pdf/1512.02595)|[code(pytorch)](https://github.com/SeanNaren/deepspeech.pytorch)|
@@ -107,7 +107,8 @@ I did not try to survey as many papers as possible but the most crucial papers (
 
 |year|conference|research organization|title|model|link|code|
 |--|--|--|------|---|--|--|
-|2017|||Hybrid CTC/Attention Architecture for End-to-End Speech Recognition|||
+|2017|||Hybrid CTC/Attention Architecture for End-to-End Speech Recognition||[paper](https://ieeexplore.ieee.org/document/8068205)||
+|2017|||Joint CTC-Attention based End-to-End Speech Recognition using Multi-task Learning||[paper](https://arxiv.org/pdf/1609.06773)|[code(pytorch)](https://github.com/Alexander-H-Liu/End-to-end-ASR-Pytorch)|
 |2019|||Transformer-based Acoustic Modeling for Hybrid Speech Recognition||[paper](https://arxiv.org/pdf/1910.09799)||
 
 <br>
