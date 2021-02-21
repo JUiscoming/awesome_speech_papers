@@ -91,10 +91,9 @@ I recommend you to read graves' thesis : [Supervised Sequence Labelling with Rec
 |year|conference|research organization|title|model|link|code|
 |--|--|--|------|---|--|--|
 |2014|ICML||Towards End-to-End Speech Recognition with Recurrent Neural Networks||||
-|2015|NIPS||Attention-Based Models for Speech Recognition|Seq2Seq|||
-|2015|ICASSP|Google|**Listen, Attend and Spell**|Seq2Seq|[paper](https://arxiv.org/pdf/1508.01211)|[code(pytorch)](https://github.com/clovaai/ClovaCall)|
+|2015|NIPS||Attention-Based Models for Speech Recognition|Seq2Seq with Attention|||
+|2015|ICASSP|Google|**Listen, Attend and Spell**|Seq2Seq with Attention|[paper](https://arxiv.org/pdf/1508.01211)|[code(pytorch)](https://github.com/clovaai/ClovaCall)|
 |2016|||End-to-End Attention-based Large Vocabulary Speech Recognition||||
-|2017|ICLR||**Monotonic Chunkwise Attention**||||
 |2018|ICASSP||**Speech-Transformer: A No-Recurrence Sequence-to-Sequence Model for Speech Recognition**||||
 |2019|||Listen, Attend, Spell and Adapt: Speaker Adapted Sequence-to-Sequence ASR||||
 |2019|||**A Comparative Study on Transformer vs RNN in Speech Applications**||[paper](https://arxiv.org/pdf/1909.06317)||
@@ -150,6 +149,7 @@ RNN-T 이외에도, 어텐션 기반 seq2seq모델만으로 하려는 시도가 
 
 |year|conference|research organization|title|model|link|code|
 |--|--|--|------|---|--|--|
+|2018|ICLR|Google Brain|**Monotonic Chunkwise Attention**|Seq2Seq with Attention|[paper](https://arxiv.org/pdf/1712.05382)||
 |2019||Google|**Two-Pass End-to-End Speech Recognition**|LAS+RNN-T|[paper](https://arxiv.org/pdf/1908.10992)||
 |2020||MERL|Streaming automatic speech recognition with the transformer model|[paper](https://arxiv.org/pdf/2001.02674)||
 |2021|ICLR|Google|Dual-mode ASR: Unify and Improve Streaming ASR with Full-context Modeling|[paper](https://arxiv.org/pdf/2010.06030)||
