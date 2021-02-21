@@ -181,7 +181,7 @@ temporal
  
 # 2. End-to-End Speech Synthesis 
 
-<p align="center"><img src="./network_images/tacotron.png", width="60%"></p>
+<p align="center"><img src="./network_images/tacotron.png"></p>
 <p align="center">Fig. Tacotron: Towards End-to-End Speech Synthesis</p> <br>
 
 <br>
