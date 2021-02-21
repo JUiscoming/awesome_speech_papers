@@ -390,7 +390,7 @@ Label되지 않은 방대한 data를 self-supervised (or semi-supervised) 방법
 
 # 7. Some Trivial Schemes for Speech Tasks 
 
-<p align="center"><img src="./network_images/Specaugment.png"></p>
+<p align="center"><img src="./network_images/Specaugment.png", width="60%"></p>
 <p align="center">Fig. SpecAugment: A Simple Data Augmentation Method for Automatic Speech Recognition, 2019</p> <br>
 
 |year|conference|research organization|title|link|code|
