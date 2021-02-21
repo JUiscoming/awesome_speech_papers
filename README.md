@@ -129,7 +129,7 @@ I recommend you to read graves' thesis : [Supervised Sequence Labelling with Rec
 |2020|ICASSP|-|A Streaming On-Device End-to-End Model Surpassing Server-Side Conventional Model Quality and Latency||||
 |2021|ICASSP|-|FastEmit: Low-latency Streaming ASR with Sequence-level Emission Regularization||||
 |2021|ICASSP|-|Improved Neural Language Model Fusion for Streaming Recurrent Neural Network Transducer||||
-|2020||Google|ContextNet: Improving Convolutional Neural Networks for Automatic Speech Recognition with Global Context||[paper](https://arxiv.org/pdf/2005.03191)||
+|2020||Google|ContextNet: Improving Convolutional Neural Networks for Automatic Speech Recognition with Global Context|CNN based RNN-T|[paper](https://arxiv.org/pdf/2005.03191)||
 
 <br>
 
