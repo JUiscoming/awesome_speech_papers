@@ -336,6 +336,12 @@ End-to-End Spoken Language Understanding (SLU)란 음성을 입력으로 받아 
 
 # 5. Learnable Front-End for Speech
 
+```
+일바적은 음성 관련 task의 입력값은 보통 Short Time Fourier Transform과 Mel filter bank등을 이용한 (Mel) 스펙트로그램, MFCC 등 이었습니다.
+하지만 최근에 제안된 기법들은(시도는 계속 있어왔음) raw speech signal에서부터 곧바로 feature를 추출하는 방식들이며, 
+이는 성능적인 측면에서 우수함을 증명하고 있습니다.
+```
+
 <p align="center"><img src="./network_images/stft_overall1.png", width="50%"></p>
 <p align="center">Fig. Conventional Front-End feature, Spectrogram using Short-Time-Fourier-Transform(STFT)</p> <br>
 
