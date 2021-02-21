@@ -271,11 +271,16 @@ Non-Autoregressive 모델은 논문이 별로 없기 때문에 기계번역(NMT)
 
 # 4. End-to-End Spoken Language Understanding 
 ```
-기존의 Spoken Language Understanding (SLU) 는 음성을 입력받아 ASR module이 텍스트를 출력하고, 
-이를 입력으로 받은 Natural Language Understanding (NLU) module이 감정(emotion)/의도(intent,slot) 등을 결과로 출력했다.
+Spoken Language Understanding (SLU)는 speech dialog system의 front-end 입니다.
 
-End-to-End Spoken Language Understanding (SLU)란 음성을 입력으로 받아 direct로 결과를 출력함으로써
-음성인식 네트워크가 가지고 있는 에러율에 구애받지 않고 fully differentiable 하게 학습하는 것이 목적이다.
+기존의 SLU pipeline은 음성을 입력받아 ASR 네트워크가 텍스트를 출력하고, 
+이를 입력으로 받은 Natural Language Understanding (NLU) 네트워크가 감정(emotion)/의도(intent,slot) 등의 semantic information을 추출했습니다.
+
+하지만 이런 pipeline은 치명적인 단점을 가지고 있는데요 바로 ASR 네트워크가 출력한 문장에 에러가 포함되어 있을 수 있고,
+이럴 경우 NLU입장에서 이는 이해할 수 없기 때문에 형편없는 결과를 추출할 수 밖에 없다는 것입니다.
+
+End-to-End Spoken Language Understanding (E2E SLU)란 음성을 입력으로 받아 direct로 결과를 출력함으로써
+음성인식 네트워크가 가지고 있는 에러율에 구애받지 않고 semantic information을 뽑는 기법으로 최근에 활발히 연구가 진행되고 있는 분야입니다.
 ```
 
 <p align="center"><img src="./network_images/slu1.png"></p>
