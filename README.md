@@ -244,11 +244,11 @@ temporal
 |2018|ICLR|Baidu Research|**Deep Voice 3: Scaling Text-to-Speech with Convolutional Sequence Learning**|DeepVoice Series|[paper](https://arxiv.org/pdf/1710.07654)|[code](https://github.com/r9y9/deepvoice3_pytorch)|
 |<=||||||=>|
 |2017|Interspeech|Google|Tacotron: Towards End-to-End Speech Synthesis|Tacotron Series|[paper](https://arxiv.org/pdf/1703.10135)|[code(tensorflow)](https://github.com/Kyubyong/tacotron), [code(pytorch)](https://github.com/r9y9/tacotron_pytorch)|
-|2017|NIPS|KAIST et al.|Emotional End-to-End Neural Speech Synthesizer||[paper](https://arxiv.org/pdf/1711.05447)|Tacotron Series|
-|2018|ICML|Google|Towards End-to-End Prosody Transfer for Expressive Speech Synthesis with Tacotron||[paper](https://arxiv.org/pdf/1803.09047)|[code(tensorflow)](https://github.com/Kyubyong/expressive_tacotron)|
+|2017|NIPS|KAIST et al.|Emotional End-to-End Neural Speech Synthesizer|Tacotron Series|[paper](https://arxiv.org/pdf/1711.05447)||
+|2018|ICML|Google|Towards End-to-End Prosody Transfer for Expressive Speech Synthesis with Tacotron|Tacotron Series|[paper](https://arxiv.org/pdf/1803.09047)|[code(tensorflow)](https://github.com/Kyubyong/expressive_tacotron)|
 |2018|ICML|Google|Style Tokens: Unsupervised Style Modeling, Control and Transfer in End-to-End Speech Synthesis|Tacotron Series|[paper](https://arxiv.org/pdf/1803.09017)||
 |2018|ICASSP|Google|**Natural TTS Synthesis by Conditioning WaveNet on Mel Spectrogram Predictions (Tacotron 2)**|Tacotron Series|[paper](https://arxiv.org/pdf/1712.05884)||
-|2021|ICLR|Google Research|Non-Attentive Tacotron: Robust and Controllable Neural TTS Synthesis Including Unsupervised Duration Modeling||[paper](https://arxiv.org/pdf/2010.04301v1.pdf)||
+|2021|ICLR|Google Research|Non-Attentive Tacotron: Robust and Controllable Neural TTS Synthesis Including Unsupervised Duration Modeling|Tacotron Series|[paper](https://arxiv.org/pdf/2010.04301v1.pdf)||
 |<=||||||=>|
 |2019|ICLR|UC San Diego|Adversarial Audio Synthesis|GAN|[paper](https://arxiv.org/pdf/1802.04208)|[code(official, tensorflow)](https://github.com/chrisdonahue/wavegan)|
 |2020|ICASSP|LINE, NAVER|Parallel WaveGAN: A fast waveform generation model based on generative adversarial networks with multi-resolution spectrogram|GAN|[paper](https://arxiv.org/pdf/1910.11480)|[code(official)](https://github.com/r9y9/ParallelWaveGAN)|
@@ -261,9 +261,9 @@ temporal
 |2019|ICASP|NVIDIA|WaveGlow: A Flow-based Generative Network for Speech Synthesis|Flow-based|[paper](https://arxiv.org/pdf/1811.00002)|[code(official)](https://github.com/NVIDIA/waveglow)|
 |2020|NIPS|Kakao Enterprise, SNU|Glow-TTS: A Generative Flow for Text-to-Speech via Monotonic Alignment Search|Flow-based|[paper](https://arxiv.org/pdf/2005.11129)||
 |<=||||||=>|
-|2019|ICLR|Baidu Research|ClariNet: Parallel Wave Generation in End-to-End Text-to-Speech||||
-|2020|ICML|Baidu Research|Non-Autoregressive Neural Text-to-Speech||||
-|2020|ICASSP|Google|Location-Relative Attention Mechanisms For Robust Long-Form Speech Synthesis||||
+|2019|ICLR|Baidu Research|ClariNet: Parallel Wave Generation in End-to-End Text-to-Speech||[paper](https://arxiv.org/pdf/1807.07281)||
+|2020|ICML|Baidu Research|Non-Autoregressive Neural Text-to-Speech||[paper](http://proceedings.mlr.press/v119/peng20a/peng20a.pdf)||
+|2020|ICASSP|Google|Location-Relative Attention Mechanisms For Robust Long-Form Speech Synthesis||[paper](https://arxiv.org/pdf/1910.10288)||
 
 
 ***
@@ -316,7 +316,6 @@ temporal
 
 |year|conference|research organization|title|model|link|code|
 |--|--|--|------|---|--|--|
-|2020||Baidu Research|Non-Autoregressive Neural Text-to-Speech||||
 
 <br>
 
