@@ -258,7 +258,7 @@ temporal
 |<=||||||=>|
 |2019|AAAI|University of Electronic Science and Technology of China et al.|Neural Speech Synthesis with Transformer Network||[paper](https://arxiv.org/pdf/1809.08895)||
 |2019|NIPS|NVIDIA|FastSpeech: Fast, Robust and Controllable Text to Speech||[paper](https://arxiv.org/pdf/1905.09263)|[code(pytorch)](https://github.com/Deepest-Project/FastSpeech)|
-|2020|-|NVIDIA|**FastSpeech 2: Fast and High-Quality End-to-End Text to Speech**||[paper](https://arxiv.org/pdf/2006.04558)||
+|2021|ICLR|NVIDIA|**FastSpeech 2: Fast and High-Quality End-to-End Text to Speech**||[paper](https://arxiv.org/pdf/2006.04558)||
 |<=||||||=>|
 |2019|ICASSP|Nvidia|WaveGlow: a Flow-based Generative Network for Speech Synthesis|Flow-based|[paper](https://arxiv.org/pdf/1811.00002)|[code(official, pytorch)](https://github.com/NVIDIA/waveglow)|
 |2019|ICASP|NVIDIA|WaveGlow: A Flow-based Generative Network for Speech Synthesis|Flow-based|[paper](https://arxiv.org/pdf/1811.00002)|[code(official)](https://github.com/NVIDIA/waveglow)|
