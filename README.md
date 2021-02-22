@@ -14,11 +14,11 @@ I did not try to survey as many papers as possible but the most crucial papers (
 
 # Index
 - 1.End-to-End Speech Recognition
-  - CTC-based ASR 
+  - CTC-based ASR model
   - Seq2Seq with Attention based ASR model
-  - Hybrid ASR 
-  - RNN-T based ASR 
-  - Streaming ASR 
+  - CTC & Attention Hybrid ASR model
+  - RNN-T based ASR model
+  - Streaming ASR model
   
 - 2.End-to-End Speech Synthesis
 
@@ -67,11 +67,12 @@ I recommend you to read graves' thesis : [Supervised Sequence Labelling with Rec
   
 |year|conference|research organization|title|model|link|code|
 |--|--|--|------|---|--|--|
-|2006|ICML|Toronto University|**Connectionist Temporal Classification: Labelling Unsegmented Sequence Data with Recurrent Neural Networks**|CTC|[paper](https://www.cs.toronto.edu/~graves/icml_2006.pdf)|[code(pytorch),warp-ctc](https://github.com/SeanNaren/warp-ctc),[code(pytorch)](https://github.com/Alexander-H-Liu/End-to-end-ASR-Pytorch)|
+|2006|ICML|University of Toronto|**Connectionist Temporal Classification: Labelling Unsegmented Sequence Data with Recurrent Neural Networks**|CTC|[paper](https://www.cs.toronto.edu/~graves/icml_2006.pdf)|[code(pytorch),warp-ctc](https://github.com/SeanNaren/warp-ctc),[code(pytorch)](https://github.com/Alexander-H-Liu/End-to-end-ASR-Pytorch)|
 |2014|ICML|Deepmind|**Towards End-To-End Speech Recognition with Recurrent Neural Network**|LSTM-based CTC model|[paper](http://proceedings.mlr.press/v32/graves14.pdf)||
 |2014||Baidu Research|Deep speech: Scaling up end-to-end speech recognition||[paper](https://arxiv.org/pdf/1412.5567)|[code(tensorflow)](https://github.com/mozilla/DeepSpeech),[code(pytorch)](https://github.com/MyrtleSoftware/deepspeech)|
 |2016|ICML|Baidu Research|**Deep Speech 2 : End-to-End Speech Recognition in English and Mandarin**|CNN-based CTC model|[paper](https://arxiv.org/pdf/1512.02595)|[code(pytorch)](https://github.com/SeanNaren/deepspeech.pytorch)|
 |2016||Facebook AI Research (FAIR)|**Wav2Letter: an End-to-End ConvNet-based Speech Recognition System**|CNN-based CTC model|[paper](https://arxiv.org/pdf/1609.03193)|[code(official pytorch, C++)](https://github.com/facebookresearch/wav2letter)|
+|2018||Google|STATE-OF-THE-ART SPEECH RECOGNITION WITH SEQUENCE-TO-SEQUENCE MODELS||[paper](https://research.google.com/pubs/archive/46687.pdf)||
 |2019|Interspeech|Nvidia|Jasper: An End-to-End Convolutional Neural Acoustic Model|CNN-based CTC model|[paper](https://arxiv.org/pdf/1904.03288)|[code(official)](https://github.com/NVIDIA/OpenSeq2Seq),[code(pytorch)](https://github.com/sooftware/jasper)|
 |2019||Nvidia|**Quartznet: Deep automatic speech recognition with 1d time-channel separable convolutions**||[paper](https://arxiv.org/pdf/1910.10261)||
 
@@ -90,14 +91,14 @@ I recommend you to read graves' thesis : [Supervised Sequence Labelling with Rec
 
 |year|conference|research organization|title|model|link|code|
 |--|--|--|------|---|--|--|
-|2015|NIPS|University of Wrocław, Jacobs University Bremen, Universite ́ de Montre ́al, so on|**Attention-Based Models for Speech Recognition|Seq2Seq with Attention**|[paper](https://arxiv.org/pdf/1506.07503)|[code(pytorch](https://github.com/sooftware/KoSpeech), [code2(pytorch](https://github.com/Alexander-H-Liu/End-to-end-ASR-Pytorch)|
+|2015|NIPS|University of Wrocław, Jacobs University Bremen, Universite ́ de Montre ́al et al.|**Attention-Based Models for Speech Recognition|Seq2Seq with Attention**|[paper](https://arxiv.org/pdf/1506.07503)|[code(pytorch](https://github.com/sooftware/KoSpeech), [code2(pytorch](https://github.com/Alexander-H-Liu/End-to-end-ASR-Pytorch)|
 |2015|ICASSP|Google|**Listen, Attend and Spell**|Seq2Seq with Attention|[paper](https://arxiv.org/pdf/1508.01211)|[code(pytorch)](https://github.com/clovaai/ClovaCall)|
 |2016|ICASSP|Jacobs University Bremen, University of Wrocław, Universite ́ de Montre ́al, CIFAR Fellow|End-to-End Attention-based Large Vocabulary Speech Recognition|Seq2Seq with Attention|[paper](https://arxiv.org/pdf/1508.04395)||
 |2018|ICASSP||**Speech-Transformer: A No-Recurrence Sequence-to-Sequence Model for Speech Recognition**|Seq2Seq with Attention|[paper](https://ieeexplore.ieee.org/document/8462506)|[code(official)](https://github.com/xingchensong/Speech-Transformer-tf2.0),[another ref code](https://github.com/kaituoxu/Speech-Transformer)|
 |2019|ASRU||**A Comparative Study on Transformer vs RNN in Speech Applications**|Seq2Seq with Attention|[paper](https://arxiv.org/pdf/1909.06317)||
 |2020||Facebook|**End-to-end ASR: from Supervised to Semi-Supervised Learning with Modern Architectures**|Training either CTC or Seq2Seq loss functions|[paper](https://arxiv.org/pdf/1911.08460)||
 
-## **1.3 Hybrid Model**
+## **1.3 CTC & Attention Hybrid Model**
 
 <p align="center"><img src="./network_images/hybrid.png", width="60%"></p>
 <p align="center">Fig. Joint CTC-Attention based End-to-End Speech Recognition using Multi-task Learning</p> <br>
@@ -117,11 +118,12 @@ I recommend you to read graves' thesis : [Supervised Sequence Labelling with Rec
 
 |year|conference|research organization|title|model|link|code|
 |--|--|--|------|---|--|--|
-|2012|||Sequence Transduction with Recurrent Neural Networks||||
+|2012|ICML|University of Toronto|**Sequence Transduction with Recurrent Neural Networks**||[paper](https://arxiv.org/pdf/1211.3711.pdf%20http://arxiv.org/abs/1211.3711.pdf)||
+|2015|NIPS|Google Brain, Deepmind, OpenAI|**A Neural Transducer**||[paper](https://arxiv.org/pdf/1511.04868.pdf)||
+|2017|ASRU|Google|Exploring Architectures, Data and Units For Streaming End-to-End Speech Recognition with RNN-Transducer||[paper](https://arxiv.org/pdf/1801.00841)||
 |2018|ICASSP|Google|**Streaming E2E Speech Recognition For Mobile Devices**||[paper](https://arxiv.org/pdf/1811.06621)||
-|2018||Google|Exploring Architectures, Data and Units For Streaming End-to-End Speech Recognition with RNN-Transducer||||
-|2019||Google|Improving RNN Transducer Modeling for End-to-End Speech Recognition||||
-|2019||-|Self-Attention Transducers for End-to-End Speech Recognition||||
+|2019|ASRU|Microsoft|Improving RNN Transducer Modeling for End-to-End Speech Recognition||[paper](https://www.microsoft.com/en-us/research/uploads/prod/2019/10/RNNT.pdf)||
+|2019|Interspeech|Chinese Academy of Sciences et al.|Self-Attention Transducers for End-to-End Speech Recognition||[paper](https://arxiv.org/pdf/1909.13037)||
 |2020|ICASSP|-|**Transformer Transducer: A Streamable Speech Recognition Model With Transformer Encoders And RNN-T Loss**||||
 |2020|ICASSP|-|A Streaming On-Device End-to-End Model Surpassing Server-Side Conventional Model Quality and Latency||||
 |2020|Interspeech|Google|ContextNet: Improving Convolutional Neural Networks for Automatic Speech Recognition with Global Context|CNN based RNN-T|[paper](https://arxiv.org/pdf/2005.03191)||
@@ -404,7 +406,7 @@ Label되지 않은 방대한 data를 self-supervised (or semi-supervised) 방법
 |2020|Interspeech|Facebook AI|Self-Supervised Representations Improve End-to-End Speech Translation|[paper](https://arxiv.org/pdf/1508.01211)||
 |2020|ICASSP|Facebook AI Research (FAIR)|Unsupervised Pretraining Transfers Well Across Languages|[paper](https://arxiv.org/pdf/2002.02848)||
 |2019||Universitat Polite cnica de Catalunya|Problem-Agnostic Speech Embeddings for Multi-Speaker Text-to-Speech with SampleRNN|[paper](https://arxiv.org/pdf/1906.00733)||
-|2019|Interspeech|Universitat Politècnica de Catalunya, MILA and so on|Learning Problem-agnostic Speech Representations from Multiple Self-supervised Tasks|[paper](https://arxiv.org/pdf/1904.03416)|[code(official)](https://github.com/santi-pdp/pase)|
+|2019|Interspeech|Universitat Politècnica de Catalunya, MILA et al.|Learning Problem-agnostic Speech Representations from Multiple Self-supervised Tasks|[paper](https://arxiv.org/pdf/1904.03416)|[code(official)](https://github.com/santi-pdp/pase)|
 |2020||DeepMind, University of Oxford|Learning robust and multilingual speech representations|[paper](https://arxiv.org/pdf/2001.11128)||
 |2020||MIT CSAIL|SEMI-SUPERVISED SPEECH-LANGUAGE JOINT PRE- TRAINING FOR SPOKEN LANGUAGE UNDERSTANDING|[paper](https://arxiv.org/pdf/2010.02295)||
 
@@ -418,9 +420,9 @@ Label되지 않은 방대한 data를 self-supervised (or semi-supervised) 방법
 |year|conference|research organization|title|link|code|
 |--|--|--|------|--|--|
 |2017|ACL|Facebook AI Research (FAIR)|Bag of Tricks for Efficient Text Classification|[paper](https://arxiv.org/abs/1607.01759)|[code(official)](https://github.com/facebookresearch/fastText)|
-|2017|ICLR|Google Brain, Toronto Univ|Regularizing Neural Networks by Penalizing Confident Output Distributions|[paper](https://arxiv.org/pdf/1701.06548)||
+|2017|ICLR|Google Brain, University of Toronto|Regularizing Neural Networks by Penalizing Confident Output Distributions|[paper](https://arxiv.org/pdf/1701.06548)||
 |2018|ICLR|Google Brain|Don't decay the learning rate, Increase the batch size|[paper](https://openreview.net/pdf?id=B1Yy1BxCZ)|--|
-|2019|NIPS|Google Brain, Toronto Univ|when does label smoothing help?|[paper](https://arxiv.org/pdf/1906.02629)|--|
+|2019|NIPS|Google Brain, University of Toronto|when does label smoothing help?|[paper](https://arxiv.org/pdf/1906.02629)|--|
 |2019|Interspeech|Google Brain|SpecAugment: A Simple Data Augmentation Method for Automatic Speech Recognition|[paper](https://arxiv.org/pdf/1904.08779)|[code](https://github.com/zcaceres/spec_augment), [code2](https://github.com/Kyubyong/specAugment)|
 
 
