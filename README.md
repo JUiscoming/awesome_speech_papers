@@ -146,8 +146,10 @@ CTC loss와 Seq2Seq loss를 둘 다 사용하여(jointly) 모델링한 이 네�
 ```
 RNN-Transducer의 개념은 Alex Graves에 의해서 'Sequence Transduction with Recurrent Neural Networks'라는 제목의 논문으로 
 처음 소개되었습니다.
+
 종단간(End-to-End) 음성인식(ASR) 모델들은 그동안 CTC loss나 Seq2seq loss를 활용한 RNN 기반 다양한 모델들이 있었지만,
 이들은 모두 실시간(Real-time or Streaming) 음서인식에 적합하지 않았고 이를 해결하기 위해 제안된 개념이 바로 RNN-T입니다.
+
 RNN 네트워크는 물론 최근 NLP뿐 아니라 CV에서도 연일 최고성능(SOTA)을 갈아치우고 있는 Transformer로 대체할 수 있습니다. 
 ```
 
@@ -165,13 +167,12 @@ RNN 네트워크는 물론 최근 NLP뿐 아니라 CV에서도 연일 최고성�
 |2018|ICASSP|Google|**Streaming E2E Speech Recognition For Mobile Devices**||[paper](https://arxiv.org/pdf/1811.06621)||
 |2019|ASRU|Microsoft|Improving RNN Transducer Modeling for End-to-End Speech Recognition||[paper](https://www.microsoft.com/en-us/research/uploads/prod/2019/10/RNNT.pdf)||
 |2019|Interspeech|Chinese Academy of Sciences et al.|Self-Attention Transducers for End-to-End Speech Recognition||[paper](https://arxiv.org/pdf/1909.13037)||
-|2020|ICASSP|-|**Transformer Transducer: A Streamable Speech Recognition Model With Transformer Encoders And RNN-T Loss**||||
-|2020|ICASSP|-|A Streaming On-Device End-to-End Model Surpassing Server-Side Conventional Model Quality and Latency||||
+|2020|ICASSP|Google|**Transformer Transducer: A Streamable Speech Recognition Model With Transformer Encoders And RNN-T Loss**||[paper](https://arxiv.org/pdf/2002.02562)|[code(pytorch)](https://github.com/okkteam/Transformer-Transducer)|
+|2020|ICASSP|Google|A Streaming On-Device End-to-End Model Surpassing Server-Side Conventional Model Quality and Latency||||
 |2020|Interspeech|Google|ContextNet: Improving Convolutional Neural Networks for Automatic Speech Recognition with Global Context|CNN based RNN-T|[paper](https://arxiv.org/pdf/2005.03191)||
-|2020|Interspeech|Google|Transformer transducer: A streamable speech recog- nition model with transformer encoders and rnn-t loss||[paper](https://arxiv.org/pdf/2002.02562)|[code(pytorch)](https://github.com/okkteam/Transformer-Transducer)|
-|2020|Interspeech|Google|Conformer: Convolution-augmented Transformer for Speech Recognition||[paper](https://arxiv.org/pdf/2005.08100)||
-|2021|ICASSP|-|FastEmit: Low-latency Streaming ASR with Sequence-level Emission Regularization||||
-|2021|ICASSP|-|Improved Neural Language Model Fusion for Streaming Recurrent Neural Network Transducer||||
+|2020|Interspeech|Google|Conformer: Convolution-augmented Transformer for Speech Recognition||[paper](https://arxiv.org/pdf/2005.08100)|[code(pytorch)](https://github.com/sooftware/conformer), [code2(pytorch)](https://github.com/lucidrains/conformer)|
+|2021|ICASSP|Google|FastEmit: Low-latency Streaming ASR with Sequence-level Emission Regularization||[paper](https://arxiv.org/pdf/2010.11148)||
+|2021|ICASSP|Facebook AI|Improved Neural Language Model Fusion for Streaming Recurrent Neural Network Transducer||[paper](https://arxiv.org/pdf/2010.13878)||
 
 
 <br>
