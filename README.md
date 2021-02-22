@@ -447,6 +447,9 @@ SLU 분야는 꾸준히 연구되어 오긴 했으나, E2E SLU는 최근에서�
 
 
 # 6. Self-Supervised(or Semi-Supervised) Learning for Speech 
+
+- if you are new to SSL, you'd better read this blog article first : [lillog post](https://lilianweng.github.io/lil-log/2019/11/10/self-supervised-learning.html), [Amit Chaudhary's post](https://amitness.com/2020/02/illustrated-self-supervised-learning/)
+
 ```
 Self-Supervised(or Semi-Supervised) Learning 이란 Yann Lecun이 강조했을 만큼 현재 2020년 현재 딥러닝에서 가장 핫 한 주제중 하나이며, 
 Label되지 않은 방대한 data를 self-supervised (or semi-supervised) 방법으로 학습하여 입력으로부터 더 좋은 Representation을 찾는 방법입니다. 
