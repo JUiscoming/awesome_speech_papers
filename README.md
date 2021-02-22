@@ -93,9 +93,9 @@ I recommend you to read graves' thesis : [Supervised Sequence Labelling with Rec
 |2014|ICML||Towards End-to-End Speech Recognition with Recurrent Neural Networks||||
 |2015|NIPS||Attention-Based Models for Speech Recognition|Seq2Seq with Attention|||
 |2015|ICASSP|Google|**Listen, Attend and Spell**|Seq2Seq with Attention|[paper](https://arxiv.org/pdf/1508.01211)|[code(pytorch)](https://github.com/clovaai/ClovaCall)|
-|2016|||End-to-End Attention-based Large Vocabulary Speech Recognition|Seq2Seq with Attention|||
+|2016|ICASSP|Jacobs University Bremen, University of Wrocław, Universite ́ de Montre ́al, CIFAR Fellow|End-to-End Attention-based Large Vocabulary Speech Recognition|Seq2Seq with Attention|||
 |2018|ICASSP||**Speech-Transformer: A No-Recurrence Sequence-to-Sequence Model for Speech Recognition**|Seq2Seq with Attention|[paper](https://ieeexplore.ieee.org/document/8462506)|[code(official)](https://github.com/xingchensong/Speech-Transformer-tf2.0),[another ref code](https://github.com/kaituoxu/Speech-Transformer)|
-|2019|||**A Comparative Study on Transformer vs RNN in Speech Applications**|Seq2Seq with Attention|[paper](https://arxiv.org/pdf/1909.06317)||
+|2019|ASRU||**A Comparative Study on Transformer vs RNN in Speech Applications**|Seq2Seq with Attention|[paper](https://arxiv.org/pdf/1909.06317)||
 |2020||Facebook|**End-to-end ASR: from Supervised to Semi-Supervised Learning with Modern Architectures**|Training either CTC or Seq2Seq loss functions|[paper](https://arxiv.org/pdf/1911.08460)||
 
 ## **1.3 Hybrid Model**
