@@ -208,17 +208,13 @@ RNN-T 이외에도, 어텐션 기반 seq2seq모델만으로 하려는 시도가 
 temporal
 ```
 
-- This is from [link](https://github.com/SeunghyunSEO/speech-recognition-papers)
+- This is from [link](https://github.com/xingchensong/speech-recognition-papers)
 
 |year|conference|research organization|title|model|task|link|code|
 |--|--|--|------|---|--|--|--|
-|2019|||Automatic Speech Recognition Errors Detection and Correction|||||
-|2019|||A Spelling Correction Model For E2E Speech Recognition|||||
-|2019|||An Empirical Study Of Efficient ASR Rescoring With Transformers|||||
-|2019|||Automatic Spelling Correction with Transformer for CTC-based End-to-End Speech Recognition|||||
-|2019|||Correction of Automatic Speech Recognition with Transformer Sequence-To-Sequence Model|||||
-|2019|||Effective Sentence Scoring Method Using BERT for Speech Recognition||asr|||
-|2019|||Spelling Error Correction with Soft-Masked BERT||nlp|||
+|2019|ICASSP|University of California, Los Angeles, Google|A Spelling Correction Model For E2E Speech Recognition|LAS based||[paper](https://arxiv.org/pdf/1902.07178)||
+|2019|ACML|Seoul National University(SNU)|Effective Sentence Scoring Method Using BERT for Speech Recognition|BERT based|asr|[paper](http://proceedings.mlr.press/v101/shin19a/shin19a.pdf)||
+|2020|ICASSP|Moscow Institute of Physics and Technology, NVIDIA|Correction of Automatic Speech Recognition with Transformer Sequence-To-Sequence Model|Transformer based||||
 
  
 ***
