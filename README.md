@@ -399,13 +399,13 @@ Label되지 않은 방대한 data를 self-supervised (or semi-supervised) 방법
 |2020|-|Facebook AI Research (FAIR)|Unsupervised Cross-lingual Representation Learning for Speech Recognition|[paper](https://arxiv.org/pdf/2006.13979)||
 |2018|-|Deepmind|Representation Learning with Contrastive Predictive Coding|[paper](https://arxiv.org/pdf/1807.03748)|[code(pytorch)](https://github.com/jefflai108/Contrastive-Predictive-Coding-PyTorch)|
 |2019|-|Deepmind|Learning robust and multilingual speech representations|[paper](https://arxiv.org/pdf/2001.11128)||
-|-|-||SpeechBERT: An Audio-and-text Jointly Learned Language Model for End-to-end Spoken Question Answering|[paper](https://arxiv.org/pdf/1910.11559)||
-|-|-||Self-Supervised Representations Improve End-to-End Speech Translation|[paper](https://arxiv.org/pdf/1508.01211)||
-|-|-||Unsupervised Pretraining Transfers Well Across Languages|||
-|-|-||Learning Problem-agnostic Speech Representations from Multiple Self-supervised Tasks|||
-|-|-||Learning robust and multilingual speech representations|||
-|-|-||Problem-Agnostic Speech Embeddings for Multi-Speaker Text-to-Speech with SampleRNN|||
-|2020|-|MIT CSAIL|SEMI-SUPERVISED SPEECH-LANGUAGE JOINT PRE- TRAINING FOR SPOKEN LANGUAGE UNDERSTANDING|[paper](https://arxiv.org/pdf/2010.02295)||
+|2020|Interspeech|National Taiwan University|SpeechBERT: An Audio-and-text Jointly Learned Language Model for End-to-end Spoken Question Answering|[paper](https://arxiv.org/pdf/1910.11559)||
+|2020|Interspeech|Facebook AI|Self-Supervised Representations Improve End-to-End Speech Translation|[paper](https://arxiv.org/pdf/1508.01211)||
+|2020|ICASSP|Facebook AI Research (FAIR)|Unsupervised Pretraining Transfers Well Across Languages|[paper](https://arxiv.org/pdf/2002.02848)||
+|2019||Universitat Polite cnica de Catalunya|Problem-Agnostic Speech Embeddings for Multi-Speaker Text-to-Speech with SampleRNN|[paper](https://arxiv.org/pdf/1906.00733)||
+|2019|Interspeech|Universitat Politècnica de Catalunya, MILA and so on|Learning Problem-agnostic Speech Representations from Multiple Self-supervised Tasks|[paper](https://arxiv.org/pdf/1904.03416)|[code(official)](https://github.com/santi-pdp/pase)|
+|2020||DeepMind, University of Oxford|Learning robust and multilingual speech representations|[paper](https://arxiv.org/pdf/2001.11128)||
+|2020||MIT CSAIL|SEMI-SUPERVISED SPEECH-LANGUAGE JOINT PRE- TRAINING FOR SPOKEN LANGUAGE UNDERSTANDING|[paper](https://arxiv.org/pdf/2010.02295)||
 
 
 
