@@ -20,6 +20,7 @@ I did not try to survey as many papers as possible but the most crucial papers (
   - CTC & Attention Hybrid ASR model
   - RNN-T based ASR model
   - Streaming ASR model
+  - ASR Rescoring / Spelling Correction
   
 - 2.End-to-End Speech Synthesis
 
@@ -202,7 +203,7 @@ RNN-T 이외에도, 어텐션 기반 seq2seq모델만으로 하려는 시도가 
 
 <br>
 
-## **1.5 ASR Rescoring / Spelling Correction (2-pass decoding)**
+## **1.6 ASR Rescoring / Spelling Correction**
 
 ```
 temporal
