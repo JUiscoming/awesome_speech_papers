@@ -77,6 +77,10 @@ I recommend you to read graves' thesis : [Supervised Sequence Labelling with Rec
 이는 음성인식에서 1.2 section의 Attention 을 활용한 Seq2Seq 기법과 쌍벽을 이루는 기법입니다.
 ```
 
+<p align="center"><img src="./network_images/ctc_output.png", width="60%"></p>
+<p align="center">The figure shows the frame-level character probabilities emitted by the CTC layer</p> <br>
+<p align="center">Fig. Towards End-to-End Speech Recognition with Recurrent Neural Networks</p> <br>
+
 <p align="center"><img src="./network_images/DeepSpeech2.png", width="60%"></p>
 <p align="center">Fig. Deep Speech 2 : End-to-End Speech Recognition in English and Mandarin</p> <br>
   
