@@ -98,7 +98,6 @@ I recommend you to read graves' thesis : [Supervised Sequence Labelling with Rec
 |2019|||Listen, Attend, Spell and Adapt: Speaker Adapted Sequence-to-Sequence ASR||||
 |2019|||**A Comparative Study on Transformer vs RNN in Speech Applications**||[paper](https://arxiv.org/pdf/1909.06317)||
 |2019|||**End-to-end ASR: from Supervised to Semi-Supervised Learning with Modern Architectures**||[paper](https://arxiv.org/pdf/1911.08460)||
-|2020||Google|Conformer: Convolution-augmented Transformer for Speech Recognition||[paper](https://arxiv.org/pdf/2005.08100)||
 
 ## **1.3 Hybrid Model**
 
@@ -127,9 +126,12 @@ I recommend you to read graves' thesis : [Supervised Sequence Labelling with Rec
 |2019||-|Self-Attention Transducers for End-to-End Speech Recognition||||
 |2020|ICASSP|-|**Transformer Transducer: A Streamable Speech Recognition Model With Transformer Encoders And RNN-T Loss**||||
 |2020|ICASSP|-|A Streaming On-Device End-to-End Model Surpassing Server-Side Conventional Model Quality and Latency||||
+|2020|Interspeech|Google|ContextNet: Improving Convolutional Neural Networks for Automatic Speech Recognition with Global Context|CNN based RNN-T|[paper](https://arxiv.org/pdf/2005.03191)||
+|2020|Interspeech|Google|Transformer transducer: A streamable speech recog- nition model with transformer encoders and rnn-t loss||[paper](https://arxiv.org/pdf/2002.02562)|[code(pytorch)](https://github.com/okkteam/Transformer-Transducer)|
+|2020|Interspeech|Google|Conformer: Convolution-augmented Transformer for Speech Recognition||[paper](https://arxiv.org/pdf/2005.08100)||
 |2021|ICASSP|-|FastEmit: Low-latency Streaming ASR with Sequence-level Emission Regularization||||
 |2021|ICASSP|-|Improved Neural Language Model Fusion for Streaming Recurrent Neural Network Transducer||||
-|2020||Google|ContextNet: Improving Convolutional Neural Networks for Automatic Speech Recognition with Global Context|CNN based RNN-T|[paper](https://arxiv.org/pdf/2005.03191)||
+
 
 <br>
 
@@ -152,6 +154,7 @@ RNN-T 이외에도, 어텐션 기반 seq2seq모델만으로 하려는 시도가 
 |2018|ICLR|Google Brain|**Monotonic Chunkwise Attention**|Seq2Seq with Attention|[paper](https://arxiv.org/pdf/1712.05382)||
 |2019||Google|**Two-Pass End-to-End Speech Recognition**|LAS+RNN-T|[paper](https://arxiv.org/pdf/1908.10992)||
 |2020||MERL|Streaming automatic speech recognition with the transformer model|[paper](https://arxiv.org/pdf/2001.02674)||
+|2020|Interspeech|Google|Parallel Rescoring with Transformer for Streaming On-Device Speech Recognition|[paper](https://www.isca-speech.org/archive/Interspeech_2020/pdfs/2875.pdf)||
 |2021|ICLR|Google|Dual-mode ASR: Unify and Improve Streaming ASR with Full-context Modeling|[paper](https://arxiv.org/pdf/2010.06030)||
 
 <br>
@@ -173,7 +176,6 @@ temporal
 |2019|||Correction of Automatic Speech Recognition with Transformer Sequence-To-Sequence Model|||||
 |2019|||Effective Sentence Scoring Method Using BERT for Speech Recognition||asr|||
 |2019|||Spelling Error Correction with Soft-Masked BERT||nlp|||
-|2019|||Parallel Rescoring with Transformer for Streaming On-Device Speech Recognition||asr|||
 
  
 ***
