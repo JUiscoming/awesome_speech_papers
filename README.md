@@ -293,11 +293,11 @@ temporal
 |2018|ACL|NYU|Deterministic Non-Autoregressive Neural Sequence Modeling by Iterative Refinement||[paper](https://arxiv.org/abs/1905.11006)|[code(official)](https://github.com/nyu-dl/dl4mt-nonauto), [code(fairseq)](https://github.com/pytorch/fairseq/blob/master/examples/nonautoregressive_translation/README.md)|
 |2019|NIPS|Facebook AI Research (FAIR)|Levenshtein Transformer||[paper](https://arxiv.org/abs/1905.11006)|[code(official, fairseq)](https://github.com/pytorch/fairseq/blob/master/examples/nonautoregressive_translation/README.md)|
 |2019|ACL|Nanjing University et al.|Non-autoregressive Transformer by Position Learning||[paper](https://arxiv.org/pdf/1911.10677)||
-|2019||University of Tokyo, FAIR, MILA, NYU|Latent-Variable Non-Autoregressive Neural Machine Translation with Deterministic Inference Using a Delta Posterior||[paper](https://arxiv.org/pdf/1908.07181)|[code(official, pytorch)](https://github.com/zomux/lanmt)|
 |2019|NIPS|CMU,Berkeley,Peking University|Fast Structured Decoding for Sequence Models||[paper](https://arxiv.org/pdf/1910.11555)|[code(fairseq)](https://github.com/pytorch/fairseq/blob/master/examples/nonautoregressive_translation/README.md)|
-|2020|ACL|Google|Non-Autoregressive Machine Translation with Latent Alignments||[paper](https://arxiv.org/pdf/2004.07437)||
-|2020|ACL|CMU|FlowSeq: Non-Autoregressive Conditional Sequence Generation with Generative Flow||[paper](https://arxiv.org/pdf/1909.02480)||
+|2020|ACL|Google|Non-Autoregressive Machine Translation with Latent Alignments||[paper](https://arxiv.org/pdf/2004.07437)|[code](https://github.com/m3yrin/nar-latent-alignment)|
+|2020|ACL|CMU|FlowSeq: Non-Autoregressive Conditional Sequence Generation with Generative Flow||[paper](https://arxiv.org/pdf/1909.02480)|[code(official)](https://github.com/XuezheMax/flowseq)|
 |2020|ACL|Toyota Technological Institute at Chicago et al.|ENGINE: Energy-Based Inference Networks for Non-Autoregressive Machine Translation||[paper](https://arxiv.org/pdf/2005.00850)||
+|2020|AAAI|University of Tokyo, FAIR, MILA, NYU|Latent-Variable Non-Autoregressive Neural Machine Translation with Deterministic Inference Using a Delta Posterior||[paper](https://arxiv.org/pdf/1908.07181)|[code(official, pytorch)](https://github.com/zomux/lanmt)|
 
 <br>
 
@@ -311,9 +311,9 @@ temporal
 
 |year|conference|research organization|title|model|link|code|
 |--|--|--|------|---|--|--|
-|2020|Interspeech|-|Mask CTC: Non-Autoregressive End-to-End ASR with CTC and Mask Predict|CTC-based|||
-|2020|Interspeech|-|Spike-Triggered Non-Autoregressive Transformer for End-to-End Speech Recognition|CTC-based|||
-|2020||-|A Study of Non-autoregressive Model for Sequence Generation||||
+|2020|Interspeech|Johns Hopkins University et al.|Mask CTC: Non-Autoregressive End-to-End ASR with CTC and Mask Predict|CTC-based|[paper](https://arxiv.org/pdf/2005.08700)||
+|2020|Interspeech|Chinese Academy of Sciences et al.|Spike-Triggered Non-Autoregressive Transformer for End-to-End Speech Recognition|CTC-based|[paper](https://arxiv.org/pdf/2005.07903)||
+|2020|ACL|Zhejiang University|A Study of Non-autoregressive Model for Sequence Generation||[paper](https://arxiv.org/pdf/2004.10454)||
 
 <br>
 
