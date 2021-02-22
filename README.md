@@ -235,6 +235,7 @@ temporal
 |year|conference|research organization|title|model|link|code|
 |--|--|--|------|---|--|--|
 |2016||Deepmind|**WaveNet: A Generative Model for Raw Audio**||[paper](https://arxiv.org/pdf/1609.03499)||
+|2017|||Parallel WaveNet: Fast High-Fidelity Speech Synthesis||||
 |2017|ICLR|University of Montreal et al.|SampleRNN: An Unconditional End-to-End Neural Audio Generation Model||[paper](https://arxiv.org/pdf/1612.07837)|[code(official)](https://github.com/soroushmehr/sampleRNN_ICLR2017)|
 |2017|ICLR|Montreal Univ, CIFAR|Char2Wav: End-to-End Speech Synthesis||[paper](https://openreview.net/pdf?id=B1VWyySKx)||
 |<=||||||=>|
@@ -250,16 +251,19 @@ temporal
 |2021|ICLR|Google Research|Non-Attentive Tacotron: Robust and Controllable Neural TTS Synthesis Including Unsupervised Duration Modeling||[paper](https://arxiv.org/pdf/2010.04301v1.pdf)||
 |<=||||||=>|
 |2019|ICLR|UC San Diego|Adversarial Audio Synthesis|GAN|[paper](https://arxiv.org/pdf/1802.04208)|[code(official, tensorflow)](https://github.com/chrisdonahue/wavegan)|
-|2019|ICASSP|Nvidia|WaveGlow: a Flow-based Generative Network for Speech Synthesis|Flow-based|[paper](https://arxiv.org/pdf/1811.00002)|[code(official, pytorch)](https://github.com/NVIDIA/waveglow)|
-|2019|||Parallel WaveGAN: A fast waveform generation model based on generative adversarial networks with multi-resolution spectrogram|GAN|[paper](https://arxiv.org/pdf/1910.11480)||
-|2019|NIPS|NVIDIA|FastSpeech: Fast, Robust and Controllable Text to Speech||[paper](https://arxiv.org/pdf/1905.09263)||
+|2020|ICASSP|LINE, NAVER|Parallel WaveGAN: A fast waveform generation model based on generative adversarial networks with multi-resolution spectrogram|GAN|[paper](https://arxiv.org/pdf/1910.11480)|[code(official)](https://github.com/r9y9/ParallelWaveGAN)|
+|<=||||||=>|
+|2019|AAAI|University of Electronic Science and Technology of China et al.|Neural Speech Synthesis with Transformer Network||[paper](https://arxiv.org/pdf/1809.08895)||
+|2019|NIPS|NVIDIA|FastSpeech: Fast, Robust and Controllable Text to Speech||[paper](https://arxiv.org/pdf/1905.09263)|[code(pytorch)](https://github.com/Deepest-Project/FastSpeech)|
 |2020|-|NVIDIA|**FastSpeech 2: Fast and High-Quality End-to-End Text to Speech**||[paper](https://arxiv.org/pdf/2006.04558)||
-|2020|NIPS|Kakao Enterprise, SNU|Glow-TTS: A Generative Flow for Text-to-Speech via Monotonic Alignment Search||[paper](https://arxiv.org/pdf/2005.11129)||
-|2020|ICASSP||Flow-TTS: A Non-Autoregressive Network for Text to Speech Based on Flow||[paper](https://ieeexplore.ieee.org/document/9054484)||
-|2019|AAAI||Neural Speech Synthesis with Transformer Network||[paper](https://arxiv.org/pdf/1809.08895)||
-|2017|||Parallel WaveNet: Fast High-Fidelity Speech Synthesis||||
-|2018||-|WaveGlow: A Flow-based Generative Network for Speech Synthesis||||
-|2020|ICASSP||Location-Relative Attention Mechanisms For Robust Long-Form Speech Synthesis||||
+|<=||||||=>|
+|2019|ICASSP|Nvidia|WaveGlow: a Flow-based Generative Network for Speech Synthesis|Flow-based|[paper](https://arxiv.org/pdf/1811.00002)|[code(official, pytorch)](https://github.com/NVIDIA/waveglow)|
+|2019|ICASP|NVIDIA|WaveGlow: A Flow-based Generative Network for Speech Synthesis|Flow-based|[paper](https://arxiv.org/pdf/1811.00002)|[code(official)](https://github.com/NVIDIA/waveglow)|
+|2020|NIPS|Kakao Enterprise, SNU|Glow-TTS: A Generative Flow for Text-to-Speech via Monotonic Alignment Search|Flow-based|[paper](https://arxiv.org/pdf/2005.11129)||
+|<=||||||=>|
+|2019|ICLR|Baidu Research|ClariNet: Parallel Wave Generation in End-to-End Text-to-Speech||||
+|2020|ICML|Baidu Research|Non-Autoregressive Neural Text-to-Speech||||
+|2020|ICASSP|Google|Location-Relative Attention Mechanisms For Robust Long-Form Speech Synthesis||||
 
 
 ***
