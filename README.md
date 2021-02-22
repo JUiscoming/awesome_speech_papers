@@ -197,8 +197,8 @@ RNN-T 이외에도, 어텐션 기반 seq2seq모델만으로 하려는 시도가 
 |year|conference|research organization|title|model|link|code|
 |--|--|--|------|---|--|--|
 |2018|ICLR|Google Brain|**Monotonic Chunkwise Attention**|Seq2Seq with Attention|[paper](https://arxiv.org/pdf/1712.05382)||
-|2019||Google|**Two-Pass End-to-End Speech Recognition**|LAS+RNN-T|[paper](https://arxiv.org/pdf/1908.10992)||
-|2020||MERL|Streaming automatic speech recognition with the transformer model||[paper](https://arxiv.org/pdf/2001.02674)||
+|2019|Interspeech|Google|**Two-Pass End-to-End Speech Recognition**|LAS+RNN-T|[paper](https://arxiv.org/pdf/1908.10992)||
+|2020|ICASSP|MERL|Streaming automatic speech recognition with the transformer model||[paper](https://arxiv.org/pdf/2001.02674)||
 |2020|Interspeech|Google|Parallel Rescoring with Transformer for Streaming On-Device Speech Recognition||[paper](https://www.isca-speech.org/archive/Interspeech_2020/pdfs/2875.pdf)||
 |2021|ICLR|Google|Dual-mode ASR: Unify and Improve Streaming ASR with Full-context Modeling||[paper](https://arxiv.org/pdf/2010.06030)||
 
