@@ -95,7 +95,7 @@ I recommend you to read graves' thesis : [Supervised Sequence Labelling with Rec
 - If you're new to seq2seq with attention network, you'd better check following things
   - [post for Seq2Seq with Attention Network 1 from lillog](https://lilianweng.github.io/lil-log/2018/06/24/attention-attention.html)
   - [post for Seq2Seq with Attention Network 2 from distill](https://distill.pub/2016/augmented-rnns/)
-  - [post for Seq2Seq with Attention Network 3](https://guillaumegenthial.github.io/sequence-to-sequence.html)
+  - [post for Seq2Seq with Attention Network 3 Guillaume Genthial](https://guillaumegenthial.github.io/sequence-to-sequence.html)
   - [post for Transformer from Jay Alammar](http://jalammar.github.io/illustrated-transformer/)
 
 ```
