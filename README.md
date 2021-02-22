@@ -158,6 +158,7 @@ RNN 네트워크는 물론 최근 NLP뿐 아니라 CV에서도 연일 최고성�
 ```
 
 <p align="center"><img src="./network_images/neural_transducer.png"></p>
+<p align="center"><img src="./network_images/neural_transducer2.png"></p>
 <p align="center">Fig. Neural Transducer</p> <br>
 
 <p align="center"><img src="./network_images/RNNT.png", width="60%"></p>
