@@ -12,7 +12,7 @@ I did not try to survey as many papers as possible but the most crucial papers (
 가능한 최신자 페이퍼들을 포함하려고 합니다. (주관적일 수 있음) 
 ***
 
-<p align="center"><img src="./network_images/Overall_Speech_Dialogue_System.png"></p>
+<p align="center"><img src="./network_images/Overall_Speech_Dialogue_System_ver2.png"></p>
 <p align="center">Fig. Overall Speech Dialogue System</p> <br>
 
 # Index
