@@ -61,6 +61,16 @@ I recommend you to read graves' thesis : [Supervised Sequence Labelling with Rec
 - If you're new to CTC-based ASR model, you'd better see this blog before reading papers : [post for CTC from Distill blog](https://distill.pub/2017/ctc/)
   - additional : **For Korean : [link1](https://m.blog.naver.com/PostView.nhn?blogId=sogangori&logNo=221183469708&proxyReferer=https:%2F%2Fwww.google.com%2F), [link2](https://ratsgo.github.io/speechbook/docs/neuralam/ctc)**
 
+```
+음성인식(Automatic Speech Recognition), 활자인식(Optical Character Recognition, OCR) 등의 task의 주요 문제점 중 하나는
+바로 정렬(alignment) 문제입니다.
+이는 음성인식을 예로 들자면, 음성(입력 데이터) 와 이에 대응하는 문장(맞춰야할 정답)의 sequence길이가 서로 다르기 떄문에
+어디서 부터 어디까지가 토큰(단어, 문자)에 매핑되는지 알 수 없는 문제를 이야기합니다.
+
+2006년 Alex Graves에 의해 제안된 Connectionist Temporal Classification 논문에서 
+제안된 CTC loss는 바로 이를 해결하기 위해 제안된 방법 이며,
+이는 음성인식에서 1.2 section의 Attention 을 활용한 Seq2Seq 기법과 쌍벽을 이루는 기법입니다.
+```
 
 <p align="center"><img src="./network_images/DeepSpeech2.png", width="60%"></p>
 <p align="center">Fig. Deep Speech 2 : End-to-End Speech Recognition in English and Mandarin</p> <br>
@@ -84,6 +94,17 @@ I recommend you to read graves' thesis : [Supervised Sequence Labelling with Rec
   - [post for Seq2Seq with Attention Network 2 from distill](https://distill.pub/2016/augmented-rnns/)
   - [post for Seq2Seq with Attention Network 3](https://guillaumegenthial.github.io/sequence-to-sequence.html)
   - [post for Transformer from Jay Alammar](http://jalammar.github.io/illustrated-transformer/)
+
+```
+Attention 을 활용한 Seq2Seq ASR 네트워크는, 2014년에 제안된 기계번역 분야의 breakthrough 였던
+'Neural Machine Translation by Jointly Learning to Align and Translate'논문과 굉장히 유사한 네트워크로,
+CTC와 마찬가지로 음성인식에서의 alignment 문제를 획기적으로 해결한 방법입니다.
+
+이는 Auto-regressive하게 디코딩한다는 문제점이 존재하기는 하지만 가장 강력한 성능을 내는 End-to-End 기법 중 하나입니다.
+
+과거 HMM-GMM, HMM-DNN 모델의 음향 모델(Acoustic Model, AM), 언어 모델(Language Model, LM)등의 역할을
+Seq2Seq 모델의 인코더(Encoder), 디코더(Decoder)가 한다고 알려져 있습니다.
+```
     
 <p align="center"><img src="./network_images/LAS1.png", width="60%"></p>
 <p align="center"><img src="./network_images/LAS2.png", width="60%"></p>
@@ -99,6 +120,13 @@ I recommend you to read graves' thesis : [Supervised Sequence Labelling with Rec
 |2020||Facebook|**End-to-end ASR: from Supervised to Semi-Supervised Learning with Modern Architectures**|Training either CTC or Seq2Seq loss functions|[paper](https://arxiv.org/pdf/1911.08460)||
 
 ## **1.3 CTC & Attention Hybrid Model**
+
+```
+CTC loss와 Seq2Seq loss를 둘 다 사용하여(jointly) 모델링한 이 네트워크는 
+앙상블 효과를 누리는 느낌으로(?) End-to-End 음성인식 네트워크를 학습을 더욱 잘되게 합니다.
+
+보통 CTC loss와 Seq2Seq loss를 합이 1이되게 interporation 하며, 학습 시간이 지날수록 이 비율을 바꾸며(sceheduling) 학습합니다.
+```
 
 <p align="center"><img src="./network_images/hybrid.png", width="60%"></p>
 <p align="center">Fig. Joint CTC-Attention based End-to-End Speech Recognition using Multi-task Learning</p> <br>
