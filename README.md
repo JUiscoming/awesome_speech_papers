@@ -264,7 +264,8 @@ temporal
 # 3. End-to-End Non-Autoregressive Sequence Generation Model
 
 ```
-Non-Autoregressive 모델은 논문이 별로 없기 때문에 기계번역(NMT)/음성인식(STT)/음성합성(STT) 모두 포함하려고 함.
+일반적인 End-to-End 음성인식 모델의 단점 중 하나인 Autoregressive decoding 방법을 해결하기 위한 기법들이 최근 제안되고 있습니다.
+하지만 Non-Autoregressive 음성 인식 모델은 논문이 별로 없기 때문에 기계번역(NMT)/음성인식(STT)/음성합성(STT) 모두 포함하려고 .
 ```
 ## **3.1 Non-Autoregressive(NA) NMT**
 
@@ -425,11 +426,11 @@ SLU 분야는 꾸준히 연구되어 오긴 했으나, E2E SLU는 최근에서�
 # 6. Self-Supervised(or Semi-Supervised) Learning for Speech 
 ```
 Self-Supervised(or Semi-Supervised) Learning 이란 Yann Lecun이 강조했을 만큼 현재 2020년 현재 딥러닝에서 가장 핫 한 주제중 하나이며, 
-Label되지 않은 방대한 data를 self-supervised (or semi-supervised) 방법으로 학습하여 입력으로부터 더 좋은 Representation을 찾는 방법이다. 
-이렇게 사전 학습(pre-training)된 네트워크는 음성 인식 등 다른 task를 위해 task-specific 하게 미세 조정 (fine-tuning)하여 사용한다.
+Label되지 않은 방대한 data를 self-supervised (or semi-supervised) 방법으로 학습하여 입력으로부터 더 좋은 Representation을 찾는 방법입니다. 
+이렇게 사전 학습(pre-training)된 네트워크는 음성 인식 등 다른 task를 위해 task-specific 하게 미세 조정 (fine-tuning)하여 사용합니다.
 
 사전 학습 방법은 AutoEncoder 부터 BERT 까지 다양한 방법으로 기존에 존재했으나 음성에 맞는 방식으로 연구된 논문들이 최근에 제시되어 왔으며, 
-이렇게 학습된 네트워크는 scratch 부터 학습한 네트워크보다 더욱 높은 성능을 자랑한다 .
+이렇게 학습된 네트워크는 scratch 부터 학습한 네트워크보다 더욱 높은 성능을 자랑합니다.
 ```
 <p align="center"><img src="./network_images/wav2vec2.0.png"></p>
 <p align="center">Fig. wav2vec 2.0: A Framework for Self-Supervised Learning of Speech Representations, 2020</p> <br>
