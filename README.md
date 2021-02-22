@@ -173,7 +173,7 @@ RNN 네트워크는 물론 최근 NLP뿐 아니라 CV에서도 연일 최고성�
 |2019|ASRU|Microsoft|Improving RNN Transducer Modeling for End-to-End Speech Recognition||[paper](https://www.microsoft.com/en-us/research/uploads/prod/2019/10/RNNT.pdf)||
 |2019|Interspeech|Chinese Academy of Sciences et al.|Self-Attention Transducers for End-to-End Speech Recognition||[paper](https://arxiv.org/pdf/1909.13037)||
 |2020|ICASSP|Google|**Transformer Transducer: A Streamable Speech Recognition Model With Transformer Encoders And RNN-T Loss**||[paper](https://arxiv.org/pdf/2002.02562)|[code(pytorch)](https://github.com/okkteam/Transformer-Transducer)|
-|2020|ICASSP|Google|A Streaming On-Device End-to-End Model Surpassing Server-Side Conventional Model Quality and Latency||||
+|2020|ICASSP|Google|A Streaming On-Device End-to-End Model Surpassing Server-Side Conventional Model Quality and Latency||[paper](https://arxiv.org/pdf/2003.12710)||
 |2020|Interspeech|Google|ContextNet: Improving Convolutional Neural Networks for Automatic Speech Recognition with Global Context|CNN based RNN-T|[paper](https://arxiv.org/pdf/2005.03191)||
 |2020|Interspeech|Google|Conformer: Convolution-augmented Transformer for Speech Recognition||[paper](https://arxiv.org/pdf/2005.08100)|[code(pytorch)](https://github.com/sooftware/conformer), [code2(pytorch)](https://github.com/lucidrains/conformer)|
 |2021|ICASSP|Google|FastEmit: Low-latency Streaming ASR with Sequence-level Emission Regularization||[paper](https://arxiv.org/pdf/2010.11148)||
@@ -237,7 +237,7 @@ temporal
 
 |year|conference|research organization|title|model|link|code|
 |--|--|--|------|---|--|--|
-|2016||Deepmind|**WaveNet: A Generative Model for Raw Audio**||[paper](https://arxiv.org/pdf/1609.03499)||
+|2016||Deepmind|**WaveNet: A Generative Model for Raw Audio**||[paper](https://arxiv.org/pdf/1609.03499)|[code(tensorflow)](https://github.com/ibab/tensorflow-wavenet),[code(pytorch)](https://github.com/r9y9/wavenet_vocoder)|
 |2018|ICML|Deepmind|Parallel WaveNet: Fast High-Fidelity Speech Synthesis||[paper](https://arxiv.org/pdf/1711.10433)||
 |2017|ICLR|University of Montreal et al.|SampleRNN: An Unconditional End-to-End Neural Audio Generation Model||[paper](https://arxiv.org/pdf/1612.07837)|[code(official)](https://github.com/soroushmehr/sampleRNN_ICLR2017)|
 |2017|ICLR|Montreal Univ, CIFAR|Char2Wav: End-to-End Speech Synthesis||[paper](https://openreview.net/pdf?id=B1VWyySKx)||
