@@ -227,6 +227,9 @@ temporal
  
 # 2. End-to-End Speech Synthesis 
 
+<p align="center"><img src="./network_images/wavenet.png"></p>
+<p align="center">Fig. WaveNet: A Generative Model for Raw Audio</p> <br>
+
 <p align="center"><img src="./network_images/tacotron.png"></p>
 <p align="center">Fig. Tacotron: Towards End-to-End Speech Synthesis</p> <br>
 
