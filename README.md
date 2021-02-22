@@ -238,7 +238,7 @@ temporal
 |year|conference|research organization|title|model|link|code|
 |--|--|--|------|---|--|--|
 |2016||Deepmind|**WaveNet: A Generative Model for Raw Audio**||[paper](https://arxiv.org/pdf/1609.03499)||
-|2017|||Parallel WaveNet: Fast High-Fidelity Speech Synthesis||||
+|2018|ICML|Deepmind|Parallel WaveNet: Fast High-Fidelity Speech Synthesis||[paper](https://arxiv.org/pdf/1711.10433)||
 |2017|ICLR|University of Montreal et al.|SampleRNN: An Unconditional End-to-End Neural Audio Generation Model||[paper](https://arxiv.org/pdf/1612.07837)|[code(official)](https://github.com/soroushmehr/sampleRNN_ICLR2017)|
 |2017|ICLR|Montreal Univ, CIFAR|Char2Wav: End-to-End Speech Synthesis||[paper](https://openreview.net/pdf?id=B1VWyySKx)||
 |<=||||||=>|
