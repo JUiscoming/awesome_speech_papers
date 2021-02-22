@@ -398,6 +398,9 @@ SLU 분야는 꾸준히 연구되어 오긴 했으나, E2E SLU는 최근에서�
 
 ## **4.4 Speech Emotion Recognition (SER)**
 
+|year|conference|research organization|title|model|link|code|
+|--|--|--|------|---|--|--|
+
 <br>
 
 ***
