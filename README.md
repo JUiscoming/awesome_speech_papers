@@ -237,20 +237,17 @@ temporal
 |2016||Deepmind|**WaveNet: A Generative Model for Raw Audio**||[paper](https://arxiv.org/pdf/1609.03499)||
 |2017|ICLR|University of Montreal et al.|SampleRNN: An Unconditional End-to-End Neural Audio Generation Model||[paper](https://arxiv.org/pdf/1612.07837)|[code(official)](https://github.com/soroushmehr/sampleRNN_ICLR2017)|
 |2017|ICLR|Montreal Univ, CIFAR|Char2Wav: End-to-End Speech Synthesis||[paper](https://openreview.net/pdf?id=B1VWyySKx)||
-
 ||||Baidu Deep Voice Series||||
 |2017|ICML|Baidu Research|Deep Voice: Real-time Neural Text-to-Speech||[paper](http://proceedings.mlr.press/v70/arik17a/arik17a.pdf)||
 |2017|NIPS|Baidu Research|Deep Voice 2: Multi-Speaker Neural Text-to-Speech||[paper](https://arxiv.org/pdf/1705.08947)||
 |2018|ICLR|Baidu Research|**Deep Voice 3: Scaling Text-to-Speech with Convolutional Sequence Learning**||[paper](https://arxiv.org/pdf/1710.07654)|[code](https://github.com/r9y9/deepvoice3_pytorch)|
-
 ||||Google Tacotron Series||||
-|2017|Interspeech|Google|**Tacotron: Towards End-to-End Speech Synthesis**||[paper](https://arxiv.org/pdf/1703.10135)|[code(tensorflow)](https://github.com/Kyubyong/tacotron), [code(pytorch)](https://github.com/r9y9/tacotron_pytorch)|
+|2017|Interspeech|Google|Tacotron: Towards End-to-End Speech Synthesis||[paper](https://arxiv.org/pdf/1703.10135)|[code(tensorflow)](https://github.com/Kyubyong/tacotron), [code(pytorch)](https://github.com/r9y9/tacotron_pytorch)|
 |2017|ICML||Emotional End-to-End Neural Speech Synthesizer||||
-|2018|ICML||**Towards End-to-End Prosody Transfer for Expressive Speech Synthesis with Tacotron**||||
-|2018|ICML||**Style Tokens: Unsupervised Style Modeling, Control and Transfer in End-to-End Speech Synthesis**||||
-|2018|ICASSP||Natural TTS Synthesis by Conditioning WaveNet on Mel Spectrogram Predictions (Tacotron 2)||[paper](https://arxiv.org/pdf/1712.05884)||
+|2018|ICML||Towards End-to-End Prosody Transfer for Expressive Speech Synthesis with Tacotron||||
+|2018|ICML||Style Tokens: Unsupervised Style Modeling, Control and Transfer in End-to-End Speech Synthesis||||
+|2018|ICASSP||**Natural TTS Synthesis by Conditioning WaveNet on Mel Spectrogram Predictions (Tacotron 2)**||[paper](https://arxiv.org/pdf/1712.05884)||
 |2021|ICLR|Google Research|Non-Attentive Tacotron: Robust and Controllable Neural TTS Synthesis Including Unsupervised Duration Modeling||[paper](https://arxiv.org/pdf/2010.04301v1.pdf)||
-
 ||||||||
 |2018|||Adversarial Audio Synthesis|GAN|[paper](https://arxiv.org/pdf/1802.04208)|[code(official, tensorflow)](https://github.com/chrisdonahue/wavegan)|
 |2019|ICASSP|Nvidia|WaveGlow: a Flow-based Generative Network for Speech Synthesis||[paper](https://arxiv.org/pdf/1811.00002)|[code(official, pytorch)](https://github.com/NVIDIA/waveglow)|
