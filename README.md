@@ -123,6 +123,9 @@ RNN-Transducer의 개념은 Alex Graves에 의해서 'Sequence Transduction with
 RNN 네트워크는 물론 최근 NLP뿐 아니라 CV에서도 연일 최고성능(SOTA)을 갈아치우고 있는 Transformer로 대체할 수 있습니다. 
 ```
 
+<p align="center"><img src="./network_images/neural_transducer.png", width="60%"></p>
+<p align="center">Fig. Neural Transducer</p> <br>
+
 <p align="center"><img src="./network_images/RNNT.png", width="60%"></p>
 <p align="center">Fig. Streaming E2E Speech Recognition For Mobile Devices</p> <br>
 
