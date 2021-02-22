@@ -237,11 +237,11 @@ temporal
 |2016||Deepmind|**WaveNet: A Generative Model for Raw Audio**||[paper](https://arxiv.org/pdf/1609.03499)||
 |2017|ICLR|University of Montreal et al.|SampleRNN: An Unconditional End-to-End Neural Audio Generation Model||[paper](https://arxiv.org/pdf/1612.07837)|[code(official)](https://github.com/soroushmehr/sampleRNN_ICLR2017)|
 |2017|ICLR|Montreal Univ, CIFAR|Char2Wav: End-to-End Speech Synthesis||[paper](https://openreview.net/pdf?id=B1VWyySKx)||
-|Baidu Deep Voice Series|||||||
+|<=||||||=>|
 |2017|ICML|Baidu Research|Deep Voice: Real-time Neural Text-to-Speech||[paper](http://proceedings.mlr.press/v70/arik17a/arik17a.pdf)||
 |2017|NIPS|Baidu Research|Deep Voice 2: Multi-Speaker Neural Text-to-Speech||[paper](https://arxiv.org/pdf/1705.08947)||
 |2018|ICLR|Baidu Research|**Deep Voice 3: Scaling Text-to-Speech with Convolutional Sequence Learning**||[paper](https://arxiv.org/pdf/1710.07654)|[code](https://github.com/r9y9/deepvoice3_pytorch)|
-|Google Tacotron Series|||||||
+|<=||||||=>|
 |2017|Interspeech|Google|Tacotron: Towards End-to-End Speech Synthesis||[paper](https://arxiv.org/pdf/1703.10135)|[code(tensorflow)](https://github.com/Kyubyong/tacotron), [code(pytorch)](https://github.com/r9y9/tacotron_pytorch)|
 |2017|NIPS|KAIST et al.|Emotional End-to-End Neural Speech Synthesizer||[paper](https://arxiv.org/pdf/1711.05447)||
 |2018|ICML|Google|Towards End-to-End Prosody Transfer for Expressive Speech Synthesis with Tacotron||[paper](https://arxiv.org/pdf/1803.09047)|[code(tensorflow)](https://github.com/Kyubyong/expressive_tacotron)|
