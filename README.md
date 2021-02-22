@@ -28,9 +28,9 @@ I did not try to survey as many papers as possible but the most crucial papers (
   - TTS
 
 - 4.End-to-End Spoken Language Understanding 
-  - Intent Classification 
-  - Spoken Question Answering 
-  - Speech Emotion Recognition
+  - Intent Classification (IC) + (Named Entity Recognition (NER) or Slot Filling (SF))
+  - Spoken Question Answering (SQA)
+  - Speech Emotion Recognition (SER)
 
 - 5.Learnable Front-End for Speech 
 
@@ -293,10 +293,19 @@ End-to-End Spoken Language Understanding (E2E SLU)란 음성을 입력으로 받
 <p align="center">Fig. Towards End-to-end Spoken Language Understanding</p> <br>
 
 
+
+
 ## **4.1 Dataset ( including all speech slu dataset IC/SF/SQA ... )**
-  - Intent Classification (IC)
+
+```
+SLU 분야는 꾸준히 연구되어 오긴 했으나, E2E SLU는 최근에서야 활발히 연구되고 있는 분야입니다. 
+그렇기 때문에 입력이 텍스트가 아닌 음성으로 되어있는 (예를 들어, Speech - Intent pair) 데이터가 부족합니다.
+따라서 연구를 하실 때 괜찮은 public dataset을 찾기 힘들기 때문에 이와 관련된 데이터들부터 리스트업 해보고자 합니다. 
+```
+
+  - Intent Classification (IC) + (Named Entity Recognition (NER) or Slot Filling (SF))
   - Spoken Question Answering (SQA)
-  - Emotion Recognition (ER)
+  - Speech Emotion Recognition (SER)
 
 |task|dataset name|language|year|conference|title|paper link|dataset link|
 |--|---|--|--|--|------|----|----|
@@ -314,7 +323,7 @@ End-to-End Spoken Language Understanding (E2E SLU)란 음성을 입력으로 받
 
 <br>
 
-## **4.2 Intent Classification (IC)**
+## **4.2 Intent Classification (IC) + (Named Entity Recognition (NER) or Slot Filling (SF))**
 
 |year|conference|research organization|title|model|link|code|
 |--|--|--|------|---|--|--|
@@ -331,7 +340,7 @@ End-to-End Spoken Language Understanding (E2E SLU)란 음성을 입력으로 받
 
 <br>
 
-## **4.4 Emotion Recognition (ER)**
+## **4.4 Speech Emotion Recognition (SER)**
 
 <br>
 
