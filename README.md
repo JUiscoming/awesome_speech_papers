@@ -14,11 +14,11 @@ I did not try to survey as many papers as possible but the most crucial papers (
 
 # Index
 - 1.End-to-End Speech Recognition
-  - CTC-based ASR papers
-  - Attention-based ASR papers
-  - Hybrid ASR papers
-  - RNN-T based ASR papers
-  - Streaming ASR papers
+  - CTC-based ASR 
+  - Seq2Seq with Attention based ASR model
+  - Hybrid ASR 
+  - RNN-T based ASR 
+  - Streaming ASR 
   
 - 2.End-to-End Speech Synthesis
 
@@ -77,7 +77,7 @@ I recommend you to read graves' thesis : [Supervised Sequence Labelling with Rec
 
 <br>
 
-## **1.2 Attention based Seq2Seq ASR model**
+## **1.2 Seq2Seq with Attention based ASR model**
 - If you're new to seq2seq with attention network, you'd better check following things
   - [post for Seq2Seq with Attention Network 1 from lillog](https://lilianweng.github.io/lil-log/2018/06/24/attention-attention.html)
   - [post for Seq2Seq with Attention Network 2 from distill](https://distill.pub/2016/augmented-rnns/)
