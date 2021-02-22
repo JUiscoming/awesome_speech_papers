@@ -238,20 +238,20 @@ temporal
 |2017|ICLR|University of Montreal et al.|SampleRNN: An Unconditional End-to-End Neural Audio Generation Model||[paper](https://arxiv.org/pdf/1612.07837)|[code(official)](https://github.com/soroushmehr/sampleRNN_ICLR2017)|
 |2017|ICLR|Montreal Univ, CIFAR|Char2Wav: End-to-End Speech Synthesis||[paper](https://openreview.net/pdf?id=B1VWyySKx)||
 |<=||||||=>|
-|2017|ICML|Baidu Research|Deep Voice: Real-time Neural Text-to-Speech||[paper](http://proceedings.mlr.press/v70/arik17a/arik17a.pdf)||
-|2017|NIPS|Baidu Research|Deep Voice 2: Multi-Speaker Neural Text-to-Speech||[paper](https://arxiv.org/pdf/1705.08947)||
-|2018|ICLR|Baidu Research|**Deep Voice 3: Scaling Text-to-Speech with Convolutional Sequence Learning**||[paper](https://arxiv.org/pdf/1710.07654)|[code](https://github.com/r9y9/deepvoice3_pytorch)|
+|2017|ICML|Baidu Research|Deep Voice: Real-time Neural Text-to-Speech|DeepVoice Series|[paper](http://proceedings.mlr.press/v70/arik17a/arik17a.pdf)||
+|2017|NIPS|Baidu Research|Deep Voice 2: Multi-Speaker Neural Text-to-Speech|DeepVoice Series|[paper](https://arxiv.org/pdf/1705.08947)||
+|2018|ICLR|Baidu Research|**Deep Voice 3: Scaling Text-to-Speech with Convolutional Sequence Learning**|DeepVoice Series|[paper](https://arxiv.org/pdf/1710.07654)|[code](https://github.com/r9y9/deepvoice3_pytorch)|
 |<=||||||=>|
-|2017|Interspeech|Google|Tacotron: Towards End-to-End Speech Synthesis||[paper](https://arxiv.org/pdf/1703.10135)|[code(tensorflow)](https://github.com/Kyubyong/tacotron), [code(pytorch)](https://github.com/r9y9/tacotron_pytorch)|
-|2017|NIPS|KAIST et al.|Emotional End-to-End Neural Speech Synthesizer||[paper](https://arxiv.org/pdf/1711.05447)||
+|2017|Interspeech|Google|Tacotron: Towards End-to-End Speech Synthesis|Tacotron Series|[paper](https://arxiv.org/pdf/1703.10135)|[code(tensorflow)](https://github.com/Kyubyong/tacotron), [code(pytorch)](https://github.com/r9y9/tacotron_pytorch)|
+|2017|NIPS|KAIST et al.|Emotional End-to-End Neural Speech Synthesizer||[paper](https://arxiv.org/pdf/1711.05447)|Tacotron Series|
 |2018|ICML|Google|Towards End-to-End Prosody Transfer for Expressive Speech Synthesis with Tacotron||[paper](https://arxiv.org/pdf/1803.09047)|[code(tensorflow)](https://github.com/Kyubyong/expressive_tacotron)|
-|2018|ICML|Google|Style Tokens: Unsupervised Style Modeling, Control and Transfer in End-to-End Speech Synthesis||||
-|2018|ICASSP|Google|**Natural TTS Synthesis by Conditioning WaveNet on Mel Spectrogram Predictions (Tacotron 2)**||[paper](https://arxiv.org/pdf/1712.05884)||
+|2018|ICML|Google|Style Tokens: Unsupervised Style Modeling, Control and Transfer in End-to-End Speech Synthesis|Tacotron Series|[paper](https://arxiv.org/pdf/1803.09017)||
+|2018|ICASSP|Google|**Natural TTS Synthesis by Conditioning WaveNet on Mel Spectrogram Predictions (Tacotron 2)**|Tacotron Series|[paper](https://arxiv.org/pdf/1712.05884)||
 |2021|ICLR|Google Research|Non-Attentive Tacotron: Robust and Controllable Neural TTS Synthesis Including Unsupervised Duration Modeling||[paper](https://arxiv.org/pdf/2010.04301v1.pdf)||
 |<=||||||=>|
-|2018|||Adversarial Audio Synthesis|GAN|[paper](https://arxiv.org/pdf/1802.04208)|[code(official, tensorflow)](https://github.com/chrisdonahue/wavegan)|
-|2019|ICASSP|Nvidia|WaveGlow: a Flow-based Generative Network for Speech Synthesis||[paper](https://arxiv.org/pdf/1811.00002)|[code(official, pytorch)](https://github.com/NVIDIA/waveglow)|
-|2019|||Parallel WaveGAN: A fast waveform generation model based on generative adversarial networks with multi-resolution spectrogram||[paper](https://arxiv.org/pdf/1910.11480)||
+|2019|ICLR|UC San Diego|Adversarial Audio Synthesis|GAN|[paper](https://arxiv.org/pdf/1802.04208)|[code(official, tensorflow)](https://github.com/chrisdonahue/wavegan)|
+|2019|ICASSP|Nvidia|WaveGlow: a Flow-based Generative Network for Speech Synthesis|Flow-based|[paper](https://arxiv.org/pdf/1811.00002)|[code(official, pytorch)](https://github.com/NVIDIA/waveglow)|
+|2019|||Parallel WaveGAN: A fast waveform generation model based on generative adversarial networks with multi-resolution spectrogram|GAN|[paper](https://arxiv.org/pdf/1910.11480)||
 |2019|NIPS|NVIDIA|FastSpeech: Fast, Robust and Controllable Text to Speech||[paper](https://arxiv.org/pdf/1905.09263)||
 |2020|-|NVIDIA|**FastSpeech 2: Fast and High-Quality End-to-End Text to Speech**||[paper](https://arxiv.org/pdf/2006.04558)||
 |2020|NIPS|Kakao Enterprise, SNU|Glow-TTS: A Generative Flow for Text-to-Speech via Monotonic Alignment Search||[paper](https://arxiv.org/pdf/2005.11129)||
