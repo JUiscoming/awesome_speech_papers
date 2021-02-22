@@ -18,7 +18,7 @@ I did not try to survey as many papers as possible but the most crucial papers (
   - CTC-based ASR model
   - Seq2Seq with Attention based ASR model
   - CTC & Attention Hybrid ASR model
-  - RNN-T based ASR model
+  - Neural Transducer(RNN-T) based ASR model
   - Streaming ASR model
   - ASR Rescoring / Spelling Correction
   
@@ -142,17 +142,17 @@ CTC loss와 Seq2Seq loss를 둘 다 사용하여(jointly) 모델링한 이 네�
 
 <br>
 
-## **1.4 RNN-T based ASR model**
+## **1.4 Neural Transducer(RNN-T) based ASR model**
 
 - you'd better read this blog article first : [Google AI Blog for RNN-Transducer](https://ai.googleblog.com/2019/03/an-all-neural-on-device-speech.html)
 
 ```
-RNN-Transducer의 개념은 Alex Graves에 의해서 'Sequence Transduction with Recurrent Neural Networks'라는 제목의 논문으로 
+Neural Transducer(RNN-T)의 개념은 Alex Graves에 의해서 'Sequence Transduction with Recurrent Neural Networks'라는 제목의 논문으로 
 처음 소개되었습니다.
 
 종단간(End-to-End) 음성인식(ASR) 모델들은 그동안 CTC loss나 Seq2seq loss를 활용한 RNN 기반 다양한 모델들이 있었지만,
 이들은 전체 음성 입력을 받아 문장을 예측한다던가, 모두 실시간(Real-time or Streaming) 음서인식에 적합하지 않았고 
-이를 해결하기 위해 제안된 개념이 바로 RNN-T입니다.
+이를 해결하기 위해 제안된 개념이 바로 Neural Transducer(RNN-T)입니다.
 
 RNN 네트워크는 물론 최근 NLP뿐 아니라 CV에서도 연일 최고성능(SOTA)을 갈아치우고 있는 Transformer로 대체할 수 있습니다. 
 ```
