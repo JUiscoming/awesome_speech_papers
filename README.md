@@ -369,10 +369,10 @@ SLU 분야는 꾸준히 연구되어 오긴 했으나, E2E SLU는 최근에서�
 
 ## **4.2 Intent Classification (IC) + (Named Entity Recognition (NER) or Slot Filling (SF))**
 
-|year|conference|research organization|title|model|link|code|
+|year|conference|research organization|title|model|task|link|code|
 |--|--|--|------|---|--|--|
-|2018|ICASSP|Facebook, MILA|Towards End-to-end Spoken Language Understanding||[paper](https://arxiv.org/pdf/1802.08395)||
-|2019|Interspeech|MILA,CIFAR|Speech Model Pre-training for End-to-End Spoken Language Understanding||[paper](https://arxiv.org/pdf/1904.03670)|[code(official)](https://github.com/lorenlugosch/end-to-end-SLU)|
+|2018|ICASSP|Facebook, MILA|Towards End-to-end Spoken Language Understanding||IC only|[paper](https://arxiv.org/pdf/1802.08395)||
+|2019|Interspeech|MILA,CIFAR|Speech Model Pre-training for End-to-End Spoken Language Understanding||IC only|[paper](https://arxiv.org/pdf/1904.03670)|[code(official)](https://github.com/lorenlugosch/end-to-end-SLU)|
 
 <br>
 
