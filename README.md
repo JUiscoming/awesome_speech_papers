@@ -13,7 +13,7 @@ I did not try to survey as many papers as possible but the most crucial papers (
 ***
 
 <p align="center"><img src="./network_images/Overall_Speech_Dialogue_System_ver2.png"></p>
-<p align="center">Fig. Overall Speech Dialogue System From Seunghyun SEO</p> <br>
+<p align="center">*Fig. Overall Speech Dialogue System From Seunghyun SEO*</p> <br>
 
 # Index
 - 1.End-to-End Speech Recognition
