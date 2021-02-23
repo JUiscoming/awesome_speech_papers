@@ -109,6 +109,8 @@ This is one of the most popular method in ASR along with Seq2Seq method.
   - [post for Seq2Seq with Attention Network 3 Guillaume Genthial](https://guillaumegenthial.github.io/sequence-to-sequence.html)
   - [post for Transformer from Jay Alammar](http://jalammar.github.io/illustrated-transformer/)
 
+- As i mentioned before, Seq2Seq with Attention network is also the most popular method in Sequence Generation task such as ASR, OCR, NMT and so on. Although this method has a problem with producing sequences conditined by entire input sequence (not good for real time), it has achieved high scores on many ASR benchmark datasets. 
+
 ```
 Attention 을 활용한 Seq2Seq ASR 네트워크는, 2014년에 제안된 기계번역 분야의 breakthrough 였던
 'Neural Machine Translation by Jointly Learning to Align and Translate'논문과 굉장히 유사한 네트워크로,
@@ -134,6 +136,8 @@ Seq2Seq 모델의 인코더(Encoder), 디코더(Decoder)가 한다고 알려져 
 |2019|-|Facebook|**End-to-end ASR: from Supervised to Semi-Supervised Learning with Modern Architectures**|Training either CTC or Seq2Seq loss functions|[paper](https://arxiv.org/pdf/1911.08460)||
 
 ## **1.3 CTC & Attention Hybrid Model**
+
+
 
 ```
 CTC loss와 Seq2Seq loss를 둘 다 사용하여(jointly) 모델링한 이 네트워크는 
