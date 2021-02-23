@@ -20,7 +20,7 @@ I did not try to survey as many papers as possible but the most crucial papers (
 - [1. Learnable Front-End for Speech](#1-learnable-front-end-for-speech)
 - [2. Self-Supervised(or Semi-Supervised) Learning for Speech](#2-self-supervised-or-semi-supervised--learning-for-speech)
 - [3. End-to-End Speech Recognition](#3-end-to-end-speech-recognition)
-  * [**3.1 CTC based ASR model**](#--31-ctc-based-asr-model--)
+  * **3.1 CTC based ASR model**
   * [**3.2 Seq2Seq with Attention based ASR model**](#--32-seq2seq-with-attention-based-asr-model--)
   * [**3.3 CTC & Attention Hybrid Model**](#--33-ctc---attention-hybrid-model--)
   * [**3.4 Neural Transducer(RNN-T) based ASR model**](#--34-neural-transducer-rnn-t--based-asr-model--)
