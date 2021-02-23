@@ -159,10 +159,10 @@ This is one of the most popular method in ASR along with Seq2Seq method.
 
 <p align="center"><img src="./network_images/ctc_output.png"></p>
 <p align="center">The figure shows the frame-level character probabilities emitted by the CTC layer</p> <br>
-<p align="center">Fig. Towards End-to-End Speech Recognition with Recurrent Neural Networks</p> <br>
+<p align="center">Fig. Towards End-to-End Speech Recognition with Recurrent Neural Networks, 2014</p> <br>
 
 <p align="center"><img src="./network_images/DeepSpeech2.png", width="60%"></p>
-<p align="center">Fig. Deep Speech 2 : End-to-End Speech Recognition in English and Mandarin</p> <br>
+<p align="center">Fig. Deep Speech 2 : End-to-End Speech Recognition in English and Mandarin, 2016</p> <br>
   
 |year|conference|research organization|title|model|link|code|
 |--|--|--|------|---|--|--|
@@ -220,7 +220,7 @@ CTC loss와 Seq2Seq loss를 둘 다 사용하여(jointly) 모델링한 이 네�
 ```
 
 <p align="center"><img src="./network_images/hybrid.png", width="60%"></p>
-<p align="center">Fig. Joint CTC-Attention based End-to-End Speech Recognition using Multi-task Learning</p> <br>
+<p align="center">Fig. Joint CTC-Attention based End-to-End Speech Recognition using Multi-task Learning, 2017</p> <br>
 
 |year|conference|research organization|title|model|link|code|
 |--|--|--|------|---|--|--|
@@ -246,11 +246,11 @@ RNN 네트워크는 물론 최근 NLP뿐 아니라 CV에서도 연일 최고성�
 ```
 
 <p align="center"><img src="./network_images/neural_transducer.png"></p>
-<p align="center"><img src="./network_images/neural_transducer2.png", width="60%"></p>
+<p align="center"><img src="./network_images/neural_transducer2.png", width="60%", 2015></p>
 <p align="center">Fig. Neural Transducer</p> <br>
 
 <p align="center"><img src="./network_images/RNNT.png", width="60%"></p>
-<p align="center">Fig. Streaming E2E Speech Recognition For Mobile Devices</p> <br>
+<p align="center">Fig. Streaming E2E Speech Recognition For Mobile Devices, 2018</p> <br>
 
 |year|conference|research organization|title|model|link|code|
 |--|--|--|------|---|--|--|
@@ -279,10 +279,10 @@ RNN-T 이외에도, 어텐션 기반 seq2seq모델만으로 하려는 시도가 
 ```
 
 <p align="center"><img src="./network_images/two-stage.png"></p>
-<p align="center">Fig. Two-Pass End-to-End Speech Recognition</p> <br>
+<p align="center">Fig. Two-Pass End-to-End Speech Recognition, 2019</p> <br>
 
 <p align="center"><img src="./network_images/joint_streaming.png", width="60%"></p>
-<p align="center">Fig. Streaming automatic speech recognition with the transformer model</p> <br>
+<p align="center">Fig. Streaming automatic speech recognition with the transformer model, 2020</p> <br>
 
 |year|conference|research organization|title|model|link|code|
 |--|--|--|------|---|--|--|
@@ -334,7 +334,7 @@ End-to-End Spoken Language Understanding (E2E SLU)란 음성을 입력으로 받
 <p align="center"><img src="./network_images/slu2.png", width="60%"></p>
 <p align="center">( End-to-End Spoken Language Understanding Network )</p> <br>
 
-<p align="center">Fig. Towards End-to-end Spoken Language Understanding</p> <br>
+<p align="center">Fig. Towards End-to-end Spoken Language Understanding, 2018</p> <br>
 
 
 
@@ -398,10 +398,10 @@ SLU 분야는 꾸준히 연구되어 오긴 했으나, E2E SLU는 최근에서�
 # 5. End-to-End Speech Synthesis 
 
 <p align="center"><img src="./network_images/wavenet.png"></p>
-<p align="center">Fig. WaveNet: A Generative Model for Raw Audio</p> <br>
+<p align="center">Fig. WaveNet: A Generative Model for Raw Audio, 2016</p> <br>
 
 <p align="center"><img src="./network_images/tacotron.png"></p>
-<p align="center">Fig. Tacotron: Towards End-to-End Speech Synthesis</p> <br>
+<p align="center">Fig. Tacotron: Towards End-to-End Speech Synthesis, 2017</p> <br>
 
 <br>
 
@@ -452,10 +452,10 @@ SLU 분야는 꾸준히 연구되어 오긴 했으나, E2E SLU는 최근에서�
 ## **6.1 Non-Autoregressive(NA) NMT**
 
 <p align="center"><img src="./network_images/nat.png"></p>
-<p align="center">Fig. NON-AUTOREGRESSIVE NEURAL MACHINE TRANSLATION</p> <br>
+<p align="center">Fig. NON-AUTOREGRESSIVE NEURAL MACHINE TRANSLATION, 2018</p> <br>
   
 <p align="center"><img src="./network_images/nat_nmt.png", width="60%"></p>
-<p align="center">Fig. Latent-Variable Non-Autoregressive Neural Machine Translation with Deterministic Inference Using a Delta Posterior</p> <br>
+<p align="center">Fig. Latent-Variable Non-Autoregressive Neural Machine Translation with Deterministic Inference Using a Delta Posterior, 2020</p> <br>
 
 |year|conference|research organization|title|model|link|code|
 |--|--|--|------|---|--|--|
@@ -474,10 +474,10 @@ SLU 분야는 꾸준히 연구되어 오긴 했으나, E2E SLU는 최근에서�
 ## **6.2 Non-Autoregressive(NA) ASR (STT)**
 
 <p align="center"><img src="./network_images/maskctc.png"></p>
-<p align="center">Fig. Mask CTC: Non-Autoregressive End-to-End ASR with CTC and Mask Predict</p> <br>
+<p align="center">Fig. Mask CTC: Non-Autoregressive End-to-End ASR with CTC and Mask Predict, 2020</p> <br>
   
 <p align="center"><img src="./network_images/spike_triggered.png", width="60%"></p>
-<p align="center">Fig. Spike-Triggered Non-Autoregressive Transformer for End-to-End Speech Recognition</p> <br>
+<p align="center">Fig. Spike-Triggered Non-Autoregressive Transformer for End-to-End Speech Recognition, 2020</p> <br>
 
 |year|conference|research organization|title|model|link|code|
 |--|--|--|------|---|--|--|
