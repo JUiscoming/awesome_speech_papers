@@ -57,9 +57,10 @@ I did not try to survey as many papers as possible but the crucial papers (espec
 # 1. Learnable Front-End for Speech
 
 ```
-일바적은 음성 관련 task의 입력값은 보통 Short Time Fourier Transform과 Mel filter bank등을 이용한 (Mel) 스펙트로그램, MFCC 등 이었습니다.
+일바적은 음성 관련 task의 입력값은 보통 Short Time Fourier Transform과 Mel filter bank등을 이용한 (Mel) 스펙트로그램, MFCC 같은 
+domain knowledge가 반영된 features 들이었습니다.
 하지만 최근에 제안된 기법들은(시도는 계속 있어왔음) raw speech signal에서부터 곧바로 feature를 추출하는 방식들이며, 
-이는 성능적인 측면에서 우수함을 증명하고 있습니다.
+이 feature를 추출하는 파라메터는 학습을 통해서 찾게 되며, 이렇게 찾은 feature들은 다양한 음성 task에 대해 성능적인 측면에서 우수함을 증명하고 있습니다.
 ```
 
 <p align="center"><img src="./network_images/stft_overall1.png", width="50%"></p>
