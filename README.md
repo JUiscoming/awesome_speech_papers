@@ -301,7 +301,7 @@ temporal
 |2019|ACL|Nanjing University et al.|Non-autoregressive Transformer by Position Learning||[paper](https://arxiv.org/pdf/1911.10677)||
 |2019|NIPS|CMU,Berkeley,Peking University|Fast Structured Decoding for Sequence Models||[paper](https://arxiv.org/pdf/1910.11555)|[code(fairseq)](https://github.com/pytorch/fairseq/blob/master/examples/nonautoregressive_translation/README.md)|
 |2020|ACL|Google|Non-Autoregressive Machine Translation with Latent Alignments||[paper](https://arxiv.org/pdf/2004.07437)|[code](https://github.com/m3yrin/nar-latent-alignment)|
-|2020|ACL|CMU|FlowSeq: Non-Autoregressive Conditional Sequence Generation with Generative Flow||[paper](https://arxiv.org/pdf/1909.02480)|[code(official)](https://github.com/XuezheMax/flowseq)|
+|2019|EMNLP|CMU, Facebook AI|FlowSeq: Non-Autoregressive Conditional Sequence Generation with Generative Flow||[paper](https://arxiv.org/pdf/1909.02480)|[code(official)](https://github.com/XuezheMax/flowseq)|
 |2020|ACL|Toyota Technological Institute at Chicago et al.|ENGINE: Energy-Based Inference Networks for Non-Autoregressive Machine Translation||[paper](https://arxiv.org/pdf/2005.00850)||
 |2020|AAAI|University of Tokyo, FAIR, MILA, NYU|Latent-Variable Non-Autoregressive Neural Machine Translation with Deterministic Inference Using a Delta Posterior||[paper](https://arxiv.org/pdf/1908.07181)|[code(official, pytorch)](https://github.com/zomux/lanmt)|
 
