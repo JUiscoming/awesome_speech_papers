@@ -15,6 +15,7 @@ I did not try to survey as many papers as possible but the crucial papers (espec
 <p align="center"><img src="./network_images/Overall_Speech_Dialogue_System_ver2.png"></p>
 <p align="center">Fig. Overall Speech Dialogue System From Seunghyun SEO</p> <br>
 
+<center>Fig. Overall Speech Dialogue System From Seunghyun SEO</center>
 
 # Index
 - [1. Learnable Front-End for Speech](#1-learnable-front-end-for-speech)
