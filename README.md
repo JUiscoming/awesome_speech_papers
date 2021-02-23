@@ -128,7 +128,7 @@ Seq2Seq 모델의 인코더(Encoder), 디코더(Decoder)가 한다고 알려져 
 
 |year|conference|research organization|title|model|link|code|
 |--|--|--|------|---|--|--|
-|2015|NIPS|University of Wrocław, Jacobs University Bremen, Universite ́ de Montre ́al et al.|**Attention-Based Models for Speech Recognition|Seq2Seq with Attention**|[paper](https://arxiv.org/pdf/1506.07503)|[code(pytorch](https://github.com/sooftware/KoSpeech), [code2(pytorch](https://github.com/Alexander-H-Liu/End-to-end-ASR-Pytorch)|
+|2015|NIPS|University of Wrocław, Jacobs University Bremen, Universite ́ de Montre ́al et al.|**Attention-Based Models for Speech Recognition**|Seq2Seq with Attention**|[paper](https://arxiv.org/pdf/1506.07503)|[code(pytorch](https://github.com/sooftware/KoSpeech), [code2(pytorch](https://github.com/Alexander-H-Liu/End-to-end-ASR-Pytorch)|
 |2015|ICASSP|Google|**Listen, Attend and Spell**|Seq2Seq with Attention|[paper](https://arxiv.org/pdf/1508.01211)|[code(pytorch)](https://github.com/clovaai/ClovaCall)|
 |2016|ICASSP|Jacobs University Bremen, University of Wrocław, Universite ́ de Montre ́al, CIFAR Fellow|End-to-End Attention-based Large Vocabulary Speech Recognition|Seq2Seq with Attention|[paper](https://arxiv.org/pdf/1508.04395)||
 |2018|ICASSP||**Speech-Transformer: A No-Recurrence Sequence-to-Sequence Model for Speech Recognition**|Seq2Seq with Attention|[paper](https://ieeexplore.ieee.org/document/8462506)|[code(official)](https://github.com/xingchensong/Speech-Transformer-tf2.0),[another ref code](https://github.com/kaituoxu/Speech-Transformer)|
