@@ -137,8 +137,6 @@ Seq2Seq 모델의 인코더(Encoder), 디코더(Decoder)가 한다고 알려져 
 
 ## **1.3 CTC & Attention Hybrid Model**
 
-
-
 ```
 CTC loss와 Seq2Seq loss를 둘 다 사용하여(jointly) 모델링한 이 네트워크는 
 앙상블 효과를 누리는 느낌으로(?) End-to-End 음성인식 네트워크를 학습을 더욱 잘되게 합니다.
