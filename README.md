@@ -375,8 +375,8 @@ SLU 분야는 꾸준히 연구되어 오긴 했으나, E2E SLU는 최근에서�
 |--|---|--|--|--|------|----|----|
 |-|SLURP|english|2020|EMNLP|SLURP: A Spoken Language Understanding Resource Package|[paper](https://www.aclweb.org/anthology/2020.emnlp-main.588.pdf)|[dataset](https://github.com/pswietojanski/slurp)|
 |IC|Fluent Speech Command(FSC)|english|2019|Interspeech|Speech Model Pre-training for End-to-End Spoken Language Understanding|[paper](https://arxiv.org/pdf/1904.03670)|[dataset](https://github.com/lorenlugosch/end-to-end-SLU)|
-|IC|SNIPS|english|2018||Snips Voice Platform: an embedded Spoken Language Understanding system for private-by-design voice interfaces|[paper](https://arxiv.org/pdf/1805.10190)||
-|IC|ATIS|english|1999||The atis spoken language sys- tems pilot corpus|[paper](https://www.aclweb.org/anthology/H90-1021.pdf)||
+|IC|SNIPS|english|2018||Snips Voice Platform: an embedded Spoken Language Understanding system for private-by-design voice interfaces|[paper](https://arxiv.org/pdf/1805.10190)|[dataset](https://github.com/snipsco/snips-nlu)|
+|IC|ATIS|english|1999|ACL|The atis spoken language sys- tems pilot corpus|[paper](https://www.aclweb.org/anthology/H90-1021.pdf)|[dataset](https://github.com/Delta-ML/delta/blob/master/egs/atis/README.md)|
 |IC|TOP or Facebook Semantic Parsing System (FSPS)|english|2019||Semantic Parsing for Task Oriented Dialog using Hierarchical Representations|[paper](https://arxiv.org/pdf/1810.07942)||
 |SQA|Spoken SQuAD(SSQD)|english|2018|Interspeech|Spoken SQuAD: A Study of Mitigating the Impact of Speech Recognition Errors on Listening Comprehension|[paper](https://arxiv.org/abs/1804.00320)|[dataset](https://github.com/chiahsuan156/Spoken-SQuAD)|
 |SQA|Spoken CoQA|english|2020|-|Towards Data Distillation for End-to-end Spoken Conversational Question Answering|[paper](https://arxiv.org/pdf/2010.08923)|[dataset](https://stanfordnlp.github.io/coqa/)|
@@ -481,6 +481,8 @@ Label되지 않은 방대한 data를 self-supervised (or semi-supervised) 방법
 |2020|Interspeech|National Taiwan University|SpeechBERT: An Audio-and-text Jointly Learned Language Model for End-to-end Spoken Question Answering|[paper](https://arxiv.org/pdf/1910.11559)||
 |2020||DeepMind, University of Oxford|Learning robust and multilingual speech representations|[paper](https://arxiv.org/pdf/2001.11128)||
 |2020||MIT CSAIL|SEMI-SUPERVISED SPEECH-LANGUAGE JOINT PRE- TRAINING FOR SPOKEN LANGUAGE UNDERSTANDING|[paper](https://arxiv.org/pdf/2010.02295)||
+|2021||MIT CSAIL|Semi-Supervised Spoken Language Understanding via Self-Supervised Speech and Language Model Pretraining|[paper](https://arxiv.org/pdf/2010.13826)|[code(official, pytorch)](https://github.com/jefflai108/Semi-Supervsied-Spoken-Language-Understanding-PyTorch)|
+|2021||Facebook AI|Generative Spoken Language Modeling from Raw Audio|[paper](https://arxiv.org/pdf/2102.01192)||
 |2020|ICASSP|University of Oxford, Naver|Disentangled Speech Embeddings using Cross-modal Self-supervision|[paper](https://arxiv.org/pdf/2002.08742)||
 
 
@@ -493,8 +495,8 @@ Label되지 않은 방대한 data를 self-supervised (or semi-supervised) 방법
 |--|--|--|------|--|--|
 |2017|ACL|Facebook AI Research (FAIR)|Bag of Tricks for Efficient Text Classification|[paper](https://arxiv.org/abs/1607.01759)|[code(official)](https://github.com/facebookresearch/fastText)|
 |2017|ICLR|Google Brain, University of Toronto|Regularizing Neural Networks by Penalizing Confident Output Distributions|[paper](https://arxiv.org/pdf/1701.06548)|-|
-|2018|ICLR|Google Brain|Don't decay the learning rate, Increase the batch size|[paper](https://openreview.net/pdf?id=B1Yy1BxCZ)|-|
-|2019|NIPS|Google Brain, University of Toronto|when does label smoothing help?|[paper](https://arxiv.org/pdf/1906.02629)|-|
+|2018|ICLR|Google Brain|Don't decay the learning rate, Increase the batch size|[paper](https://openreview.net/pdf?id=B1Yy1BxCZ)|[code(pytorch)](https://github.com/ildoonet/pytorch-gradual-warmup-lr)|
+|2019|NIPS|Google Brain, University of Toronto|when does label smoothing help?|[paper](https://arxiv.org/pdf/1906.02629)|[code(pytorch)](https://github.com/seominseok0429/label-smoothing-visualization-pytorch)|
 |2019|Interspeech|Google Brain|SpecAugment: A Simple Data Augmentation Method for Automatic Speech Recognition|[paper](https://arxiv.org/pdf/1904.08779)|[code](https://github.com/zcaceres/spec_augment), [code2](https://github.com/Kyubyong/specAugment)|
 
 
