@@ -182,7 +182,7 @@ This is one of the most popular method in ASR along with Seq2Seq method.
 - If you're new to seq2seq with attention network, you'd better check following things
   - [post for Seq2Seq with Attention Network 1 from lillog](https://lilianweng.github.io/lil-log/2018/06/24/attention-attention.html)
   - [post for Seq2Seq with Attention Network 2 from distill](https://distill.pub/2016/augmented-rnns/)
-  - [post for Seq2Seq with Attention Network 3 Guillaume Genthial](https://guillaumegenthial.github.io/sequence-to-sequence.html)
+  - [post for Seq2Seq with Attention Network 3 from Guillaume Genthial](https://guillaumegenthial.github.io/sequence-to-sequence.html)
   - [post for Transformer from Jay Alammar](http://jalammar.github.io/illustrated-transformer/)
 
 - As i mentioned before, Seq2Seq with Attention network is also the most popular method in Sequence Generation task such as ASR, OCR, NMT and so on. Although this method has a problem with producing sequences conditined by entire input sequence (not good for real time), it has achieved high scores on many ASR benchmark datasets. 
