@@ -21,21 +21,21 @@ I did not try to survey as many papers as possible but the most crucial papers (
 - [2. Self-Supervised(or Semi-Supervised) Learning for Speech](#2-self-supervised-or-semi-supervised--learning-for-speech)
 - [3. End-to-End Speech Recognition](#3-end-to-end-speech-recognition)
   * **3.1 CTC based ASR model**
-  * [**3.2 Seq2Seq with Attention based ASR model**](#--32-seq2seq-with-attention-based-asr-model--)
-  * [**3.3 CTC & Attention Hybrid Model**](#--33-ctc---attention-hybrid-model--)
-  * [**3.4 Neural Transducer(RNN-T) based ASR model**](#--34-neural-transducer-rnn-t--based-asr-model--)
-  * [**3.5 Streaming ASR**](#--35-streaming-asr--)
-  * [**3.6 ASR Rescoring / Spelling Correction**](#--36-asr-rescoring---spelling-correction--)
+  * **3.2 Seq2Seq with Attention based ASR model**
+  * **3.3 CTC & Attention Hybrid Model**
+  * **3.4 Neural Transducer(RNN-T) based ASR model**
+  * **3.5 Streaming ASR**
+  * **3.6 ASR Rescoring / Spelling Correction**
 - [4. End-to-End Spoken Language Understanding](#4-end-to-end-spoken-language-understanding)
-  * [**4.1 Dataset ( including all speech slu dataset IC/SF/SQA ... )**](#--41-dataset---including-all-speech-slu-dataset-ic-sf-sqa-----)
-  * [**4.2 Intent Classification (IC) + (Named Entity Recognition (NER) or Slot Filling (SF))**](#--42-intent-classification--ic-----named-entity-recognition--ner--or-slot-filling--sf----)
-  * [**4.3 Spoken Question Answering (SQA)**](#--43-spoken-question-answering--sqa---)
-  * [**4.4 Speech Emotion Recognition (SER)**](#--44-speech-emotion-recognition--ser---)
+  * **4.1 Dataset ( including all speech slu dataset IC/SF/SQA ... )**
+  * **4.2 Intent Classification (IC) + (Named Entity Recognition (NER) or Slot Filling (SF))**
+  * **4.3 Spoken Question Answering (SQA)**
+  * **4.4 Speech Emotion Recognition (SER)**
 - [5. End-to-End Speech Synthesis](#5-end-to-end-speech-synthesis)
 - [6. End-to-End Non-Autoregressive Sequence Generation Model](#6-end-to-end-non-autoregressive-sequence-generation-model)
-  * [**6.1 Non-Autoregressive(NA) NMT**](#--61-non-autoregressive-na--nmt--)
-  * [**6.2 Non-Autoregressive(NA) ASR (STT)**](#--62-non-autoregressive-na--asr--stt---)
-  * [**6.3 Non-Autoregressive(NA) Speech Synthesis (TTS)**](#--63-non-autoregressive-na--speech-synthesis--tts---)
+  * **6.1 Non-Autoregressive(NA) NMT**
+  * **6.2 Non-Autoregressive(NA) ASR (STT)**
+  * **6.3 Non-Autoregressive(NA) Speech Synthesis (TTS)**
 - [7. Some Trivial Schemes for Speech Tasks](#7-some-trivial-schemes-for-speech-tasks)
 
 <br>
