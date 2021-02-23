@@ -66,9 +66,14 @@ I recommend you to read graves' thesis : [Supervised Sequence Labelling with Rec
 - If you're new to CTC-based ASR model, you'd better see this blog before reading papers : [post for CTC from Distill blog](https://distill.pub/2017/ctc/)
   - additional : **For Korean : [link1](https://m.blog.naver.com/PostView.nhn?blogId=sogangori&logNo=221183469708&proxyReferer=https:%2F%2Fwww.google.com%2F), [link2](https://ratsgo.github.io/speechbook/docs/neuralam/ctc)**
 
+- One of the most important issues in Sequence Generation tasks such as Automatic Speech Recognition (ASR) and Optical Character Recognition(OCR) is alingment problem that map input sequence into target sequence.
+In 2006, Connectionist Temporal Classification (CTC) was proposed by Alex Graves, the researcher of Deepmind.
+The proposed CTC Loss is designed to deal with mentioned alignment problem.
+This is one of the most popular method in ASR along with Seq2Seq method.
+
 ```
-음성인식(Automatic Speech Recognition), 활자인식(Optical Character Recognition, OCR) 등의 task의 주요 문제점 중 하나는
-바로 정렬(alignment) 문제입니다.
+음성인식(Automatic Speech Recognition), 활자인식(Optical Character Recognition, OCR) 등의 Sequence Generation task의 
+주요 문제점 중 하나는 바로 정렬(alignment) 문제입니다.
 이는 음성인식을 예로 들자면, 음성(입력 데이터) 와 이에 대응하는 문장(맞춰야할 정답)의 sequence길이가 서로 다르기 떄문에
 어디서 부터 어디까지가 토큰(단어, 문자)에 매핑되는지 알 수 없는 문제를 이야기합니다.
 
