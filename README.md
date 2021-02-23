@@ -16,33 +16,36 @@ I did not try to survey as many papers as possible but the most crucial papers (
 <p align="center">Fig. Overall Speech Dialogue System From Seunghyun SEO</p> <br>
 
 
-
 # Index
-- 1.End-to-End Speech Recognition
-  - CTC-based ASR model
-  - Seq2Seq with Attention based ASR model
-  - CTC & Attention Hybrid ASR model
-  - Neural Transducer(RNN-T) based ASR model
-  - Streaming ASR model
-  - ASR Rescoring / Spelling Correction
-  
-- 2.End-to-End Speech Synthesis
+- [1. Learnable Front-End for Speech](#1-learnable-front-end-for-speech)
+- [2. Self-Supervised(or Semi-Supervised) Learning for Speech](#2-self-supervised-or-semi-supervised--learning-for-speech)
+- [3. End-to-End Speech Recognition](#3-end-to-end-speech-recognition)
+  * [**3.1 CTC based ASR model**](#--31-ctc-based-asr-model--)
+  * [**3.2 Seq2Seq with Attention based ASR model**](#--32-seq2seq-with-attention-based-asr-model--)
+  * [**3.3 CTC & Attention Hybrid Model**](#--33-ctc---attention-hybrid-model--)
+  * [**3.4 Neural Transducer(RNN-T) based ASR model**](#--34-neural-transducer-rnn-t--based-asr-model--)
+  * [**3.5 Streaming ASR**](#--35-streaming-asr--)
+  * [**3.6 ASR Rescoring / Spelling Correction**](#--36-asr-rescoring---spelling-correction--)
+- [4. End-to-End Spoken Language Understanding](#4-end-to-end-spoken-language-understanding)
+  * [**4.1 Dataset ( including all speech slu dataset IC/SF/SQA ... )**](#--41-dataset---including-all-speech-slu-dataset-ic-sf-sqa-----)
+  * [**4.2 Intent Classification (IC) + (Named Entity Recognition (NER) or Slot Filling (SF))**](#--42-intent-classification--ic-----named-entity-recognition--ner--or-slot-filling--sf----)
+  * [**4.3 Spoken Question Answering (SQA)**](#--43-spoken-question-answering--sqa---)
+  * [**4.4 Speech Emotion Recognition (SER)**](#--44-speech-emotion-recognition--ser---)
+- [5. End-to-End Speech Synthesis](#5-end-to-end-speech-synthesis)
+- [6. End-to-End Non-Autoregressive Sequence Generation Model](#6-end-to-end-non-autoregressive-sequence-generation-model)
+  * [**6.1 Non-Autoregressive(NA) NMT**](#--61-non-autoregressive-na--nmt--)
+  * [**6.2 Non-Autoregressive(NA) ASR (STT)**](#--62-non-autoregressive-na--asr--stt---)
+  * [**6.3 Non-Autoregressive(NA) Speech Synthesis (TTS)**](#--63-non-autoregressive-na--speech-synthesis--tts---)
+- [7. Some Trivial Schemes for Speech Tasks](#7-some-trivial-schemes-for-speech-tasks)
 
-- 3.End-to-End Non-Autoregressive Sequence Generation 
-  - ASR
-  - NMT
-  - TTS
+<br>
 
-- 4.End-to-End Spoken Language Understanding 
-  - Intent Classification (IC) + (Named Entity Recognition (NER) or Slot Filling (SF))
-  - Spoken Question Answering (SQA)
-  - Speech Emotion Recognition (SER)
-
-- 5.Learnable Front-End for Speech 
-
-- 6.Self-Supervised(or Semi-Supervised) Learning for Speech
-
-- 7.Some Trivial Schemes for Speech Tasks
+- TBC
+  - Voice Conversion
+  - Speaker Identification
+  - MIR ?
+  - Rescoring
+  - Speech Translation
 
 <br>
 
@@ -60,11 +63,90 @@ I did not try to survey as many papers as possible but the most crucial papers (
 
 <br>
 
-# 1. End-to-End Speech Recognition 
+# 1. Learnable Front-End for Speech
+
+```
+일바적은 음성 관련 task의 입력값은 보통 Short Time Fourier Transform과 Mel filter bank등을 이용한 (Mel) 스펙트로그램, MFCC 등 이었습니다.
+하지만 최근에 제안된 기법들은(시도는 계속 있어왔음) raw speech signal에서부터 곧바로 feature를 추출하는 방식들이며, 
+이는 성능적인 측면에서 우수함을 증명하고 있습니다.
+```
+
+<p align="center"><img src="./network_images/stft_overall1.png", width="50%"></p>
+<p align="center">Fig. Conventional Front-End feature, Spectrogram using Short-Time-Fourier-Transform(STFT)</p> <br>
+
+
+<p align="center"><img src="./network_images/sincnet2.png", width="50%"></p>
+<p align="center">Fig. Interpretable Convolutional Filters with SincNet, 2018</p> <br>
+
+<p align="center"><img src="./network_images/leaf1.png"></p>
+<p align="center">Fig. LEAF: A Learnable Frontend for Audio Classification, 2021</p> <br>
+
+|year|conference|research organization|title|link|code|
+|--|--|--|------|--|--|
+|2013|ASRU|Google|Learning filter banks within a deep neural network framework|[paper](https://ieeexplore.ieee.org/document/6707746)||
+|2015|Interspeech|Google|Learning the Speech Front-end With Raw Waveform CLDNNs|[paper](https://research.google.com/pubs/archive/43960.pdf)||
+|2015|ICASSP|Hebrew University of Jerusalem, Google|Speech acoustic modeling from raw multichannel waveforms|[paper](https://ieeexplore.ieee.org/document/7178847)||
+|2018|ICASSP|Facebook AI Research (FAIR), CoML|Learning Filterbanks from Raw Speech for Phone Recognition|[paper](https://arxiv.org/pdf/1711.01161)|[code(pytorch, official)](https://github.com/facebookresearch/tdfbanks)|
+|2018|-|MILA|Interpretable Convolutional Filters with SincNet|[paper](https://arxiv.org/pdf/1811.09725)|[code(official)](https://github.com/mravanelli/SincNet)|
+|2018|SLT|MILA|Speaker recognition from raw waveform with sincnet|[paper](https://arxiv.org/pdf/1808.00158)|[code(official)](https://github.com/mravanelli/SincNet)|
+|2021|ICLR|Google|LEAF: A Learnable Frontend for Audio Classification|[paper](https://arxiv.org/pdf/2101.08596)||
+
+<br>
+
+***
+
+<br>
+
+# 2. Self-Supervised(or Semi-Supervised) Learning for Speech 
+
+- if you are new to SSL, you'd better read this blog article first : [lillog post](https://lilianweng.github.io/lil-log/2019/11/10/self-supervised-learning.html), [Amit Chaudhary's post](https://amitness.com/2020/02/illustrated-self-supervised-learning/)
+
+```
+Self-Supervised(or Semi-Supervised) Learning 이란 Yann Lecun이 강조했을 만큼 현재 2020년 현재 딥러닝에서 가장 핫 한 주제중 하나이며, 
+Label되지 않은 방대한 data를 self-supervised (or semi-supervised) 방법으로 학습하여 입력으로부터 더 좋은 Representation을 찾는 방법입니다. 
+이렇게 사전 학습(pre-training)된 네트워크는 음성 인식 등 다른 task를 위해 task-specific 하게 미세 조정 (fine-tuning)하여 사용합니다.
+
+사전 학습 방법은 AutoEncoder 부터 BERT 까지 다양한 방법으로 기존에 존재했으나 음성에 맞는 방식으로 연구된 논문들이 최근에 제시되어 왔으며, 
+이렇게 학습된 네트워크는 scratch 부터 학습한 네트워크보다 더욱 높은 성능을 자랑합니다.
+```
+<p align="center"><img src="./network_images/wav2vec2.0.png"></p>
+<p align="center">Fig. wav2vec 2.0: A Framework for Self-Supervised Learning of Speech Representations, 2020</p> <br>
+
+|year|conference|research organization|title|link|code|
+|--|--|--|------|--|--|
+|2019||Facebook AI Research (FAIR)|Effectiveness of self-supervised pre-training for speech recognition|[paper](https://arxiv.org/pdf/1911.03912)||
+|2019|Interspeech|Facebook AI Research (FAIR)|**wav2vec: Unsupervised Pre-training for Speech Recognition**|[paper](https://arxiv.org/pdf/1904.05862)|[code(offiial, pytorch)](https://github.com/pytorch/fairseq/tree/master/examples/wav2vec)|
+|2020|ACL|Facebook AI Research (FAIR)|Unsupervised Cross-lingual Representation Learning at Scale|[paper](https://arxiv.org/pdf/1911.02116)|[code(offiial, pytorch)](https://github.com/pytorch/fairseq/tree/master/examples/wav2vec)|
+|2020|ICLR|Facebook AI Research (FAIR)|vq-wav2vec: Self-Supervised Learning of Discrete Speech Representations|[paper](https://arxiv.org/pdf/1910.05453)|[code(offiial, pytorch)](https://github.com/pytorch/fairseq/tree/master/examples/wav2vec)|
+|2020|NIPS|Facebook AI Research (FAIR)|**wav2vec 2.0: A Framework for Self-Supervised Learning of Speech Representations**|[paper](https://arxiv.org/pdf/2006.11477)|[code(offiial, pytorch)](https://github.com/pytorch/fairseq/tree/master/examples/wav2vec)|
+|2020|-|Facebook AI Research (FAIR)|Unsupervised Cross-lingual Representation Learning for Speech Recognition|[paper](https://arxiv.org/pdf/2006.13979)|[code(offiial, pytorch)](https://github.com/pytorch/fairseq/tree/master/examples/wav2vec)|
+|2020|Interspeech|Facebook AI|Self-Supervised Representations Improve End-to-End Speech Translation|[paper](https://arxiv.org/pdf/1508.01211)||
+|2020|ICASSP|Facebook AI Research (FAIR)|Unsupervised Pretraining Transfers Well Across Languages|[paper](https://arxiv.org/pdf/2002.02848)||
+|<=|||||=>|
+|2019||Universitat Polite cnica de Catalunya|Problem-Agnostic Speech Embeddings for Multi-Speaker Text-to-Speech with SampleRNN|[paper](https://arxiv.org/pdf/1906.00733)||
+|2019|Interspeech|Universitat Politècnica de Catalunya, MILA et al.|Learning Problem-agnostic Speech Representations from Multiple Self-supervised Tasks|[paper](https://arxiv.org/pdf/1904.03416)|[code(official)](https://github.com/santi-pdp/pase)|
+|2020|ICASSP|MILA et al.|MULTI-TASK SELF-SUPERVISED LEARNING FOR ROBUST SPEECH RECOGNITION|[paper](https://arxiv.org/pdf/2001.09239)|[code(official)](https://github.com/santi-pdp/pase)|
+|<=|||||=>|
+|2018|-|Deepmind|Representation Learning with Contrastive Predictive Coding|[paper](https://arxiv.org/pdf/1807.03748)|[code(offiial, pytorch)](https://github.com/jefflai108/Contrastive-Predictive-Coding-PyTorch)|
+|2019|-|Deepmind|Learning robust and multilingual speech representations|[paper](https://arxiv.org/pdf/2001.11128)||
+|2020|Interspeech|National Taiwan University|SpeechBERT: An Audio-and-text Jointly Learned Language Model for End-to-end Spoken Question Answering|[paper](https://arxiv.org/pdf/1910.11559)||
+|2020||DeepMind, University of Oxford|Learning robust and multilingual speech representations|[paper](https://arxiv.org/pdf/2001.11128)||
+|2020||MIT CSAIL|SEMI-SUPERVISED SPEECH-LANGUAGE JOINT PRE- TRAINING FOR SPOKEN LANGUAGE UNDERSTANDING|[paper](https://arxiv.org/pdf/2010.02295)||
+|2021||MIT CSAIL|Semi-Supervised Spoken Language Understanding via Self-Supervised Speech and Language Model Pretraining|[paper](https://arxiv.org/pdf/2010.13826)|[code(official, pytorch)](https://github.com/jefflai108/Semi-Supervsied-Spoken-Language-Understanding-PyTorch)|
+|2021||Facebook AI|Generative Spoken Language Modeling from Raw Audio|[paper](https://arxiv.org/pdf/2102.01192)||
+|2020|ICASSP|University of Oxford, Naver|Disentangled Speech Embeddings using Cross-modal Self-supervision|[paper](https://arxiv.org/pdf/2002.08742)||
+
+<br>
+
+***
+
+<br>
+
+# 3. End-to-End Speech Recognition 
 
 I recommend you to read graves' thesis : [Supervised Sequence Labelling with Recurrent Neural Networks, 2008](https://www.cs.toronto.edu/~graves/preprint.pdf)
 
-## **1.1 CTC based ASR model**
+## **3.1 CTC based ASR model**
 - If you're new to CTC-based ASR model, you'd better see this blog before reading papers : [post for CTC from Distill blog](https://distill.pub/2017/ctc/)
   - additional : **For Korean : [link1](https://m.blog.naver.com/PostView.nhn?blogId=sogangori&logNo=221183469708&proxyReferer=https:%2F%2Fwww.google.com%2F), [link2](https://ratsgo.github.io/speechbook/docs/neuralam/ctc)**
 
@@ -104,7 +186,7 @@ This is one of the most popular method in ASR along with Seq2Seq method.
 
 <br>
 
-## **1.2 Seq2Seq with Attention based ASR model**
+## **3.2 Seq2Seq with Attention based ASR model**
 - If you're new to seq2seq with attention network, you'd better check following things
   - [post for Seq2Seq with Attention Network 1 from lillog](https://lilianweng.github.io/lil-log/2018/06/24/attention-attention.html)
   - [post for Seq2Seq with Attention Network 2 from distill](https://distill.pub/2016/augmented-rnns/)
@@ -137,7 +219,7 @@ Seq2Seq 모델의 인코더(Encoder), 디코더(Decoder)가 한다고 알려져 
 |2019|ASRU||**A Comparative Study on Transformer vs RNN in Speech Applications**|Seq2Seq with Attention|[paper](https://arxiv.org/pdf/1909.06317)||
 |2019|-|Facebook|**End-to-end ASR: from Supervised to Semi-Supervised Learning with Modern Architectures**|Training either CTC or Seq2Seq loss functions|[paper](https://arxiv.org/pdf/1911.08460)||
 
-## **1.3 CTC & Attention Hybrid Model**
+## **3.3 CTC & Attention Hybrid Model**
 
 ```
 CTC loss와 Seq2Seq loss를 둘 다 사용하여(jointly) 모델링한 이 네트워크는 
@@ -157,7 +239,7 @@ CTC loss와 Seq2Seq loss를 둘 다 사용하여(jointly) 모델링한 이 네�
 
 <br>
 
-## **1.4 Neural Transducer(RNN-T) based ASR model**
+## **3.4 Neural Transducer(RNN-T) based ASR model**
 
 - you'd better read this blog article first : [Google AI Blog for RNN-Transducer](https://ai.googleblog.com/2019/03/an-all-neural-on-device-speech.html)
 
@@ -197,7 +279,7 @@ RNN 네트워크는 물론 최근 NLP뿐 아니라 CV에서도 연일 최고성�
 
 <br>
 
-## **1.5 Streaming ASR**
+## **3.5 Streaming ASR**
 
 ```
 사실 1.4의 RNN-T가 곧 Straeming ASR을 위해 디자인 되었는데 그게 그거 아니냐 라고 할 수도 있지만,
@@ -221,10 +303,10 @@ RNN-T 이외에도, 어텐션 기반 seq2seq모델만으로 하려는 시도가 
 
 <br>
 
-## **1.6 ASR Rescoring / Spelling Correction**
+## **3.6 ASR Rescoring / Spelling Correction**
 
 ```
-temporal
+tmp
 ```
 
 - This is from [link](https://github.com/xingchensong/speech-recognition-papers)
@@ -235,110 +317,8 @@ temporal
 |2019|ACML|Seoul National University(SNU)|Effective Sentence Scoring Method Using BERT for Speech Recognition|BERT based|asr|[paper](http://proceedings.mlr.press/v101/shin19a/shin19a.pdf)||
 |2020|ICASSP|Moscow Institute of Physics and Technology, NVIDIA|Correction of Automatic Speech Recognition with Transformer Sequence-To-Sequence Model|Transformer based||||
 
+<br> 
  
-***
-
-<br>
- 
-# 2. End-to-End Speech Synthesis 
-
-<p align="center"><img src="./network_images/wavenet.png"></p>
-<p align="center">Fig. WaveNet: A Generative Model for Raw Audio</p> <br>
-
-<p align="center"><img src="./network_images/tacotron.png"></p>
-<p align="center">Fig. Tacotron: Towards End-to-End Speech Synthesis</p> <br>
-
-<br>
-
-|year|conference|research organization|title|model|link|code|
-|--|--|--|------|---|--|--|
-|2016||Deepmind|**WaveNet: A Generative Model for Raw Audio**||[paper](https://arxiv.org/pdf/1609.03499)|[code(tensorflow)](https://github.com/ibab/tensorflow-wavenet),[code(pytorch)](https://github.com/r9y9/wavenet_vocoder)|
-|2018|ICML|Deepmind|Parallel WaveNet: Fast High-Fidelity Speech Synthesis||[paper](https://arxiv.org/pdf/1711.10433)||
-|2017|ICLR|University of Montreal et al.|SampleRNN: An Unconditional End-to-End Neural Audio Generation Model||[paper](https://arxiv.org/pdf/1612.07837)|[code(official)](https://github.com/soroushmehr/sampleRNN_ICLR2017)|
-|2017|ICLR|Montreal Univ, CIFAR|Char2Wav: End-to-End Speech Synthesis||[paper](https://openreview.net/pdf?id=B1VWyySKx)||
-|<=||||||=>|
-|2017|ICML|Baidu Research|Deep Voice: Real-time Neural Text-to-Speech|DeepVoice Series|[paper](http://proceedings.mlr.press/v70/arik17a/arik17a.pdf)||
-|2017|NIPS|Baidu Research|Deep Voice 2: Multi-Speaker Neural Text-to-Speech|DeepVoice Series|[paper](https://arxiv.org/pdf/1705.08947)||
-|2018|ICLR|Baidu Research|**Deep Voice 3: Scaling Text-to-Speech with Convolutional Sequence Learning**|DeepVoice Series|[paper](https://arxiv.org/pdf/1710.07654)|[code](https://github.com/r9y9/deepvoice3_pytorch)|
-|<=||||||=>|
-|2017|Interspeech|Google|Tacotron: Towards End-to-End Speech Synthesis|Tacotron Series|[paper](https://arxiv.org/pdf/1703.10135)|[code(tensorflow)](https://github.com/Kyubyong/tacotron), [code(pytorch)](https://github.com/r9y9/tacotron_pytorch)|
-|2017|NIPS|KAIST et al.|Emotional End-to-End Neural Speech Synthesizer|Tacotron Series|[paper](https://arxiv.org/pdf/1711.05447)||
-|2018|ICML|Google|Towards End-to-End Prosody Transfer for Expressive Speech Synthesis with Tacotron|Tacotron Series|[paper](https://arxiv.org/pdf/1803.09047)|[code(tensorflow)](https://github.com/Kyubyong/expressive_tacotron)|
-|2018|ICML|Google|Style Tokens: Unsupervised Style Modeling, Control and Transfer in End-to-End Speech Synthesis|Tacotron Series|[paper](https://arxiv.org/pdf/1803.09017)||
-|2018|ICASSP|Google|**Natural TTS Synthesis by Conditioning WaveNet on Mel Spectrogram Predictions (Tacotron 2)**|Tacotron Series|[paper](https://arxiv.org/pdf/1712.05884)||
-|2021|ICLR|Google Research|Non-Attentive Tacotron: Robust and Controllable Neural TTS Synthesis Including Unsupervised Duration Modeling|Tacotron Series|[paper](https://arxiv.org/pdf/2010.04301v1.pdf)||
-|<=||||||=>|
-|2019|ICLR|UC San Diego|Adversarial Audio Synthesis|GAN|[paper](https://arxiv.org/pdf/1802.04208)|[code(official, tensorflow)](https://github.com/chrisdonahue/wavegan)|
-|2020|ICASSP|LINE, NAVER|Parallel WaveGAN: A fast waveform generation model based on generative adversarial networks with multi-resolution spectrogram|GAN|[paper](https://arxiv.org/pdf/1910.11480)|[code(official)](https://github.com/r9y9/ParallelWaveGAN)|
-|<=||||||=>|
-|2019|AAAI|University of Electronic Science and Technology of China et al.|Neural Speech Synthesis with Transformer Network||[paper](https://arxiv.org/pdf/1809.08895)||
-|2019|NIPS|NVIDIA|FastSpeech: Fast, Robust and Controllable Text to Speech||[paper](https://arxiv.org/pdf/1905.09263)|[code(pytorch)](https://github.com/Deepest-Project/FastSpeech)|
-|2021|ICLR|NVIDIA|**FastSpeech 2: Fast and High-Quality End-to-End Text to Speech**||[paper](https://arxiv.org/pdf/2006.04558)||
-|<=||||||=>|
-|2019|ICASSP|Nvidia|WaveGlow: a Flow-based Generative Network for Speech Synthesis|Flow-based|[paper](https://arxiv.org/pdf/1811.00002)|[code(official, pytorch)](https://github.com/NVIDIA/waveglow)|
-|2019|ICASP|NVIDIA|WaveGlow: A Flow-based Generative Network for Speech Synthesis|Flow-based|[paper](https://arxiv.org/pdf/1811.00002)|[code(official)](https://github.com/NVIDIA/waveglow)|
-|2020|NIPS|Kakao Enterprise, SNU|Glow-TTS: A Generative Flow for Text-to-Speech via Monotonic Alignment Search|Flow-based|[paper](https://arxiv.org/pdf/2005.11129)||
-|<=||||||=>|
-|2019|ICLR|Baidu Research|ClariNet: Parallel Wave Generation in End-to-End Text-to-Speech||[paper](https://arxiv.org/pdf/1807.07281)||
-|2020|ICML|Baidu Research|Non-Autoregressive Neural Text-to-Speech||[paper](http://proceedings.mlr.press/v119/peng20a/peng20a.pdf)||
-|2020|ICASSP|Google|Location-Relative Attention Mechanisms For Robust Long-Form Speech Synthesis||[paper](https://arxiv.org/pdf/1910.10288)||
-
-
-***
-
-<br>
-
-# 3. End-to-End Non-Autoregressive Sequence Generation Model
-
-```
-일반적인 End-to-End 음성인식 모델의 단점 중 하나인 Autoregressive decoding 방법을 해결하기 위한 기법들이 최근 제안되고 있습니다.
-하지만 Non-Autoregressive 음성 인식 모델은 논문이 별로 없기 때문에 기계번역(NMT)/음성인식(STT)/음성합성(STT) 모두 포함하려고 .
-```
-## **3.1 Non-Autoregressive(NA) NMT**
-
-<p align="center"><img src="./network_images/nat.png"></p>
-<p align="center">Fig. NON-AUTOREGRESSIVE NEURAL MACHINE TRANSLATION</p> <br>
-  
-<p align="center"><img src="./network_images/nat_nmt.png", width="60%"></p>
-<p align="center">Fig. Latent-Variable Non-Autoregressive Neural Machine Translation with Deterministic Inference Using a Delta Posterior</p> <br>
-
-|year|conference|research organization|title|model|link|code|
-|--|--|--|------|---|--|--|
-|2018|ICLR|The University of Hong Kong|NON-AUTOREGRESSIVE NEURAL MACHINE TRANSLATION||[paper](https://arxiv.org/pdf/1711.02281)|[code(fairseq)](https://github.com/pytorch/fairseq/blob/master/examples/nonautoregressive_translation/README.md)|
-|2018|ACL|NYU|Deterministic Non-Autoregressive Neural Sequence Modeling by Iterative Refinement||[paper](https://arxiv.org/abs/1905.11006)|[code(official)](https://github.com/nyu-dl/dl4mt-nonauto), [code(fairseq)](https://github.com/pytorch/fairseq/blob/master/examples/nonautoregressive_translation/README.md)|
-|2019|NIPS|Facebook AI Research (FAIR)|Levenshtein Transformer||[paper](https://arxiv.org/abs/1905.11006)|[code(official, fairseq)](https://github.com/pytorch/fairseq/blob/master/examples/nonautoregressive_translation/README.md)|
-|2019|ACL|Nanjing University et al.|Non-autoregressive Transformer by Position Learning||[paper](https://arxiv.org/pdf/1911.10677)||
-|2019|NIPS|CMU,Berkeley,Peking University|Fast Structured Decoding for Sequence Models||[paper](https://arxiv.org/pdf/1910.11555)|[code(fairseq)](https://github.com/pytorch/fairseq/blob/master/examples/nonautoregressive_translation/README.md)|
-|2020|ACL|Google|Non-Autoregressive Machine Translation with Latent Alignments||[paper](https://arxiv.org/pdf/2004.07437)|[code](https://github.com/m3yrin/nar-latent-alignment)|
-|2019|EMNLP|CMU, Facebook AI|FlowSeq: Non-Autoregressive Conditional Sequence Generation with Generative Flow||[paper](https://arxiv.org/pdf/1909.02480)|[code(official)](https://github.com/XuezheMax/flowseq)|
-|2020|ACL|Toyota Technological Institute at Chicago et al.|ENGINE: Energy-Based Inference Networks for Non-Autoregressive Machine Translation||[paper](https://arxiv.org/pdf/2005.00850)||
-|2020|AAAI|University of Tokyo, FAIR, MILA, NYU|Latent-Variable Non-Autoregressive Neural Machine Translation with Deterministic Inference Using a Delta Posterior||[paper](https://arxiv.org/pdf/1908.07181)|[code(official, pytorch)](https://github.com/zomux/lanmt)|
-
-<br>
-
-## **3.2 Non-Autoregressive(NA) ASR (STT)**
-
-<p align="center"><img src="./network_images/maskctc.png"></p>
-<p align="center">Fig. Mask CTC: Non-Autoregressive End-to-End ASR with CTC and Mask Predict</p> <br>
-  
-<p align="center"><img src="./network_images/spike_triggered.png", width="60%"></p>
-<p align="center">Fig. Spike-Triggered Non-Autoregressive Transformer for End-to-End Speech Recognition</p> <br>
-
-|year|conference|research organization|title|model|link|code|
-|--|--|--|------|---|--|--|
-|2020|Interspeech|Johns Hopkins University et al.|Mask CTC: Non-Autoregressive End-to-End ASR with CTC and Mask Predict|CTC-based|[paper](https://arxiv.org/pdf/2005.08700)||
-|2020|Interspeech|Chinese Academy of Sciences et al.|Spike-Triggered Non-Autoregressive Transformer for End-to-End Speech Recognition|CTC-based|[paper](https://arxiv.org/pdf/2005.07903)||
-|2020|ACL|Zhejiang University|A Study of Non-autoregressive Model for Sequence Generation||[paper](https://arxiv.org/pdf/2004.10454)||
-
-<br>
-
-## **3.3 Non-Autoregressive(NA) Speech Synthesis (TTS)**
-
-|year|conference|research organization|title|model|link|code|
-|--|--|--|------|---|--|--|
-
-<br>
-
 ***
 
 <br>
@@ -423,76 +403,109 @@ SLU 분야는 꾸준히 연구되어 오긴 했으나, E2E SLU는 최근에서�
 ***
 
 <br>
+ 
+# 5. End-to-End Speech Synthesis 
+
+<p align="center"><img src="./network_images/wavenet.png"></p>
+<p align="center">Fig. WaveNet: A Generative Model for Raw Audio</p> <br>
+
+<p align="center"><img src="./network_images/tacotron.png"></p>
+<p align="center">Fig. Tacotron: Towards End-to-End Speech Synthesis</p> <br>
+
+<br>
+
+|year|conference|research organization|title|model|link|code|
+|--|--|--|------|---|--|--|
+|2016||Deepmind|**WaveNet: A Generative Model for Raw Audio**||[paper](https://arxiv.org/pdf/1609.03499)|[code(tensorflow)](https://github.com/ibab/tensorflow-wavenet),[code(pytorch)](https://github.com/r9y9/wavenet_vocoder)|
+|2018|ICML|Deepmind|Parallel WaveNet: Fast High-Fidelity Speech Synthesis||[paper](https://arxiv.org/pdf/1711.10433)||
+|2017|ICLR|University of Montreal et al.|SampleRNN: An Unconditional End-to-End Neural Audio Generation Model||[paper](https://arxiv.org/pdf/1612.07837)|[code(official)](https://github.com/soroushmehr/sampleRNN_ICLR2017)|
+|2017|ICLR|Montreal Univ, CIFAR|Char2Wav: End-to-End Speech Synthesis||[paper](https://openreview.net/pdf?id=B1VWyySKx)||
+|<=||||||=>|
+|2017|ICML|Baidu Research|Deep Voice: Real-time Neural Text-to-Speech|DeepVoice Series|[paper](http://proceedings.mlr.press/v70/arik17a/arik17a.pdf)||
+|2017|NIPS|Baidu Research|Deep Voice 2: Multi-Speaker Neural Text-to-Speech|DeepVoice Series|[paper](https://arxiv.org/pdf/1705.08947)||
+|2018|ICLR|Baidu Research|**Deep Voice 3: Scaling Text-to-Speech with Convolutional Sequence Learning**|DeepVoice Series|[paper](https://arxiv.org/pdf/1710.07654)|[code](https://github.com/r9y9/deepvoice3_pytorch)|
+|<=||||||=>|
+|2017|Interspeech|Google|Tacotron: Towards End-to-End Speech Synthesis|Tacotron Series|[paper](https://arxiv.org/pdf/1703.10135)|[code(tensorflow)](https://github.com/Kyubyong/tacotron), [code(pytorch)](https://github.com/r9y9/tacotron_pytorch)|
+|2017|NIPS|KAIST et al.|Emotional End-to-End Neural Speech Synthesizer|Tacotron Series|[paper](https://arxiv.org/pdf/1711.05447)||
+|2018|ICML|Google|Towards End-to-End Prosody Transfer for Expressive Speech Synthesis with Tacotron|Tacotron Series|[paper](https://arxiv.org/pdf/1803.09047)|[code(tensorflow)](https://github.com/Kyubyong/expressive_tacotron)|
+|2018|ICML|Google|Style Tokens: Unsupervised Style Modeling, Control and Transfer in End-to-End Speech Synthesis|Tacotron Series|[paper](https://arxiv.org/pdf/1803.09017)||
+|2018|ICASSP|Google|**Natural TTS Synthesis by Conditioning WaveNet on Mel Spectrogram Predictions (Tacotron 2)**|Tacotron Series|[paper](https://arxiv.org/pdf/1712.05884)||
+|2021|ICLR|Google Research|Non-Attentive Tacotron: Robust and Controllable Neural TTS Synthesis Including Unsupervised Duration Modeling|Tacotron Series|[paper](https://arxiv.org/pdf/2010.04301v1.pdf)||
+|<=||||||=>|
+|2019|ICLR|UC San Diego|Adversarial Audio Synthesis|GAN|[paper](https://arxiv.org/pdf/1802.04208)|[code(official, tensorflow)](https://github.com/chrisdonahue/wavegan)|
+|2020|ICASSP|LINE, NAVER|Parallel WaveGAN: A fast waveform generation model based on generative adversarial networks with multi-resolution spectrogram|GAN|[paper](https://arxiv.org/pdf/1910.11480)|[code(official)](https://github.com/r9y9/ParallelWaveGAN)|
+|<=||||||=>|
+|2019|AAAI|University of Electronic Science and Technology of China et al.|Neural Speech Synthesis with Transformer Network||[paper](https://arxiv.org/pdf/1809.08895)||
+|2019|NIPS|NVIDIA|FastSpeech: Fast, Robust and Controllable Text to Speech||[paper](https://arxiv.org/pdf/1905.09263)|[code(pytorch)](https://github.com/Deepest-Project/FastSpeech)|
+|2021|ICLR|NVIDIA|**FastSpeech 2: Fast and High-Quality End-to-End Text to Speech**||[paper](https://arxiv.org/pdf/2006.04558)||
+|<=||||||=>|
+|2019|ICASSP|Nvidia|WaveGlow: a Flow-based Generative Network for Speech Synthesis|Flow-based|[paper](https://arxiv.org/pdf/1811.00002)|[code(official, pytorch)](https://github.com/NVIDIA/waveglow)|
+|2019|ICASP|NVIDIA|WaveGlow: A Flow-based Generative Network for Speech Synthesis|Flow-based|[paper](https://arxiv.org/pdf/1811.00002)|[code(official)](https://github.com/NVIDIA/waveglow)|
+|2020|NIPS|Kakao Enterprise, SNU|Glow-TTS: A Generative Flow for Text-to-Speech via Monotonic Alignment Search|Flow-based|[paper](https://arxiv.org/pdf/2005.11129)||
+|<=||||||=>|
+|2019|ICLR|Baidu Research|ClariNet: Parallel Wave Generation in End-to-End Text-to-Speech||[paper](https://arxiv.org/pdf/1807.07281)||
+|2020|ICML|Baidu Research|Non-Autoregressive Neural Text-to-Speech||[paper](http://proceedings.mlr.press/v119/peng20a/peng20a.pdf)||
+|2020|ICASSP|Google|Location-Relative Attention Mechanisms For Robust Long-Form Speech Synthesis||[paper](https://arxiv.org/pdf/1910.10288)||
 
 
-# 5. Learnable Front-End for Speech
+***
+
+<br>
+
+# 6. End-to-End Non-Autoregressive Sequence Generation Model
 
 ```
-일바적은 음성 관련 task의 입력값은 보통 Short Time Fourier Transform과 Mel filter bank등을 이용한 (Mel) 스펙트로그램, MFCC 등 이었습니다.
-하지만 최근에 제안된 기법들은(시도는 계속 있어왔음) raw speech signal에서부터 곧바로 feature를 추출하는 방식들이며, 
-이는 성능적인 측면에서 우수함을 증명하고 있습니다.
+일반적인 End-to-End 음성인식 모델의 단점 중 하나인 Autoregressive decoding 방법을 해결하기 위한 기법들이 최근 제안되고 있습니다.
+하지만 Non-Autoregressive 음성 인식 모델은 논문이 별로 없기 때문에 기계번역(NMT)/음성인식(STT)/음성합성(STT) 모두 포함하려고 .
 ```
+## **6.1 Non-Autoregressive(NA) NMT**
 
-<p align="center"><img src="./network_images/stft_overall1.png", width="50%"></p>
-<p align="center">Fig. Conventional Front-End feature, Spectrogram using Short-Time-Fourier-Transform(STFT)</p> <br>
+<p align="center"><img src="./network_images/nat.png"></p>
+<p align="center">Fig. NON-AUTOREGRESSIVE NEURAL MACHINE TRANSLATION</p> <br>
+  
+<p align="center"><img src="./network_images/nat_nmt.png", width="60%"></p>
+<p align="center">Fig. Latent-Variable Non-Autoregressive Neural Machine Translation with Deterministic Inference Using a Delta Posterior</p> <br>
 
+|year|conference|research organization|title|model|link|code|
+|--|--|--|------|---|--|--|
+|2018|ICLR|The University of Hong Kong|NON-AUTOREGRESSIVE NEURAL MACHINE TRANSLATION||[paper](https://arxiv.org/pdf/1711.02281)|[code(fairseq)](https://github.com/pytorch/fairseq/blob/master/examples/nonautoregressive_translation/README.md)|
+|2018|ACL|NYU|Deterministic Non-Autoregressive Neural Sequence Modeling by Iterative Refinement||[paper](https://arxiv.org/abs/1905.11006)|[code(official)](https://github.com/nyu-dl/dl4mt-nonauto), [code(fairseq)](https://github.com/pytorch/fairseq/blob/master/examples/nonautoregressive_translation/README.md)|
+|2019|NIPS|Facebook AI Research (FAIR)|Levenshtein Transformer||[paper](https://arxiv.org/abs/1905.11006)|[code(official, fairseq)](https://github.com/pytorch/fairseq/blob/master/examples/nonautoregressive_translation/README.md)|
+|2019|ACL|Nanjing University et al.|Non-autoregressive Transformer by Position Learning||[paper](https://arxiv.org/pdf/1911.10677)||
+|2019|NIPS|CMU,Berkeley,Peking University|Fast Structured Decoding for Sequence Models||[paper](https://arxiv.org/pdf/1910.11555)|[code(fairseq)](https://github.com/pytorch/fairseq/blob/master/examples/nonautoregressive_translation/README.md)|
+|2020|ACL|Google|Non-Autoregressive Machine Translation with Latent Alignments||[paper](https://arxiv.org/pdf/2004.07437)|[code](https://github.com/m3yrin/nar-latent-alignment)|
+|2019|EMNLP|CMU, Facebook AI|FlowSeq: Non-Autoregressive Conditional Sequence Generation with Generative Flow||[paper](https://arxiv.org/pdf/1909.02480)|[code(official)](https://github.com/XuezheMax/flowseq)|
+|2020|ACL|Toyota Technological Institute at Chicago et al.|ENGINE: Energy-Based Inference Networks for Non-Autoregressive Machine Translation||[paper](https://arxiv.org/pdf/2005.00850)||
+|2020|AAAI|University of Tokyo, FAIR, MILA, NYU|Latent-Variable Non-Autoregressive Neural Machine Translation with Deterministic Inference Using a Delta Posterior||[paper](https://arxiv.org/pdf/1908.07181)|[code(official, pytorch)](https://github.com/zomux/lanmt)|
 
-<p align="center"><img src="./network_images/sincnet2.png", width="50%"></p>
-<p align="center">Fig. Interpretable Convolutional Filters with SincNet, 2018</p> <br>
+<br>
 
-<p align="center"><img src="./network_images/leaf1.png"></p>
-<p align="center">Fig. LEAF: A Learnable Frontend for Audio Classification, 2021</p> <br>
+## **6.2 Non-Autoregressive(NA) ASR (STT)**
 
-|year|conference|research organization|title|link|code|
-|--|--|--|------|--|--|
-|2013|ASRU|Google|Learning filter banks within a deep neural network framework|[paper](https://ieeexplore.ieee.org/document/6707746)||
-|2015|Interspeech|Google|Learning the Speech Front-end With Raw Waveform CLDNNs|[paper](https://research.google.com/pubs/archive/43960.pdf)||
-|2015|ICASSP|Hebrew University of Jerusalem, Google|Speech acoustic modeling from raw multichannel waveforms|[paper](https://ieeexplore.ieee.org/document/7178847)||
-|2018|ICASSP|Facebook AI Research (FAIR), CoML|Learning Filterbanks from Raw Speech for Phone Recognition|[paper](https://arxiv.org/pdf/1711.01161)|[code(pytorch, official)](https://github.com/facebookresearch/tdfbanks)|
-|2018|-|MILA|Interpretable Convolutional Filters with SincNet|[paper](https://arxiv.org/pdf/1811.09725)|[code(official)](https://github.com/mravanelli/SincNet)|
-|2018|SLT|MILA|Speaker recognition from raw waveform with sincnet|[paper](https://arxiv.org/pdf/1808.00158)|[code(official)](https://github.com/mravanelli/SincNet)|
-|2021|ICLR|Google|LEAF: A Learnable Frontend for Audio Classification|[paper](https://arxiv.org/pdf/2101.08596)||
+<p align="center"><img src="./network_images/maskctc.png"></p>
+<p align="center">Fig. Mask CTC: Non-Autoregressive End-to-End ASR with CTC and Mask Predict</p> <br>
+  
+<p align="center"><img src="./network_images/spike_triggered.png", width="60%"></p>
+<p align="center">Fig. Spike-Triggered Non-Autoregressive Transformer for End-to-End Speech Recognition</p> <br>
 
+|year|conference|research organization|title|model|link|code|
+|--|--|--|------|---|--|--|
+|2020|Interspeech|Johns Hopkins University et al.|Mask CTC: Non-Autoregressive End-to-End ASR with CTC and Mask Predict|CTC-based|[paper](https://arxiv.org/pdf/2005.08700)||
+|2020|Interspeech|Chinese Academy of Sciences et al.|Spike-Triggered Non-Autoregressive Transformer for End-to-End Speech Recognition|CTC-based|[paper](https://arxiv.org/pdf/2005.07903)||
+|2020|ACL|Zhejiang University|A Study of Non-autoregressive Model for Sequence Generation||[paper](https://arxiv.org/pdf/2004.10454)||
 
+<br>
 
-# 6. Self-Supervised(or Semi-Supervised) Learning for Speech 
+## **6.3 Non-Autoregressive(NA) Speech Synthesis (TTS)**
 
-- if you are new to SSL, you'd better read this blog article first : [lillog post](https://lilianweng.github.io/lil-log/2019/11/10/self-supervised-learning.html), [Amit Chaudhary's post](https://amitness.com/2020/02/illustrated-self-supervised-learning/)
+|year|conference|research organization|title|model|link|code|
+|--|--|--|------|---|--|--|
 
-```
-Self-Supervised(or Semi-Supervised) Learning 이란 Yann Lecun이 강조했을 만큼 현재 2020년 현재 딥러닝에서 가장 핫 한 주제중 하나이며, 
-Label되지 않은 방대한 data를 self-supervised (or semi-supervised) 방법으로 학습하여 입력으로부터 더 좋은 Representation을 찾는 방법입니다. 
-이렇게 사전 학습(pre-training)된 네트워크는 음성 인식 등 다른 task를 위해 task-specific 하게 미세 조정 (fine-tuning)하여 사용합니다.
+<br>
 
-사전 학습 방법은 AutoEncoder 부터 BERT 까지 다양한 방법으로 기존에 존재했으나 음성에 맞는 방식으로 연구된 논문들이 최근에 제시되어 왔으며, 
-이렇게 학습된 네트워크는 scratch 부터 학습한 네트워크보다 더욱 높은 성능을 자랑합니다.
-```
-<p align="center"><img src="./network_images/wav2vec2.0.png"></p>
-<p align="center">Fig. wav2vec 2.0: A Framework for Self-Supervised Learning of Speech Representations, 2020</p> <br>
+***
 
-|year|conference|research organization|title|link|code|
-|--|--|--|------|--|--|
-|2019||Facebook AI Research (FAIR)|Effectiveness of self-supervised pre-training for speech recognition|[paper](https://arxiv.org/pdf/1911.03912)||
-|2019|Interspeech|Facebook AI Research (FAIR)|**wav2vec: Unsupervised Pre-training for Speech Recognition**|[paper](https://arxiv.org/pdf/1904.05862)|[code(offiial, pytorch)](https://github.com/pytorch/fairseq/tree/master/examples/wav2vec)|
-|2020|ACL|Facebook AI Research (FAIR)|Unsupervised Cross-lingual Representation Learning at Scale|[paper](https://arxiv.org/pdf/1911.02116)|[code(offiial, pytorch)](https://github.com/pytorch/fairseq/tree/master/examples/wav2vec)|
-|2020|ICLR|Facebook AI Research (FAIR)|vq-wav2vec: Self-Supervised Learning of Discrete Speech Representations|[paper](https://arxiv.org/pdf/1910.05453)|[code(offiial, pytorch)](https://github.com/pytorch/fairseq/tree/master/examples/wav2vec)|
-|2020|NIPS|Facebook AI Research (FAIR)|**wav2vec 2.0: A Framework for Self-Supervised Learning of Speech Representations**|[paper](https://arxiv.org/pdf/2006.11477)|[code(offiial, pytorch)](https://github.com/pytorch/fairseq/tree/master/examples/wav2vec)|
-|2020|-|Facebook AI Research (FAIR)|Unsupervised Cross-lingual Representation Learning for Speech Recognition|[paper](https://arxiv.org/pdf/2006.13979)|[code(offiial, pytorch)](https://github.com/pytorch/fairseq/tree/master/examples/wav2vec)|
-|2020|Interspeech|Facebook AI|Self-Supervised Representations Improve End-to-End Speech Translation|[paper](https://arxiv.org/pdf/1508.01211)||
-|2020|ICASSP|Facebook AI Research (FAIR)|Unsupervised Pretraining Transfers Well Across Languages|[paper](https://arxiv.org/pdf/2002.02848)||
-|<=|||||=>|
-|2019||Universitat Polite cnica de Catalunya|Problem-Agnostic Speech Embeddings for Multi-Speaker Text-to-Speech with SampleRNN|[paper](https://arxiv.org/pdf/1906.00733)||
-|2019|Interspeech|Universitat Politècnica de Catalunya, MILA et al.|Learning Problem-agnostic Speech Representations from Multiple Self-supervised Tasks|[paper](https://arxiv.org/pdf/1904.03416)|[code(official)](https://github.com/santi-pdp/pase)|
-|2020|ICASSP|MILA et al.|MULTI-TASK SELF-SUPERVISED LEARNING FOR ROBUST SPEECH RECOGNITION|[paper](https://arxiv.org/pdf/2001.09239)|[code(official)](https://github.com/santi-pdp/pase)|
-|<=|||||=>|
-|2018|-|Deepmind|Representation Learning with Contrastive Predictive Coding|[paper](https://arxiv.org/pdf/1807.03748)|[code(offiial, pytorch)](https://github.com/jefflai108/Contrastive-Predictive-Coding-PyTorch)|
-|2019|-|Deepmind|Learning robust and multilingual speech representations|[paper](https://arxiv.org/pdf/2001.11128)||
-|2020|Interspeech|National Taiwan University|SpeechBERT: An Audio-and-text Jointly Learned Language Model for End-to-end Spoken Question Answering|[paper](https://arxiv.org/pdf/1910.11559)||
-|2020||DeepMind, University of Oxford|Learning robust and multilingual speech representations|[paper](https://arxiv.org/pdf/2001.11128)||
-|2020||MIT CSAIL|SEMI-SUPERVISED SPEECH-LANGUAGE JOINT PRE- TRAINING FOR SPOKEN LANGUAGE UNDERSTANDING|[paper](https://arxiv.org/pdf/2010.02295)||
-|2021||MIT CSAIL|Semi-Supervised Spoken Language Understanding via Self-Supervised Speech and Language Model Pretraining|[paper](https://arxiv.org/pdf/2010.13826)|[code(official, pytorch)](https://github.com/jefflai108/Semi-Supervsied-Spoken-Language-Understanding-PyTorch)|
-|2021||Facebook AI|Generative Spoken Language Modeling from Raw Audio|[paper](https://arxiv.org/pdf/2102.01192)||
-|2020|ICASSP|University of Oxford, Naver|Disentangled Speech Embeddings using Cross-modal Self-supervision|[paper](https://arxiv.org/pdf/2002.08742)||
+<br>
 
 
 # 7. Some Trivial Schemes for Speech Tasks 
