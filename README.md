@@ -504,12 +504,15 @@ SLU 분야는 꾸준히 연구되어 오긴 했으나, E2E SLU는 최근에서�
 <p align="center"><img src="./network_images/Specaugment.png", width="60%"></p>
 <p align="center">Fig. SpecAugment: A Simple Data Augmentation Method for Automatic Speech Recognition, 2019</p> <br>
 
+<p align="center"><img src="./network_images/labelsmoothing.png"></p>
+<p align="center">Fig. When does label smoothing help?, 2019</p> <br>
+
 |year|conference|research organization|title|link|code|
 |--|--|--|------|--|--|
 |2017|ACL|Facebook AI Research (FAIR)|Bag of Tricks for Efficient Text Classification|[paper](https://arxiv.org/abs/1607.01759)|[code(official)](https://github.com/facebookresearch/fastText)|
 |2017|ICLR|Google Brain, University of Toronto|Regularizing Neural Networks by Penalizing Confident Output Distributions|[paper](https://arxiv.org/pdf/1701.06548)|-|
 |2018|ICLR|Google Brain|Don't decay the learning rate, Increase the batch size|[paper](https://openreview.net/pdf?id=B1Yy1BxCZ)|[code(pytorch)](https://github.com/ildoonet/pytorch-gradual-warmup-lr)|
-|2019|NIPS|Google Brain, University of Toronto|when does label smoothing help?|[paper](https://arxiv.org/pdf/1906.02629)|[code(pytorch)](https://github.com/seominseok0429/label-smoothing-visualization-pytorch)|
+|2019|NIPS|Google Brain, University of Toronto|When does label smoothing help?|[paper](https://arxiv.org/pdf/1906.02629)|[code(pytorch)](https://github.com/seominseok0429/label-smoothing-visualization-pytorch)|
 |2019|Interspeech|Google Brain|SpecAugment: A Simple Data Augmentation Method for Automatic Speech Recognition|[paper](https://arxiv.org/pdf/1904.08779)|[code](https://github.com/zcaceres/spec_augment), [code2](https://github.com/Kyubyong/specAugment)|
 
 
