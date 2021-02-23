@@ -47,15 +47,6 @@ I did not try to survey as many papers as possible but the most crucial papers (
   - Rescoring
   - Speech Translation
 
-<br>
-
-- TBC
-  - Voice Conversion
-  - Speaker Identification
-  - MIR ?
-  - Rescoring
-  - Speech Translation
-
 
 <br>
 
