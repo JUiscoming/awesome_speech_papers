@@ -431,7 +431,6 @@ SLU 분야는 꾸준히 연구되어 오긴 했으나, E2E SLU는 최근에서�
 |2021|ICLR|NVIDIA|**FastSpeech 2: Fast and High-Quality End-to-End Text to Speech**||[paper](https://arxiv.org/pdf/2006.04558)||
 |<=||||||=>|
 |2019|ICASSP|Nvidia|WaveGlow: a Flow-based Generative Network for Speech Synthesis|Flow-based|[paper](https://arxiv.org/pdf/1811.00002)|[code(official, pytorch)](https://github.com/NVIDIA/waveglow)|
-|2019|ICASP|NVIDIA|WaveGlow: A Flow-based Generative Network for Speech Synthesis|Flow-based|[paper](https://arxiv.org/pdf/1811.00002)|[code(official)](https://github.com/NVIDIA/waveglow)|
 |2020|NIPS|Kakao Enterprise, SNU|Glow-TTS: A Generative Flow for Text-to-Speech via Monotonic Alignment Search|Flow-based|[paper](https://arxiv.org/pdf/2005.11129)||
 |<=||||||=>|
 |2019|ICLR|Baidu Research|ClariNet: Parallel Wave Generation in End-to-End Text-to-Speech||[paper](https://arxiv.org/pdf/1807.07281)||
