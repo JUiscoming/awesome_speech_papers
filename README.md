@@ -170,6 +170,7 @@ This is one of the most popular method in ASR along with Seq2Seq method.
 |2014|ICML|Deepmind|**Towards End-To-End Speech Recognition with Recurrent Neural Network**|LSTM-based CTC model|[paper](http://proceedings.mlr.press/v32/graves14.pdf)||
 |2014||Baidu Research|Deep speech: Scaling up end-to-end speech recognition||[paper](https://arxiv.org/pdf/1412.5567)|[code(tensorflow)](https://github.com/mozilla/DeepSpeech),[code(pytorch)](https://github.com/MyrtleSoftware/deepspeech)|
 |2016|ICML|Baidu Research|**Deep Speech 2 : End-to-End Speech Recognition in English and Mandarin**|CNN-based CTC model|[paper](https://arxiv.org/pdf/1512.02595)|[code(pytorch)](https://github.com/SeanNaren/deepspeech.pytorch)|
+|2014||Baidu Research|(Deep Speech 3) Exploring Neural Transducers for End-to-End Speech Recognition||[paper](https://arxiv.org/pdf/1707.07413)||
 |2016||Facebook AI Research (FAIR)|**Wav2Letter: an End-to-End ConvNet-based Speech Recognition System**|CNN-based CTC model|[paper](https://arxiv.org/pdf/1609.03193)|[code(official pytorch, C++)](https://github.com/facebookresearch/wav2letter)|
 |2018||Google|STATE-OF-THE-ART SPEECH RECOGNITION WITH SEQUENCE-TO-SEQUENCE MODELS||[paper](https://research.google.com/pubs/archive/46687.pdf)||
 |2019|Interspeech|Nvidia|Jasper: An End-to-End Convolutional Neural Acoustic Model|CNN-based CTC model|[paper](https://arxiv.org/pdf/1904.03288)|[code(official)](https://github.com/NVIDIA/OpenSeq2Seq),[code(pytorch)](https://github.com/sooftware/jasper)|
