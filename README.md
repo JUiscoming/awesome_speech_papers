@@ -1,5 +1,9 @@
 # About This Repository
 
+2021. 10. 24 현재 미완성입니다.
+
+시간내서 완성하기가 쉽지 않네요... 하지만 누군가에게 조금이라도 도움이 됐으면 좋겠다는 마음으로 오픈해두겠습니다 ㅠㅠ
+
 ***
 This repository is for those who want to study Speech tasks such as Speech Recognition, Speecn Synthesis, Spoken Language Understanding and so on. <br>
 I did not try to survey as many papers as possible but the crucial papers (especially recently published papers) by my standards.
